@@ -1,0 +1,1315 @@
+{
+    "tours_lists":[
+        {
+            "from": "Tours desde Marrakech",
+            "tours": [
+                {
+                    "id": "1",
+                    "to": "Gran Tour de Marruecos de 10 días",
+                    "departure": "Desde Marrakech",
+                    "titre": "GRAN TOUR DE MARRUECOS DE 10 DÍAS DESDE MARRAKECH",
+                    "durre": "10 Días",
+                    "about": {
+                        "entete": "Acerca de este tour",
+                        "titre": "GRAN TOUR DE MARRUECOS DE 10 DÍAS",
+                        "paragraph1": "<strong>Marruecos 10 días</strong> gran tour desde <strong>Marrakech</strong> y <strong>Essaouira</strong> hasta <strong>Fes</strong> y <strong>Chefchaouen</strong> a través del <strong>desierto del Sahara</strong>. Durante estos <strong>10 días / 9 noches</strong> visitarás muchos lugares increíbles, incluyendo los puntos destacados de Marrakech y Essaouira, las altas <strong>montañas del Atlas</strong> y el <strong>paso Tizi-n-Tichka</strong>. También visitarás la <strong>Kasbah de Ait-Ben-Haddou</strong>, el <strong>valle de Dades</strong> y las <strong>gargantas del Todra</strong>. Además, visitarás el <strong>desierto del Sahara en Merzouga</strong>, donde montarás en camello, disfrutarás de mágicos atardeceres y amaneceres y pasarás la noche en un <strong>campamento en el desierto</strong>. También explorarás el desierto del Sahara en Merzouga en un 4x4.",
+                        "paragraph2": "Además, visitarás <strong>el mercado tradicional de Rissani</strong> y <strong>Erfoud, la ciudad de los fósiles</strong>. Luego visitarás la Suiza de Marruecos <strong>Ifrane</strong> y el <strong>bosque de cedros</strong> donde viven los macacos de Berbería. Explorarás Fes y Meknes, dos de <strong>las ciudades imperiales de Marruecos</strong>. Visitarás las <strong>ruinas romanas</strong> de Volubilis y la <strong>ciudad azul de Chefchaouen</strong>. Finalmente, el tour termina en <strong>Tánger</strong>."
+                    },
+                    "programme": {
+                        "titre": "ITINERARIO DE MARRUECOS: TOUR DE 10 DÍAS DESDE MARRAKECH",
+                        "soustitre": "10 DÍAS EN MARRUECOS",
+                        "jours": [
+                            {
+                                "jour": "Día 1: Llegada a Marrakech (<span style='color: #05A317'>15 min de traslado</span>)",
+                                "text": [
+                                    "El viaje de 10 días comienza con la recogida <strong>en el aeropuerto de Marrakech</strong>, seguida de un breve recorrido por la ciudad. Después, traslado a tu alojamiento para pasar la noche en un <strong>riad tradicional</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 2: Marrakech - Essaouira (<span style='color: #05A317'>3 horas de viaje</span>)",
+                                "text": [
+                                    "<strong>Después del desayuno</strong>, nos dirigimos hacia <strong>la ciudad costera de Essaouira</strong>. En el camino visitaremos una <strong>plantación de argán</strong> y una cooperativa local. ¡Si tienes suerte, incluso podrás ver cabras subiendo a los árboles! También habrá paradas para <strong>vistas panorámicas</strong> antes de llegar a Essaouira, una de las ciudades costeras más encantadoras de Marruecos. Tiempo libre para explorar el puerto de pesca, pasear por las antiguas murallas con cañones y recorrer <strong>la atmósfera de la medina</strong>. Noche en Essaouira."
+                                ]
+                            },
+                            {
+                                "jour": "Día 3: Essaouira - Marrakech sightseeing (<span style='color: #05A317'>3 horas de viaje + 3 horas caminando</span>)",
+                                "text": [
+                                    "Regreso a Marrakech para descubrir los lugares más icónicos de la ciudad con un guía local. Visita el impresionante <strong>Palacio de la Bahia</strong>, la Madrasa Ben Youssef y la vibrante medina con sus zocos y <strong>Plaza Jamaa El Fna</strong>. Admira también la <strong>Mezquita Koutoubia</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 4: Marrakech - Alto Atlas - Ait Ben Haddou - Valle de las Rosas - Dades (<span style='color: #05A317'>6 horas de viaje</span>)",
+                                "text": [
+                                    "Recorrido por el impresionante <strong>Alto Atlas</strong> y el paso <strong>Tizi-N-Tichka</strong>, con paradas para vistas panorámicas y pueblos bereberes.",
+                                    "Visita la famosa Kasbah de Ait Ben Haddou (Patrimonio Mundial de la UNESCO) y luego Ouarzazate. Parada en el Valle de las Rosas atravesando el gran palmeral de Skoura. Noche en Boumalne Dades. (<strong>Cena incluida</strong>)"
+                                ]
+                            },
+                            {
+                                "jour": "Día 5: Dades - Gargantas del Todra - Merzouga - Paseo en camello - Campamento de lujo (<span style='color: #05A317'>5 horas de viaje</span>)",
+                                "text": [
+                                    "Recorrido por el impresionante Valle de Dades y las Gargantas del Todra. Llegada a las dunas doradas de Merzouga para un <strong>paseo en camello</strong> al atardecer. Noche en un campamento de lujo con cena y música bereber."
+                                ]
+                            },
+                            {
+                                "jour": "Día 6: Merzouga - Nómadas - Khamlia - Lago de Merzouga - Erg Chebbi (<span style='color: #05A317'>2 horas de viaje</span>)",
+                                "text": [
+                                    "Temprano para contemplar el amanecer en el desierto. Exploración de la región de Merzouga, visita a nómadas, Khamlia para música Gnawa y el lago salvaje de Merzouga. Noche en un riad junto a las dunas."
+                                ]
+                            },
+                            {
+                                "jour": "Día 7: Merzouga - Erfoud - Midelt - Bosque de Cedros - Ifrane - Fes (<span style='color: #05A317'>7 horas de viaje</span>)",
+                                "text": [
+                                    "Visita Rissani, Erfoud (talleres de fósiles), valle del Ziz y bosque de cedros con macacos. Visita Ifrane, la Suiza de Marruecos. Noche en Fes, tarde libre en la medina."
+                                ]
+                            },
+                            {
+                                "jour": "Día 8: Fes sightseeing (<span style='color: #05A317'>30 min / 3-4 horas caminando</span>)",
+                                "text": [
+                                    "Exploración guiada por la medina de Fes, Madrasa Al Attarine, Universidad y Mezquita de Al Quaraouiyine y las curtidurías Chouara. Regreso al riad para descansar."
+                                ]
+                            },
+                            {
+                                "jour": "Día 9: Fes - Meknes - Volubilis - Chefchaouen (<span style='color: #05A317'>4 horas de viaje</span>)",
+                                "text": [
+                                    "Visita Meknes y Volubilis, luego Chefchaouen en las montañas Rif. Explora la ciudad azul y noche en riad local."
+                                ]
+                            },
+                            {
+                                "jour": "Día 10: Traslado al aeropuerto de Tánger (<span style='color: #05A317'>2 horas de viaje</span>)",
+                                "text": [
+                                    "Después del desayuno traslado al aeropuerto de Tánger. Dependiendo del horario de vuelo, tiempo libre en Chefchaouen o Tánger."
+                                ]
+                            }
+                        ]
+                    },
+                    "infos": {
+                        "titre": "INFORMACIÓN DEL GRAN TOUR DE MARRUECOS DE 10 DÍAS",
+                        "soustitre": "GRAN TOUR DE MARRUECOS 10 DÍAS",
+                        "price": {
+                            "titreIncludes": "El precio incluye:",
+                            "includes": [
+                                "Transporte privado 10 días en 4x4 o minibús con aire acondicionado y combustible",
+                                "Conductor privado que habla inglés",
+                                "Guía local en Marrakech",
+                                "Guía local en Fes",
+                                "Noches en hoteles/riads excelentes",
+                                "Noche en campamento de lujo en el desierto con baño privado",
+                                "Paseo en camello (por persona) o traslado alternativo en 4x4",
+                                "Tabla de arena disponible en el campamento",
+                                "Excursión al desierto en 4x4",
+                                "Recogida en el aeropuerto de Marrakech",
+                                "Traslado al aeropuerto, puerto o alojamiento en Tánger",
+                                "3 cenas en Valle de Dades y riad/campamento de Merzouga",
+                                "Desayunos diarios"
+                            ],
+                            "titreNotIncludes": "El precio no incluye:",
+                            "notIncludes": [
+                                "Vuelos",
+                                "Almuerzos y algunas cenas",
+                                "Entradas a monumentos"
+                            ],
+                            "important": {
+                                "titre": "<span style='color: #05A317'>¡Importante!:</span>",
+                                "text": "Tenga en cuenta que la <strong>ruta de 10 días</strong> es solo una <span style='color: #E67E22'>sugerencia de itinerario</span>. Si no coincide con lo que buscas, por favor <strong>contáctanos</strong>. Podemos organizar un <span style='color: #3498DB'>itinerario diferente</span> según tus <strong>preferencias</strong> y <strong>duración de la estancia</strong>. Ofrecemos tours <strong>personalizados</strong> por todo Marruecos."
+                            },
+                            "priceText": {
+                                "titre": "<span style='color: #0264C7'>El precio</span>",
+                                "text": "Varía según el <strong>número de participantes</strong>. Cuantos más se unan, menor es el precio por persona. También depende de la <strong>calidad del alojamiento</strong>. <strong>Contáctanos</strong> para precio exacto."
+                            }
+                        }
+                    },
+                    "reviews": {
+                        "titre": "RESEÑAS: GRAN TOUR DE MARRUECOS DE 10 DÍAS",
+                        "listes": [
+                            {
+                                "name": "Emily R. – EE.UU.",
+                                "img": "profil_4",
+                                "rating": 5,
+                                "comment": "¡El Gran Tour de Marruecos de 10 días fue la mejor experiencia de viaje! Todo perfectamente organizado. El paseo en camello y la noche en el campamento de lujo fueron mágicos. ¡Muy recomendable!"
+                            },
+                            {
+                                "name": "Lucas & Maria – España",
+                                "img": "profil_5",
+                                "rating": 5,
+                                "comment": "¡Un viaje maravilloso por Marruecos! Descubrimos muchos lugares hermosos: Essaouira, Atlas, Volubilis, Fes… Los alojamientos eran limpios y auténticos, y disfrutamos la mezcla de cultura, naturaleza y desierto."
+                            },
+                            {
+                                "name": "Sofia B. – Italia",
+                                "img": "profil_6",
+                                "rating": 4,
+                                "comment": "Tour increíble con paisajes impresionantes y hoteles cómodos. La experiencia del desierto fue inolvidable. Solo cambiaría pasar más tiempo en Chefchaouen."
+                            },
+                            {
+                                "name": "Thomas K. – Alemania",
+                                "img": "profil_7",
+                                "rating": 5,
+                                "comment": "Organización perfecta, conductor profesional y itinerario completo. Visita a nómadas y música Gnawa en Khamlia, vale cada centavo."
+                            },
+                            {
+                                "name": "Amina & Family – UK",
+                                "img": "profil_8",
+                                "rating": 5,
+                                "comment": "¡Viaje familiar fantástico! A los niños les encantó el desierto, los camellos y los monos en el bosque de cedros. Todo adaptado a nuestras necesidades."
+                            }
+                        ]
+                    },
+                    "faqs": {
+                        "titre": "PREGUNTAS FRECUENTES: GRAN TOUR DE MARRUECOS DE 10 DÍAS",
+                        "listes": [
+                            {
+                                "question": "¿El tour de 10 días es privado o compartido?",
+                                "repense": "El tour de 10 días es privado, solo para quienes lo soliciten. Nuestra prioridad es ofrecer experiencias personalizadas de alta calidad."
+                            },
+                            {
+                                "question": "¿Cuál es la mejor época para visitar Marruecos?",
+                                "repense": "Primavera (marzo-mayo) y otoño (septiembre-noviembre). El invierno también es bueno, especialmente en el sur del desierto."
+                            },
+                            {
+                                "question": "¿La tienda es privada y tiene baño privado?",
+                                "repense": "La tienda en el campamento de lujo es privada y tiene baño con agua caliente."
+                            },
+                            {
+                                "question": "¿Qué vehículos se utilizan?",
+                                "repense": "Vehículo SUV (4x4) o minivan, ambos con aire acondicionado.",
+                                "listeRep": [
+                                    "4x4: Land Cruiser Prado (hasta 4 personas)",
+                                    "Minivan: Mercedes Vito Tourer, Ford Tourneo o similar (hasta 8 personas)"
+                                ],
+                                "text": [
+                                    "Para grupos mayores de 8, se puede proporcionar un minibús para hasta 18 personas."
+                                ]
+                            },
+                            {
+                                "question": "¿Cuánto dura el paseo en camello? ¿Existe alternativa?",
+                                "repense": "El paseo en camello dura entre 40 minutos y 1,5 horas, dependiendo del campamento."
+                            },
+                            {
+                                "question": "¿Preferencias dietéticas?",
+                                "repense": "Indica tus preferencias y haremos los arreglos necesarios para almuerzos y cenas incluidas."
+                            },
+                            {
+                                "question": "¿Qué pasa con el equipaje durante el paseo en camello?",
+                                "listeRep": [
+                                    "Si no deseas montar en camello, el campamento dispone de un 4x4 para transportar personas y equipaje.",
+                                    "Opcionalmente, se pueden organizar ATV por un costo adicional."
+                                ]
+                            },
+                            {
+                                "question": "¿Detalles de recogida y regreso?",
+                                "repense": "El tour es adecuado para todas las edades."
+                            },
+                            {
+                                "question": "Gastos adicionales?",
+                                "text": [
+                                    "Cambio de moneda: Euros o dólares se pueden cambiar a dirhams marroquíes (MAD).",
+                                    "Se aceptan tarjetas de crédito, pero se recomienda efectivo.",
+                                    "Comidas: Entre €5-20 por persona.",
+                                    "Regateo: Común en Marruecos, también para turistas."
+                                ]
+                            }
+                        ]
+                    },
+                    "images": [
+                        "img1", "img7", "img13", "img2", "img42", "img27", "img22", "img4", "img51"
+                    ]
+                }
+            ]
+        },
+        {
+            "from":"Excursiones desde Casablanca",
+            "tours":[
+                {
+                    "id": "2",
+                    "to": "Itinerario de 12 días por Marruecos desde Casablanca",
+                    "departure": "Desde Casablanca",
+                    "titre": "ITINERARIO DE 12 DÍAS POR MARRUECOS DESDE CASABLANCA",
+                    "durre": "12 Días",
+                    "about": {
+                        "entete": "Acerca de este tour",
+                        "titre": "ITINERARIO DE 12 DÍAS POR MARRUECOS",
+                        "paragraph1": "Tour de <strong>12 días</strong> por <strong>Marruecos</strong> desde <strong>Casablanca</strong>. En estos <strong>12 días /11 noches</strong> visitarás las <strong>cuatro ciudades imperiales</strong> y el <strong>desierto del Sahara</strong>. Comenzando el tour desde el <strong>norte de Marruecos</strong>, visitando la ciudad de <strong>Casablanca</strong>. Luego <strong>Rabat</strong> la capital de Marruecos, y <strong>Chefchaouen</strong> la <strong>ciudad azul</strong>. Además, las <strong>ruinas romanas de Volubilis</strong>, <strong>Meknes</strong> la <strong>capital ismailí</strong>, y <strong>Fes</strong> la <strong>ciudad cultural</strong>. Después nos dirigimos al sur, visitando la <strong>Suiza de Marruecos Ifrane</strong>, y también el <strong>bosque de cedros</strong>. Asimismo visitaremos <strong>Midelt</strong>, el <strong>valle de Ziz</strong>, el <strong>mercado tradicional de Rissani</strong> y <strong>Erfoud</strong> la <strong>ciudad de los fósiles</strong>.",
+                        "paragraph2": "Además, visitarás el <strong>desierto del Sahara en Merzouga</strong>, donde podrás <strong>montar camellos</strong> y pasar la noche en un <strong>campamento en medio del desierto</strong>. Disfruta de la <strong>puesta y salida del sol mágica</strong> en el Sahara. También se visitan las <strong>gargantas de Todra y Dades</strong>, la <strong>Kasbah de Ait Ben Haddou</strong>. Además, cruzarás el <strong>Alto Atlas</strong> y el <strong>puerto de Tizi-n-Tichka</strong>. Finalmente, tour guiado en las ciudades de <strong>Marrakech</strong> y <strong>Essaouira</strong>. El <strong>tour de 12 días</strong> finaliza en <strong>Casablanca</strong>."
+                    },
+                    "programme": {
+                        "titre": "ITINERARIO DE MARRUECOS DE 12 DÍAS",
+                        "soustitre": "12 DÍAS EN MARRUECOS | TOUR DESDE CASABLANCA",
+                        "jours": [
+                            {
+                                "jour": "Día 1: Llegada a Casablanca - Visita a la ciudad más grande de Marruecos (<span style='color: #05A317'>1 hora en coche</span>)",
+                                "text": [
+                                    "En el primer día de tu <strong>tour de 12 días por Marruecos</strong>, te recibiremos a tu llegada al <strong>aeropuerto</strong> o directamente desde tu alojamiento en <strong>Casablanca</strong>, la ciudad más grande y el corazón económico de Marruecos. Comenzamos con la visita a la impresionante <strong>Mezquita Hassan II</strong>, situada en un promontorio con vistas al <strong>Océano Atlántico</strong>. Como la mezquita más grande de Marruecos, su arquitectura detallada y ubicación junto al mar la convierten en un <strong>lugar imprescindible</strong>.",
+                                    "Después de un tiempo libre para el <strong>almuerzo</strong>, continuamos explorando los principales atractivos de <strong>Casablanca</strong>. Dependiendo de la hora de llegada, el tour puede incluir:"
+                                ],
+                                "liste": [
+                                    "<strong>Plaza Mohammed V</strong> - el bullicioso centro conocido por su <strong>arquitectura colonial</strong>",
+                                    "Parada fotográfica en el icónico <strong>Rick's Café</strong>, inspirado en la película clásica <strong>Casablanca</strong>",
+                                    "Paseo panorámico a lo largo de la vibrante <strong>Corniche de Casablanca</strong>"
+                                ],
+                                "note": "Nota: El orden y número de visitas puede variar según tu horario de llegada. Noche en un <strong>hotel</strong> confortable en <strong>Casablanca</strong>."
+                            },
+                            {
+                                "jour": "Día 2: Casablanca - Rabat la capital - Chefchaouen (<span style='color: #05A317'>5 horas en coche</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, conducimos por la costa hacia <strong>Rabat</strong>, una de las <strong>ciudades imperiales</strong> de Marruecos y capital actual. Se encuentra en el <strong>noroeste de Marruecos</strong>. Visitarás los <strong>principales atractivos de la capital</strong>, incluyendo: <strong>Torre Hassan</strong>, <strong>Mausoleo de Mohammed V</strong> y <strong>Kasbah de los Oudayas</strong>. Tiempo libre para el <strong>almuerzo</strong>. Por la tarde nos dirigimos hacia el norte pasando por <strong>Ouazzane</strong>, hasta llegar a la <strong>ciudad azul de Chefchaouen</strong> en el Rif. Noche en un <strong>hotel</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 3: Visita a Chefchaouen, la ciudad azul (<span style='color: #05A317'>Sin conducir - 2 horas caminando</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, exploraremos <strong>Chefchaouen</strong>, la <strong>ciudad azul</strong>, también conocida como <strong>Achaoun</strong>, que significa 'cuernos' en bereber. La ciudad está situada en las <strong>montañas del Rif</strong>, noroeste de Marruecos, famosa por sus edificios y callejones pintados de blanco y azul. Primero pasearemos por su encantadora <strong>Medina</strong> antigua, con muchas <strong>puertas azules</strong> y <strong>paredes encaladas</strong>. Tiempo libre para el <strong>almuerzo</strong>. Por la tarde, puedes caminar hasta la <strong>mezquita española</strong> situada en un alto, desde donde se puede ver toda la <strong>ciudad azul</strong>. Finalmente, regreso al <strong>hotel</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 4: Chefchaouen - Ruinas romanas de Volubilis - Meknes - Fes (<span style='color: #05A317'>4 horas en coche</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, disfruta de un paseo por los hermosos callejones de <strong>Chefchaouen</strong>. Luego visitamos las antiguas <strong>ruinas romanas de Volubilis</strong>, bien conservadas y reconocidas como <strong>Patrimonio de la Humanidad por la UNESCO</strong>. Posee numerosos <strong>mosaicos</strong>, <strong>columnas</strong> y <strong>arcos</strong>. Tras recorrer las ruinas, conducimos 30 km para visitar <strong>Meknes</strong>, la <strong>capital ismailí</strong> y una de las <strong>ciudades imperiales</strong>, donde veremos <strong>Bab Al-Mansour</strong>, el <strong>Sahrij Souani</strong>, los <strong>establos reales</strong>, el <strong>granero</strong> y el <strong>Mausoleo de Moulay Ismail</strong>. Luego nos dirigimos a <strong>Fes</strong> para pasar la noche en un <strong>Riad</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 5: Visita guiada de Fes con guía local (<span style='color: #05A317'>30 min en coche / 3 a 4 horas caminando</span>)",
+                                "text": [
+                                    "Te recogeremos en tu <strong>Riad en Fes</strong> después del <strong>desayuno</strong> para comenzar la exploración de una de las ciudades imperiales más icónicas de Marruecos. <strong>Fes</strong> es el corazón cultural y espiritual del país.",
+                                    "Se inicia con un <strong>tour en coche</strong>. Primero visitaremos la magnífica <strong>Puerta del Palacio Real</strong>, seguida del histórico <strong>Mellah</strong> o barrio judío. Luego, disfrutaremos de vistas panorámicas desde la <strong>fortaleza Borj Sud</strong>. La última parada es el <strong>Pueblo y Escuela de Cerámica</strong>, donde observarás <strong>artesanía tradicional</strong> en acción.",
+                                    "Después, realizaremos un <strong>tour a pie</strong> por la <strong>Medina medieval</strong>, Patrimonio de la Humanidad por la UNESCO. Destacan la <strong>Madrasa Al Attarine</strong>, la <strong>Universidad y Mezquita de Al Quaraouiyine</strong> y las coloridas <strong>curtidurías Chouara</strong>, donde se tiñe el <strong>cuero</strong> con técnicas centenarias.",
+                                    "Tras este viaje inolvidable por la historia, regresarás a tu <strong>Riad</strong> para relajarte."
+                                ]
+                            },
+                            {
+                                "jour": "Día 6: Fes - Ifrane - Bosque de cedros - Midelt - Valle de Ziz - Merzouga Sahara (<span style='color: #05A317'>7 horas en coche</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, conducimos hacia el sur pasando por <strong>Imouzzer</strong> para visitar <strong>Ifrane</strong>, famosa por su baja temperatura, nieve y <strong>casas de estilo alpino</strong>, conocida como la <strong>Suiza de Marruecos</strong>. Luego continuamos al <strong>bosque de cedros</strong>, hogar de los <strong>macacos de Berbería</strong>. Más tarde, continuamos a <strong>Midelt</strong> para el <strong>almuerzo</strong>.",
+                                    "Conducimos hacia <strong>Merzouga</strong> a través del <strong>puerto Tizi-n-Tilghmt</strong> y el <strong>valle de Ziz</strong>, con paradas panorámicas. Por la tarde, llegamos al <strong>desierto del Sahara</strong> en <strong>Merzouga</strong>, cambiamos a <strong>camellos</strong>, subimos a una duna alta para disfrutar del <strong>atardecer</strong>, y continuamos al <strong>campamento</strong> para la <strong>cena</strong> y la <strong>noche</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 7: Explorar la región de Merzouga - Nómadas - Khamlia - Lago de Merzouga - Erg Chebbi - Palmeral (<span style='color: #05A317'>2 horas en coche</span>)",
+                                "text": [
+                                    "Despierta temprano para presenciar el <strong>amanecer</strong> en el <strong>desierto</strong>. Tiempo libre para el <strong>desayuno</strong>. Regreso en <strong>camellos</strong> o <strong>4x4</strong> a <strong>Merzouga</strong>. Explora la región visitando <strong>dunas de arena</strong>, <strong>lagos salvajes</strong>, <strong>oasis</strong> y <strong>áreas de fósiles</strong>.",
+                                    "Visita una <strong>mina de kohl antigua</strong>, conoce a los <strong>nómadas</strong> en sus tiendas, aprende sobre su estilo de vida, disfruta del <strong>té bereber</strong>, luego visita el <strong>pueblo de Khamlia</strong> para escuchar música <strong>Gnaoua</strong> y bailar. Pasea por el <strong>palmeral</strong> y observa el <strong>lago de flamencos de Merzouga</strong>. Regreso a <strong>Merzouga</strong> para la cena y la noche en un <strong>hotel</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 8: Sahara de Merzouga - Rissani - Erfoud - Gargantas de Todra - Valle del Dades (<span style='color: #05A317'>5 horas en coche</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, sal del <strong>desierto</strong> hacia <strong>Rissani</strong>, antigua <strong>capital de Tafilalet</strong>. Explora el <strong>mercado de Rissani</strong>. Luego continúa hacia <strong>Erfoud</strong> para visitar <strong>talleres de mármol fósil</strong>.",
+                                    "Conduce a través de los palmerales de <strong>Touroug</strong> y <strong>Tinjdad</strong>, luego visita las <strong>Gargantas de Todra</strong>, un <strong>cañón de acantilados rojos</strong>. Finalmente, continúa hacia el <strong>Valle del Dades</strong> para la <strong>cena</strong> y la noche en un <strong>hotel</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 9: Valle del Dades - Valle de las Rosas - Palmerales de Skoura - Ouarzazate Kasbah Ait Ben Haddou - Alto Atlas - Marrakech (<span style='color: #05A317'>5.5 horas en coche</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, visita <strong>Kalaa Magouna</strong> para el <strong>Valle de las Rosas</strong> y el festival anual de rosas. Continúa por los <strong>palmerales de Skoura</strong> hacia <strong>Ouarzazate</strong>, visitando estudios de cine.",
+                                    "Visita la <strong>Kasbah de Ait Ben Haddou</strong>, Patrimonio de la Humanidad por la UNESCO y escenario de muchas películas. Conduce por el <strong>Alto Atlas</strong> y el <strong>puerto Tizi-N-Tichka</strong> hacia <strong>Marrakech</strong>. Noche en un <strong>Riad</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 10: Tour guiado por Marrakech (<span style='color: #05A317'>45 min en coche / 3 horas caminando</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, explora los principales atractivos de <strong>Marrakech</strong> con un <strong>guía local</strong>. Visita el <strong>Palacio de la Bahia</strong>, <strong>Madrasa Ben Youssef</strong>, <strong>Plaza Jamaa El Fna</strong> y <strong>Mezquita Koutoubia</strong>. Tiempo libre para el <strong>almuerzo</strong>. Visita el <strong>Jardín Majorelle</strong> y el distrito de <strong>Gueliz</strong> antes de regresar al <strong>Riad</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 11: Marrakech - Essaouira (<span style='color: #05A317'>3 horas en coche</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, conduce hacia el oeste hasta <strong>Essaouira</strong>, con paradas en <strong>plantaciones de argán</strong> y cooperativas. Visita el <strong>puerto pesquero</strong>, las <strong>antiguas murallas</strong> y la <strong>medina antigua</strong>. Noche en <strong>Essaouira</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 12: Regreso a Marrakech (<span style='color: #05A317'>4 horas 20 min en coche</span>)",
+                                "text": [
+                                    "Salida de <strong>Essaouira</strong> hacia el aeropuerto de <strong>Casablanca</strong>. Fin del <strong>tour de 12 días por Marruecos</strong> en <strong>Marrakech</strong>."
+                                ]
+                            }
+                        ]
+                    },
+                    "infos": {
+                        "titre": "TOUR DE 12 DÍAS POR MARRUECOS",
+                        "soustitre": "Incluye en el tour de 12 días desde Casablanca",
+                        "price": {
+                            "titreIncludes": "El precio incluye:",
+                            "includes": [
+                                "Transporte privado de 12 días en 4x4 o minivan con A/C + combustible",
+                                "Conductor privado que habla inglés",
+                                "Tour a pie en Chefchaouen con guía local",
+                                "Tour a pie en Fes con guía local",
+                                "Tour a pie en Marrakech con guía local",
+                                "Noches en excelentes hoteles / Riads",
+                                "Noche en un lujoso campamento en el desierto con baños privados",
+                                "Paseo en camello (por persona) o traslado alternativo en 4x4",
+                                "Excursión en el desierto en 4x4",
+                                "Tablas de arena disponibles en el campamento",
+                                "3 cenas en el campamento de Merzouga y Valle del Dades",
+                                "Desayuno diario",
+                                "Traslados de ida y vuelta al aeropuerto de Casablanca"
+                            ],
+                            "titreNotIncludes": "El precio no incluye:",
+                            "notIncludes": [
+                                "Almuerzos y cenas adicionales",
+                                "Entradas a monumentos (80€ pp)"
+                            ],
+                            "important": {
+                                "titre": "<span style='color: #05A317'>¡Importante!:</span>",
+                                "text": "Ten en cuenta que el <strong>tour de 12 días</strong> es solo una <span style='color: #E67E22'>sugerencia de itinerario</span>. Si no coincide con lo que buscas, no dudes en <strong>contactarnos</strong>. Organizaremos un <span style='color: #3498DB'>itinerario diferente</span> según tus <strong>preferencias</strong> y <strong>duración de estancia</strong>. Ofrecemos tours <strong>personalizados</strong> por todo Marruecos."
+                            },
+                            "priceText": {
+                                "titre": "<span style='color: #0264C7'>El precio</span>",
+                                "text": "Varía según el <strong>número de personas</strong>. Cuantas más personas participen, menor será el precio por persona. El precio también depende de la <strong>calidad del alojamiento</strong>. <strong>Contáctanos</strong> para un precio exacto."
+                            }
+                        }
+                    },
+                    "reviews": {
+                        "titre": "RESEÑAS: ITINERARIO DE 12 DÍAS POR MARRUECOS",
+                        "listes": [
+                            {
+                                "name": "Sarah Thompson - USA",
+                                "img": "profil_9",
+                                "rating": 5,
+                                "comment": "¡Absolutamente inolvidable! El paseo en camello al atardecer en Merzouga fue mágico, y la noche en el campamento de lujo en el desierto superó nuestras expectativas. Chefchaouen y Fez fueron impresionantes. Nuestro conductor Youssef fue increíblemente conocedor y amable. ¡Muy recomendable!"
+                            },
+                            {
+                                "name": "Marc & Julie - Francia",
+                                "img": "profil_10",
+                                "rating": 5,
+                                "comment": "Un viaje perfectamente organizado de principio a fin. El guía local en Fez fue excelente y Marrakech nos encantó. El cruce del Alto Atlas fue magnífico. Gracias por esta hermosa experiencia."
+                            },
+                            {
+                                "name": "Emily Johnson - Reino Unido",
+                                "img": "profil_11",
+                                "rating": 4,
+                                "comment": "¡Viaje increíble! Cada día estuvo lleno de descubrimientos. La experiencia en el desierto fue mi parte favorita. Un poco de trayectos largos en coche, pero totalmente valió la pena."
+                            },
+                            {
+                                "name": "Anna Müller - Alemania",
+                                "img": "profil_12",
+                                "rating": 5,
+                                "comment": "Las ruinas romanas de Volubilis y la antigua medina de Fez fueron lo más destacado para mí. Alojamientos hermosos y conductor muy profesional."
+                            },
+                            {
+                                "name": "Laura Martínez - España",
+                                "img": "profil_13",
+                                "rating": 5,
+                                "comment": "Chefchaouen fue como un sueño. Los alojamientos eran hermosos y auténticos. Recomendamos mucho este tour de 12 días."
+                            },
+                            {
+                                "name": "Khalid Al Mansouri - EAU",
+                                "img": "profil_14",
+                                "rating": 5,
+                                "comment": "Muy bien planificado. El transporte privado fue cómodo y nuestro conductor Hassan fue increíble. Me encantó el campamento de lujo en el desierto."
+                            },
+                            {
+                                "name": "Nadia Benali - Bélgica",
+                                "img": "profil_15",
+                                "rating": 5,
+                                "comment": "Los guías locales en Fez y Marrakech fueron excelentes. El campamento en el desierto fue increíble y muy cómodo. Nada que decir."
+                            },
+                            {
+                                "name": "Aiko Tanaka - Japón",
+                                "img": "profil_16",
+                                "rating": 5,
+                                "comment": "Muy organizado y seguro. Me encantó la atmósfera tranquila en Essaouira y la excursión en camello. ¡Me encantaría volver!"
+                            },
+                            {
+                                "name": "Diego Rodríguez - México",
+                                "img": "profil_17",
+                                "rating": 4,
+                                "comment": "El tour fue fantástico, especialmente la visita a Ait Ben Haddou y Ouarzazate. Excelente relación calidad-precio."
+                            },
+                            {
+                                "name": "Manon & Pierre - Francia",
+                                "img": "profil_18",
+                                "rating": 5,
+                                "comment": "Un viaje excepcional con muchos descubrimientos. Mención especial a la música bereber en el campamento y la visita a Fez con guía."
+                            }
+                        ]
+                    },
+
+                    "faqs": {
+                        "titre": "PREGUNTAS FRECUENTES: ITINERARIO DE 12 DÍAS POR MARRUECOS",
+                        "listes": [
+                            {
+                                "question": "¿El tour de 12 días por Marruecos es privado o compartido?",
+                                "repense": "El tour de 12 días es una experiencia privada, asegurando que solo los viajeros que realizan la reserva participen. No se unirán otras personas al tour. Nuestro enfoque principal es ofrecer experiencias personalizadas de alta calidad, por eso principalmente ofrecemos tours privados."
+                            },
+                            {
+                                "question": "¿Cuál es la mejor época para visitar Marruecos?",
+                                "text": [
+                                    "Los mejores momentos para visitar son la primavera (marzo-mayo) y el otoño (septiembre-noviembre), cuando el clima es templado y agradable en la mayoría de las regiones.",
+                                    "El invierno también es una buena época, especialmente en el sur y la región del desierto."
+                                ]
+                            },
+                            {
+                                "question": "¿Edad adecuada para el tour?",
+                                "text": [
+                                    "Este tour es adecuado para personas de todas las edades.",
+                                    "Sin embargo, ten en cuenta que el tour implica conducir aproximadamente de 1 a 7 horas cada día. Aunque nuestros vehículos son nuevos y cómodos, y hacemos paradas regulares, si no estás acostumbrado a este nivel de viaje, podrías considerar un tour más largo o personalizado."
+                                ]
+                            },
+                            {
+                                "question": "¿Qué tipo de vehículos se utilizan?",
+                                "repense": "El vehículo será un SUV (4x4) o una minivan, ambos con aire acondicionado. Detalles de los vehículos:",
+                                "listeRep": [
+                                    "4 Land Cruiser Prado (hasta 4 pasajeros)",
+                                    "Minivans: Mercedes Vito Tourer, Ford Tourneo Van o similar (hasta 8 pasajeros)"
+                                ],
+                                "text": [
+                                    "Para grupos mayores de 8 personas, se puede proporcionar un minibús con capacidad de hasta 18 pasajeros."
+                                ]
+                            },
+                            {
+                                "question": "¿Cuánto dura el paseo en camello? ¿Cuál es la alternativa a los camellos?",
+                                "text": [
+                                    "El paseo en camello dura entre 40 minutos y 1,5 horas, dependiendo del campamento donde te hospedes.",
+                                    "Si no deseas realizar el paseo en camello, el campamento dispone de un 4x4 que transporta personas y equipaje dentro y fuera del campamento.",
+                                    "Alternativamente, se pueden organizar vehículos todo terreno (ATV) con un coste adicional."
+                                ]
+                            },
+                            {
+                                "question": "¿Preferencias dietéticas?",
+                                "repense": "Por favor, indícanos cualquier preferencia dietética que tengas, y nos aseguraremos de cumplirla. Infórmanos con antelación para organizar adecuadamente las paradas de almuerzo y notificar al Riad/Campamento, ya que algunas cenas están incluidas en el paquete."
+                            },
+                            {
+                                "question": "¿Qué pasa con el equipaje durante el paseo en camello?",
+                                "text": [
+                                    "Durante el paseo en camello, solo llevarás lo necesario para el recorrido.",
+                                    "El resto de tu equipaje será transportado por el 4x4 del campamento y lo encontrarás esperándote allí."
+                                ]
+                            },
+                            {
+                                "question": "Detalles de recogida y entrega",
+                                "text": [
+                                    "La recogida puede ser en el aeropuerto o en tu alojamiento en Casablanca.",
+                                    "Al final del tour de 12 días, te dejaremos en tu hotel o en el aeropuerto de Casablanca.",
+                                    "Se proporcionará información adicional al confirmar la reserva, incluyendo datos del conductor, instrucciones del punto de encuentro y señal de llegada."
+                                ]
+                            },
+                            {
+                                "question": "¿La tienda es privada? ¿Tiene baño privado?",
+                                "repense": "La tienda en el campamento de lujo es privada y cuenta con baños privados con agua caliente corriente."
+                            },
+                            {
+                                "question": "Gastos adicionales",
+                                "text": [
+                                    "Cambio de moneda: Euros o USD se pueden cambiar por Dirham marroquí (MAD) en bancos y casas de cambio en Marruecos. También hay cajeros automáticos disponibles.",
+                                    "Aunque las tarjetas de crédito y divisas extranjeras (Euros/USD) suelen ser aceptadas, se recomienda llevar dinero local (MAD) para mayor comodidad.",
+                                    "Coste de comidas: Las comidas suelen costar entre 5 € y 20 € por persona, dependiendo del lugar.",
+                                    "Regateo / Negociación: El regateo es una práctica aceptada en Marruecos y se espera que los clientes participen. Muchos lugares participan activamente en regateos."
+                                ]
+                            }
+                        ]
+                    },
+                    "images":[
+                        "img82", "img58", "img3", "img5", "img82", "img42", "img19", "img39"
+                    ]
+                },
+                {
+                    "id": "3",
+                    "to": "7 días en Marruecos desde Casablanca",
+                    "departure": "Desde Casablanca",
+                    "titre": "MEJOR TOUR DE 7 DÍAS EN MARRUECOS DESDE CASABLANCA",
+                    "durre": "7 días",
+                    "about": {
+                        "entete": "Acerca de este tour",
+                        "titre": "TOUR DE 7 DÍAS POR MARRUECOS DESDE CASABLANCA",
+                        "paragraph1": "Pasa <strong>una semana en Marruecos</strong> con nuestro <strong>itinerario de 7 días en Marruecos</strong> desde <strong>Casablanca</strong>. En estos <strong>7 días / 6 noches</strong>, visitarás <strong>lugares fabulosos de Marruecos</strong>. Comenzando el tour por el <strong>norte de Marruecos</strong>, visitando la ciudad de <strong>Casablanca</strong>, luego <strong>Rabat</strong>, la capital de Marruecos, y <strong>Chefchaouen</strong>, la <strong>ciudad azul</strong>. Además, las <strong>ruinas romanas de Volubilis</strong>, <strong>Meknes</strong>, la <strong>capital ismailí</strong>, y también <strong>Fez</strong>, la <strong>ciudad cultural</strong>. Luego nos dirigimos al sur, visitando la <strong>Suiza de Marruecos, Ifrane</strong>, y también el <strong>bosque de cedros</strong>, así como <strong>Midelt</strong>, el increíble <strong>valle del Ziz</strong>, el <strong>mercado tradicional de Rissani</strong> y <strong>Erfoud</strong>, la <strong>ciudad de los fósiles</strong>.",
+                        "paragraph2": "Además, visitarás el <strong>desierto del Sahara en Merzouga</strong>, donde montarás <strong>camellos</strong> y pasarás la noche en un <strong>campamento de lujo</strong> en medio del desierto. Disfruta del <strong>magico atardecer y amanecer</strong> en el Sahara. También visitarás las <strong>gargantas de Todra y Dades</strong> y la <strong>Kasbah de Ait Ben Haddou</strong>. Además, cruzarás las <strong>montañas del Alto Atlas</strong> y el <strong>paso de Tizi-n-Tichka</strong>. El <strong>tour de 7 días</strong> finaliza en <strong>Marrakech por la tarde</strong>."
+                    },
+                    "programme": {
+                        "titre": "ITINERARIO DE MARRUECOS: TOUR DE 7 DÍAS DESDE CASABLANCA",
+                        "soustitre": "UNA SEMANA EN MARRUECOS",
+                        "jours": [
+                        {
+                            "jour": "Día 1: Llegada a Casablanca - Visita a la ciudad más grande de Marruecos (<span style='color: #05A317'>1 hora en coche</span>)",
+                            "text": [
+                            "El primer día de tu <strong>tour de 7 días en Marruecos</strong>, te recibiremos a tu llegada al aeropuerto o directamente desde tu alojamiento en <strong>Casablanca</strong>, la ciudad más grande y el corazón económico de Marruecos. Comenzamos con la visita a la espectacular <strong>Mezquita Hassan II</strong>, situada sobre un promontorio con vistas al Océano Atlántico. Como la mezquita más grande de Marruecos, su arquitectura y su ubicación la convierten en un lugar imprescindible.",
+                            "Después de un tiempo libre para almorzar, continuamos explorando los principales lugares de <strong>Casablanca</strong>. Dependiendo de la hora de llegada, el tour puede incluir:"
+                            ],
+                            "liste": [
+                            "<strong>Plaza Mohammed V</strong> - el bullicioso centro cívico conocido por su arquitectura colonial",
+                            "Parada para fotos en el icónico <strong>Rick's Café</strong>, inspirado en la película clásica <strong>Casablanca</strong>",
+                            "Un paseo panorámico por el <strong>Corniche de Casablanca</strong>"
+                            ],
+                            "note": "Nota: el orden y número de visitas puede variar según tu horario de llegada. Noche en un hotel cómodo en Casablanca."
+                        },
+                        {
+                            "jour": "Día 2: Casablanca - Rabat, la capital - Chefchaouen (<span style='color: #05A317'>5.5 horas en coche</span>)",
+                            "text": [
+                            "Después del desayuno, conducimos por la costa hacia <strong>Rabat</strong>. La ciudad es una de las <strong>ciudades imperiales de Marruecos</strong> y la capital actual. Está ubicada al noroeste de Marruecos. Visitarás los principales lugares de interés, incluyendo: la <strong>Torre Hassan</strong>, el <strong>Mausoleo de Mohammed V</strong> y la <strong>Kasbah de los Oudayas</strong>. Tiempo libre para almorzar. Por la tarde nos dirigimos al norte pasando por <strong>Ouazzane</strong> hasta la <strong>ciudad azul de Chefchaouen</strong>, en las montañas del Rif, famosa por sus casas y callejuelas pintadas de azul. Finalmente, noche en hotel."
+                            ]
+                        },
+                        {
+                            "jour": "Día 3: Chefchaouen - Ruinas romanas de Volubilis - Meknes - Fez (<span style='color: #05A317'>4 horas en coche</span>)",
+                            "text": [
+                            "Después del desayuno, explora las hermosas callejuelas de la <strong>ciudad azul Chefchaouen</strong>. Luego visitaremos las antiguas <strong>ruinas romanas de Volubilis</strong>, bien conservadas y reconocidas como <strong>Patrimonio de la Humanidad por la UNESCO</strong>, con hermosos mosaicos, columnas y arcos antiguos. Tras la visita, conduciremos 30 km hasta <strong>Meknes</strong>, considerada la <strong>capital ismailí</strong> y una de las ciudades imperiales, visitando <strong>Bab Al-Mansour</strong>, el <strong>Sahrij Souani</strong>, los establos reales, el granero y el Mausoleo de Moulay Ismail. Luego continuamos hacia <strong>Fez</strong>. Noche en un <strong>Riad</strong>."
+                            ]
+                        },
+                        {
+                            "jour": "Día 4: Visita guiada de Fez con guía local (<span style='color: #05A317'>30 min en coche / 3 a 4 horas caminando</span>)",
+                            "text": [
+                            "Te recogeremos en tu <strong>Riad en Fez</strong> tras el desayuno para comenzar la exploración de una de las ciudades imperiales más emblemáticas de Marruecos, <strong>Fez</strong>, el corazón cultural y espiritual del país.",
+                            "El recorrido inicia con un <strong>tour en coche</strong>. Visitaremos la magnífica <strong>Puerta del Palacio Real</strong>, luego el histórico <strong>Mellah</strong> (barrio judío), continuando hacia la fortaleza <strong>Borj Sud</strong> para contemplar la antigua <strong>Medina</strong>. Más tarde, visitaremos la <strong>Aldea y Escuela de Cerámica</strong>, donde observarás artesanía tradicional.",
+                            "Después emprenderemos un <strong>tour a pie</strong> por la <strong>Medina medieval</strong>, Patrimonio de la Humanidad por la UNESCO, con guía local. Destacan la <strong>Madrasa Al Attarine</strong>, la <strong>Universidad y Mezquita de Al Quaraouiyine</strong> y las <strong>curtidurías Chouara</strong>.",
+                            "Al final del día regresarás a tu <strong>Riad</strong> para descansar."
+                            ]
+                        },
+                        {
+                            "jour": "Día 5: Fez - Ifrane - Bosque de cedros - Midelt - Valle del Ziz - Merzouga Sahara (<span style='color: #05A317'>7 horas en coche</span>)",
+                            "text": [
+                            "Después del desayuno, conduces hacia el sur, pasando por <strong>Imouzzer</strong> para llegar a <strong>Ifrane</strong>, conocida por su clima frío, nieve y casas de estilo alpino — por eso llamada la <strong>Suiza de Marruecos</strong>. Luego visitamos el <strong>bosque de cedros</strong>, hogar de los <strong>macacos de Berbería</strong>. Más tarde continuamos hacia <strong>Midelt</strong> para el almuerzo.",
+                            "Por la tarde, atravesamos el <strong>puerto Tizi-n-Tilghmt</strong> y el <strong>valle del Ziz</strong>, con paradas panorámicas, hasta llegar al <strong>desierto del Sahara en Merzouga</strong>. Allí montamos <strong>camellos</strong>, cruzamos el desierto y ascendemos a una duna alta para contemplar el <strong>atardecer</strong>. Finalmente llegamos al <strong>campamento</strong>, una combinación de tiendas tradicionales nómadas y comodidades modernas, con cena y noche en el campamento."
+                            ]
+                        },
+                        {
+                            "jour": "Día 6: Merzouga Sahara - Rissani - Erfoud - Gargantas del Todra - Valle del Dades (<span style='color: #05A317'>5 horas en coche</span>)",
+                            "text": [
+                            "Despierta temprano para disfrutar del <strong>amanecer en el desierto</strong>. Luego, tras el desayuno, regresas en <strong>camello</strong> o en el <strong>4x4 del campamento</strong> a <strong>Merzouga</strong>, donde te espera el conductor. Salimos hacia <strong>Rissani</strong>, antigua capital del Tafilalet, importante centro comercial con un bullicioso <strong>souk</strong>.",
+                            "Después de visitar el <strong>souk de Rissani</strong>, continuamos hacia <strong>Erfoud</strong> para visitar talleres de <strong>mármol fósil</strong>. Luego pasamos por <strong>Touroug</strong> y los palmerales de <strong>Tinjdad</strong>, hasta llegar a las <strong>Gargantas del Todra</strong>, un cañón de rocas rojas formado por el <strong>río Todra</strong>, ideal para escalada. Almuerzo libre. Más tarde partimos hacia el <strong>valle del Dades</strong>, con paradas en formaciones rocosas conocidas como “dedos de mono” y miradores. Cena y noche en un hotel / riad."
+                            ]
+                        },
+                        {
+                            "jour": "Día 7: Valle del Dades - Ciudad de las Rosas - Palmerales de Skoura - Ouarzazate - Kasbah Ait Ben Haddou - Alto Atlas - Marrakech (<span style='color: #05A317'>6 horas en coche</span>)",
+                            "text": [
+                            "En el último día, nos dirigimos hacia <strong>Kalaa Magouna</strong> para visitar el <strong>valle de las rosas</strong> y una cooperativa local. En mayo se celebra el <strong>Festival de la Rosa</strong>, donde los locales ofrecen productos como perfumes, <strong>agua de rosas</strong>, aceites esenciales y cosmética. Luego pasamos por los <strong>palmerales de Skoura</strong> hasta <strong>Ouarzazate</strong> para visitar los famosos <strong>Atlas Studios</strong> donde se han filmado películas reconocidas.",
+                            "Después, visitamos la emblemática <strong>Kasbah de Ait Ben Haddou</strong>, Patrimonio de la Humanidad por la UNESCO, famosa por aparecer en películas como <strong>Gladiator</strong>, <strong>Alexander</strong>, <strong>The Mummy</strong> y series como <strong>Game of Thrones</strong>. Luego cruzamos el <strong>Alto Atlas</strong> por el <strong>paso Tizi‑n‑Tichka</strong>, con paradas para almuerzo y fotos, hasta llegar a <strong>Marrakech</strong>. Fin del tour y traslado al aeropuerto o alojamiento. "
+                            ]
+                        }
+                        ]
+                    },
+                    "infos": {
+                        "titre": "INFORMACIÓN DEL TOUR DE 7 DÍAS EN MARRUECOS",
+                        "soustitre": "Qué incluye este tour de una semana",
+                        "price": {
+                        "titreIncludes": "El precio incluye:",
+                        "includes": [
+                            "7 días de transporte privado en 4x4 o minivan con A/C + combustible",
+                            "Conductor privado de habla inglesa",
+                            "Tour a pie en Fez con guía local",
+                            "Noches en excelentes hoteles / riads",
+                            "Una noche en un campamento de lujo en el desierto con baño privado",
+                            "Paseo en camello (un camello por persona) o traslado alternativo en 4x4",
+                            "Sandboards disponibles en el campamento",
+                            "Recogida en cualquier lugar en Casablanca (aeropuerto, hotel… etc.)",
+                            "Dejarte en tu alojamiento en Marrakech",
+                            "2 cenas: en el campamento del desierto y en el Valle del Dades",
+                            "Desayunos diarios"
+                        ],
+                        "titreNotIncludes": "No incluye:",
+                        "notIncludes": [
+                            "Almuerzos, bebidas y algunas cenas",
+                            "Entradas a monumentos (36 € por persona)",
+                            "Vuelos"
+                        ],
+                        "important": {
+                            "titre": "<span style='color: #05A317'>¡Importante!:</span>",
+                            "text": "Ten en cuenta que este tour de 7 días es solo una <span style='color: #E67E22'>sugerencia de itinerario</span>. Si no se adapta a lo que buscas, no dudes en <strong>contactarnos</strong>. Podemos organizar un <span style='color: #3498DB'>itinerario diferente</span> según tus preferencias y duración de estancia. Ofrecemos tours <strong>personalizados</strong> en todo Marruecos."
+                        },
+                        "priceText": {
+                            "titre": "<span style='color: #0264C7'>Precio</span>",
+                            "text": "Varía según el <strong>número de personas</strong>; cuanto más personas participen, menor el coste por persona. También depende de la <strong>calidad del alojamiento</strong>. <strong>Contáctanos</strong> para un presupuesto exacto."
+                        }
+                        }
+                    },
+                    "reviews": {
+                        "titre": "RESEÑAS: TOUR DE 7 DÍAS EN MARRUECOS",
+                        "listes": [
+                        {
+                            "name": "Laura M. – USA",
+                            "img": "profil_19",
+                            "rating": 5,
+                            "comment": "¡El tour de 7 días en Marruecos fue absolutamente perfecto! Nuestro conductor Youssef fue amable, divertido y muy conocedor. Chefchaouen y la noche en el Sahara fueron inolvidables. ¡Todo estuvo bien organizado de principio a fin!"
+                        },
+                        {
+                            "name": "Amine B. – Francia",
+                            "img": "profil_20",
+                            "rating": 5,
+                            "comment": "¡Súper experiencia! Los alojamientos eran muy cómodos, especialmente el campamento de lujo en Merzouga. El itinerario fue perfecto y descubrimos tantos paisajes en solo una semana."
+                        },
+                        {
+                            "name": "Sophie & Marc – Canadá",
+                            "img": "profil_21",
+                            "rating": 5,
+                            "comment": "Nos encantó la visita guiada en Fez y el desierto. La puesta de sol en las dunas será un recuerdo mágico. El conductor hablaba muy bien inglés y fue muy atento."
+                        },
+                        {
+                            "name": "David R. – Reino Unido",
+                            "img": "profil_22",
+                            "rating": 4.5,
+                            "comment": "Gran itinerario para 7 días en Marruecos. Logística muy fluida, buenos hoteles y comida increíble. Disfrutamos especialmente Ait Ben Haddou y el trayecto por el Alto Atlas. Muy recomendable."
+                        },
+                        {
+                            "name": "Chiara P. – Italia",
+                            "img": "profil_23",
+                            "rating": 5,
+                            "comment": "¡Un viaje maravilloso! Cada día un nuevo descubrimiento: Fez, el desierto, las gargantas del Todra… todo organizado a la perfección. ¡Volveré seguro a Marruecos!"
+                        }
+                        ]
+                    },
+                    "faqs": {
+                        "titre": "PREGUNTAS FRECUENTES: TOUR DE 7 DÍAS EN MARRUECOS",
+                        "listes": [
+                        {
+                            "question": "¿El tour de 7 días es privado o compartido?",
+                            "repense": "Este tour de siete días es una experiencia privada, lo que garantiza que solo los viajeros que lo reserven participen. No se unirán otras personas. Nuestro objetivo principal es ofrecer experiencias personalizadas y de alta calidad, por lo que principalmente ofrecemos tours privados."
+                        },
+                        {
+                            "question": "¿Cuál es la mejor época para visitar Marruecos?",
+                            "text": [
+                            "Las mejores épocas para visitar son la primavera (marzo‑mayo) y el otoño (septiembre‑noviembre), cuando el clima es templado y agradable en la mayoría de las regiones.",
+                            "El invierno también está bien, especialmente en el sur / parte desértica."
+                            ]
+                        },
+                        {
+                            "question": "¿El tour es adecuado para todas las edades?",
+                            "repense": "Este tour de 7 días es adecuado para personas de todas las edades. Sin embargo, ten en cuenta que implica conducir aproximadamente entre 1 y 7 horas cada día. Aunque nuestros vehículos son nuevos y cómodos, y hacemos paradas regulares, si no estás acostumbrado a este nivel de viaje, podrías considerar un tour más largo o personalizado."
+                        },
+                        {
+                            "question": "¿Qué tipo de vehículos se utilizan?",
+                            "repense": "El vehículo será un SUV (4x4) o una minivan, ambos con aire acondicionado. Detalles:",
+                            "listeRep": [
+                            "4 Land Cruiser Prado (hasta 4 pasajeros)",
+                            "Minivans: Mercedes Vito Tourer, Ford Tourneo Van o similar (hasta 8 pasajeros)"
+                            ],
+                            "text": [
+                            "Para grupos mayores de 8 personas, se puede proporcionar un minibús con capacidad de hasta 18 pasajeros."
+                            ]
+                        },
+                        {
+                            "question": "¿Cuánto dura el paseo en camello? ¿Cuál es la alternativa al camello?",
+                            "text": [
+                            "El paseo en camello dura entre 40 minutos y 1,5 horas, dependiendo del campamento.",
+                            "Si no deseas montar en camello, el campamento dispone de un 4x4 para transportar personas y equipaje dentro y fuera del campamento.",
+                            "Alternativamente, se pueden organizar ATV a un coste adicional."
+                            ]
+                        },
+                        {
+                            "question": "¿Preferencias dietéticas?",
+                            "repense": "Por favor, indícanos cualquier preferencia dietética que tengas, y nos aseguraremos de cubrirla. Infórmanos con antelación para organizar las paradas de almuerzo y notificar al riad/campamento, ya que algunas cenas están incluidas en el paquete."
+                        },
+                        {
+                            "question": "¿Qué pasa con tu equipaje durante el paseo en camello?",
+                            "text": [
+                            "Durante el paseo en camello llevarás solo lo necesario para el trayecto.",
+                            "El resto de tu equipaje será transportado en el 4x4 del campamento y te lo entregarán al llegar."
+                            ]
+                        },
+                        {
+                            "question": "¿Detalles de recogida y devolución?",
+                            "text": [
+                            "La recogida puede ser en el aeropuerto o en tu alojamiento en Casablanca.",
+                            "Al final del tour de 7 días, te dejaremos en tu hotel o riad en Marrakech, o en el estacionamiento disponible más cercano. El tour suele concluir entre las 17:00 y 19:00 en Marrakech, aunque la hora exacta puede variar según el tiempo en cada lugar."
+                            ]
+                        },
+                        {
+                            "question": "¿La tienda (campamento) es privada? ¿Tiene baño privado?",
+                            "repense": "La tienda en el campamento de lujo es privada y cuenta con baños privados con agua caliente corriente."
+                        },
+                        {
+                            "question": "Gastos adicionales / forma de pago",
+                            "text": [
+                            "Cambio de moneda: Euros o USD se pueden cambiar por Dirham marroquí (MAD) en bancos o casas de cambio en Marruecos. También hay cajeros automáticos disponibles.",
+                            "Aunque las tarjetas de crédito y monedas extranjeras (Euros/USD) suelen aceptarse, se recomienda llevar moneda local (MAD) para mayor comodidad.",
+                            "Coste de comidas: Las comidas suelen costar entre 5 € y 20 € por persona, dependiendo del establecimiento.",
+                            "Regateo / negociación: El regateo es una práctica aceptada en Marruecos y se espera que los clientes participen. Muchos lugares negocian precios."
+                            ]
+                        }
+                        ]
+                    },
+                    "images": ["img12", "img79", "img62", "img9", "img47", "img16", "img45", "img35", "img59"]
+                }
+            ]
+        },
+        {
+            "from": "Tours desde Fes",
+            "tours": [
+                {
+                "id": "4",
+                "to": "Tour de 5 días de Fes a Marrakech",
+                "departure": "Desde Fes",
+                "titre": "TOUR DE 5 DÍAS AL DESIERTO DE FES A MARRAKECH",
+                "durre": "5 días",
+                "about": {
+                    "entete": "Acerca de este tour",
+                    "titre": "Viaje de 5 días al desierto de Marruecos",
+                    "paragraph1": "Itinerario de 5 días de Fes a Marrakech. En estos <strong>5 días / 4 noches</strong> visitarás muchos lugares fabulosos en poco tiempo. El tour comienza desde <strong>Fes</strong>. Primero visitaremos la <strong>Suiza de Marruecos, Ifrane</strong>, y el <strong>bosque de cedros</strong>. Una parada en <strong>Midelt</strong> para almorzar, luego conduciremos a lo largo del impresionante <strong>río Ziz</strong>. Después llegamos al <strong>desierto del Sahara en Merzouga</strong>, donde podrás <strong>montar en camello</strong> y pasar la noche en un <strong>campamento de lujo</strong> en medio del desierto. Además, disfrutarás de mágicos <strong>atardeceres</strong> y <strong>amaneceres</strong> en el Sahara. También visitarás el <strong>mercado tradicional de Rissani</strong> y <strong>Erfoud</strong>, la ciudad de los fósiles. Luego visitarás las <strong>gargantas de Todra</strong>, las <strong>gargantas de Dades</strong> y varias kasbahs, incluyendo <strong>Ait Ben Haddou</strong> y <strong>Amridil</strong>. Finalmente, cruzarás las <strong>montañas del Alto Atlas</strong> y el <strong>paso Tizi-n-Tichka</strong>. El tour termina en <strong>Marrakech</strong>."
+                },
+                "programme": {
+                    "titre": "ITINERARIO: TOUR DE 5 DÍAS DE FES A MARRAKECH",
+                    "soustitre": "Tour de 5 días en Marruecos",
+                    "jours": [
+                    {
+                        "jour": "Día 1: Fes - Ifrane - Bosque de cedros - Midelt - Valle del Ziz - Sahara de Merzouga (<span style='color: #05A317'>7 horas en coche</span>)",
+                        "text": [
+                        "El tour de 5 días comienza con la recogida temprano en el aeropuerto o en tu alojamiento en <strong>Fes</strong>. Luego conducimos hacia el sur a través de Imouzzer para visitar <strong>Ifrane</strong>, famosa por sus bajas temperaturas, nieve y casas de estilo alpino – por eso se le llama la <strong>Suiza de Marruecos</strong>. Luego continuamos hacia el <strong>bosque de cedros</strong>, hogar de los <strong>macacos de Berbería</strong>. Puedes alimentarlos mientras paseas por el bosque. Más tarde continuamos hacia <strong>Midelt</strong>, donde se servirá el almuerzo. Luego nos dirigimos al <strong>desierto del Sahara</strong>, atravesando el <strong>paso Tizi-n-Tilghmt</strong> y a lo largo del <strong>río Ziz</strong>.",
+                        "Por la tarde llegamos al <strong>desierto del Sahara de Merzouga</strong>, donde cambiarás al <strong>camello</strong> y cruzarás el <strong>desierto de arena</strong>. Se hará una parada para disfrutar del mágico <strong>atardecer</strong> en la cima de una duna alta. Luego continuamos hacia el <strong>campamento de lujo en el desierto</strong>, donde podrás disfrutar de la música de tambores bereberes mientras bailas alrededor de la hoguera, bajo el vasto cielo estrellado. Cena y noche en el campamento."
+                        ]
+                    },
+                    {
+                        "jour": "Día 2: Explorar la región de Merzouga - Nómadas - Khamlia - Lago de Merzouga - Erg Chebbi - Palmeral (<span style='color: #05A317'>3 horas en coche</span>)",
+                        "text": [
+                        "Despertar temprano es imprescindible para contemplar el hermoso <strong>amanecer</strong> en medio del <strong>desierto</strong>. Tiempo libre para desayunar. Luego regresas en <strong>camello</strong> a <strong>Merzouga</strong>, donde te espera el conductor. Dedicamos el día a explorar la <strong>región de Merzouga</strong>, que tiene sitios increíbles como <strong>dunas de arena</strong>, <strong>lagos salvajes</strong>, <strong>minas</strong>, <strong>áreas de fósiles</strong> y <strong>oasis fabulosos</strong>, ideales para actividades al aire libre.",
+                        "Primero comenzamos nuestro recorrido en <strong>Merzouga</strong>, conduciendo fuera de pista para visitar una antigua <strong>mina de khol</strong>. Luego visitamos a los <strong>nómadas</strong> en sus tiendas de mimbre hechas a mano, aprendiendo cómo viven mientras tomas un <strong>té bereber</strong>. Nuestra siguiente parada es el <strong>pueblo de Khamlia</strong>, donde disfrutarás de la música y danzas <strong>Gnaoua</strong>. Sus habitantes provienen de países del África subsahariana como <strong>Mali</strong>, <strong>Sudán</strong> y <strong>Níger</strong>. Tiempo libre para almorzar en un restaurante. Después, paseamos por el <strong>palmeral</strong>. Luego conducimos unos kilómetros para ver el <strong>lago salvaje de Merzouga</strong>, también llamado <strong>lago de flamencos</strong>. Cena y noche en hotel."
+                        ]
+                    },
+                    {
+                        "jour": "Día 3: Sahara de Merzouga - Rissani - Erfoud - Gargantas de Todra - Valle del Dades (<span style='color: #05A317'>5 horas en coche</span>)",
+                        "text": [
+                        "Después del desayuno, dejamos el <strong>desierto</strong> para visitar la ciudad de <strong>Rissani</strong>, antigua capital del <strong>Tafilalet</strong>. Rissani sigue siendo un importante <strong>centro comercial</strong>, con un animado <strong>souk</strong> los martes, jueves y domingos.",
+                        "Tras un paseo por el <strong>souk de Rissani</strong>, continuamos hacia <strong>Erfoud</strong>, donde visitamos uno de los talleres de <strong>mármol fósil</strong>. Luego conducimos por los palmerales de <strong>Touroug</strong> y <strong>Tinjdad</strong> hasta llegar a las <strong>Gargantas de Todra</strong>. El curso del río Todra ha creado un gran <strong>cañón</strong> con altas paredes rojas. Este lugar es ideal para <strong>escaladores</strong>. Tiempo libre para disfrutar del paisaje y almorzar en un restaurante. Luego continuamos hacia el <strong>Valle del Dades</strong>, pasando por <strong>Boumalne Dades</strong>. Paradas obligatorias en la formación rocosa de los <strong>“dedos de mono”</strong> y en un mirador con vistas al valle. Cena y noche en hotel."
+                        ]
+                    },
+                    {
+                        "jour": "Día 4: Valle del Dades - Valle de las Rosas - Palmeral de Skoura - Ouarzazate (<span style='color: #05A317'>2.5 horas en coche</span>)",
+                        "text": [
+                        "Después del desayuno, continuamos hacia <strong>Kalaa Magouna</strong> para visitar el <strong>Valle de las Rosas</strong>. Cada año en mayo se celebra un <strong>Festival de las Rosas</strong>, donde los locales ofrecen productos de rosa como <strong>perfumes</strong>, <strong>agua de rosas</strong>, <strong>aceites</strong> y cosméticos. Tiempo libre para almorzar. Luego conducimos por el <strong>palmeral de Skoura</strong> y visitamos la <strong>Kasbah de Amridil</strong>. Finalmente llegamos a <strong>Ouarzazate</strong>, visitamos los <strong>Atlas Studios</strong> donde se filmaron famosas películas y también la <strong>Kasbah Taourirt</strong>. Cena y noche en hotel."
+                        ]
+                    },
+                    {
+                        "jour": "Día 5: Kasbah de Ait Ben Haddou - Montañas del Alto Atlas - Marrakech (<span style='color: #05A317'>3.5 horas en coche</span>)",
+                        "text": [
+                        "En el último día, visitamos la famosa <strong>Kasbah de Ait Ben Haddou</strong>, un pueblo fortificado reconocido como <strong>Patrimonio Mundial por la UNESCO</strong>. Además, esta Kasbah ha aparecido en películas como <strong>Gladiator</strong>, <strong>Alexander</strong>, <strong>The Mummy</strong> y series de TV como <strong>Game Of Thrones</strong>. Luego continuamos hacia <strong>Marrakech</strong>, atravesando el <strong>paso Tizi-N-Tichka</strong> y las <strong>montañas del Alto Atlas</strong>. Se harán paradas para almorzar y tomar fotos en lugares interesantes. Finalmente, te dejaremos en el aeropuerto o tu alojamiento en Marrakech. Fin del <strong>tour de 5 días de Fes a Marrakech</strong>."
+                        ]
+                    }
+                    ]
+                },
+                "infos": {
+                    "titre": "INFORMACIÓN DEL TOUR DE 5 DÍAS DE FES A MARRAKECH",
+                    "soustitre": "Itinerario de 5 días en Marruecos",
+                    "price": {
+                    "titreIncludes": "El precio incluye:",
+                    "includes": [
+                        "Transporte de 5 días en 4x4 privado o minivan con A/C y combustible",
+                        "Recogida en cualquier ubicación en Fes",
+                        "Conductor/guía privado que habla inglés",
+                        "3 noches en excelentes hoteles/riads",
+                        "1 noche en campamento de lujo en el desierto con baño privado",
+                        "Sandboards disponibles en el campamento",
+                        "Paseo en camello (un camello por persona) o traslado en 4x4",
+                        "Excursión por el desierto en 4x4",
+                        "Dejar en cualquier ubicación en Marrakech",
+                        "Cenas y desayunos"
+                    ],
+                    "titreNotIncludes": "No incluye:",
+                    "notIncludes": [
+                        "Almuerzos y bebidas",
+                        "Entradas a monumentos"
+                    ],
+                    "important": {
+                        "titre": "<span style='color: #05A317'>¡Importante!:</span>",
+                        "text": "Ten en cuenta que el <strong>tour de 5 días</strong> es solo una <span style='color: #E67E22'>sugerencia de itinerario</span>. Si no se ajusta a lo que buscas, no dudes en <strong>contactarnos</strong>. Podemos organizar un <span style='color: #3498DB'>itinerario diferente</span> según tus <strong>preferencias</strong> y duración de estancia. Ofrecemos tours <strong>personalizados</strong> en todo Marruecos."
+                    },
+                    "priceText": {
+                        "titre": "<span style='color: #0264C7'>El precio</span>",
+                        "text": "Varía según el <strong>número de personas</strong>; cuantos más se unan al tour, menor será el precio por persona. También depende de la <strong>calidad del alojamiento</strong>. <strong>Contáctanos</strong> para un precio exacto."
+                    }
+                    }
+                },
+                "reviews": {
+                    "titre": "RESEÑAS: TOUR DE 5 DÍAS EN MARRUECOS",
+                    "listes": [
+                    {
+                        "name": "Sarah M. – USA",
+                        "img": "profil_24",
+                        "rating": "5",
+                        "comment": "¡Una experiencia inolvidable de 5 días! Los paisajes de Fes al Sahara eran impresionantes. El paseo en camello y el campamento de lujo en Merzouga fueron lo mejor del viaje. ¡Muy recomendable!"
+                    },
+                    {
+                        "name": "Jonathan R. – UK",
+                        "img": "profil_25",
+                        "rating": "5",
+                        "comment": "Tour increíble de principio a fin. Nuestro conductor fue muy amable y conocedor. Nos encantó visitar Ifrane, el bosque de cedros y especialmente las Gargantas del Todra."
+                    },
+                    {
+                        "name": "Hajar E. – Marruecos",
+                        "img": "profil_26",
+                        "rating": "5",
+                        "comment": "Todo estuvo perfectamente organizado. Los hoteles y el campamento del desierto eran muy limpios y cómodos. Ver el amanecer en el Sahara fue mágico."
+                    },
+                    {
+                        "name": "Luca B. – Italia",
+                        "img": "profil_27",
+                        "rating": "4.5",
+                        "comment": "¡Gran experiencia! Disfrutamos de paisajes diversos y la cultura bereber auténtica. Los largos trayectos valieron la pena por las vistas."
+                    },
+                    {
+                        "name": "Emily D. – Canadá",
+                        "img": "profil_28",
+                        "rating": "5",
+                        "comment": "Uno de los mejores tours que hemos reservado. El guía fue paciente, divertido y muy informativo. ¡La visita a Ait Ben Haddou fue increíble!"
+                    }
+                    ]
+                },
+                "faqs": {
+                    "titre": "PREGUNTAS FRECUENTES: TOUR DE 5 DÍAS EN MARRUECOS",
+                    "listes":[
+                    {
+                        "question":"¿El tour de 5 días es privado o compartido?",
+                        "repense": "El tour de cinco días es privado, asegurando que solo los viajeros que lo reserven participen. No se unirán otras personas. Nuestro enfoque principal es ofrecer experiencias personalizadas y de alta calidad."
+                    },
+                    {
+                        "question":"¿Cuál es la mejor época para visitar Marruecos?",
+                        "text":[
+                        "La mejor época para visitar es primavera (marzo-mayo) y otoño (septiembre-noviembre), cuando el clima es templado y agradable.",
+                        "El invierno también es bueno, especialmente en el sur y en el desierto."
+                        ]
+                    },
+                    {
+                        "question":"¿Es adecuado para todas las edades?",
+                        "repense": "Este tour de 5 días es adecuado para todas las edades, pero implica entre 1 y 7 horas de conducción diaria. Aunque nuestros vehículos son cómodos y hacemos paradas, si no estás acostumbrado, puedes considerar un tour más largo o personalizado."
+                    },
+                    {
+                        "question":"¿Qué tipo de vehículos se utilizan?",
+                        "repense": "Se utiliza SUV (4x4) o minivan, ambos con aire acondicionado.",
+                        "listeRep":[
+                        "4 Land Cruiser Prado (hasta 4 pasajeros)",
+                        "Minivans: Mercedes Vito Tourer, Ford Tourneo Van o similar (hasta 8 pasajeros)"
+                        ],
+                        "text":[
+                        "Para grupos mayores de 8 personas, se puede proporcionar un minibús de hasta 18 pasajeros."
+                        ]
+                    },
+                    {
+                        "question":"¿Cuánto dura el paseo en camello? ¿Cuál es la alternativa?",
+                        "text":[
+                        "El paseo dura entre 40 minutos y 1,5 horas, según el campamento.",
+                        "Si no deseas montar en camello, el campamento tiene 4x4 para transporte de personas y equipaje.",
+                        "Alternativamente, se pueden organizar ATVs con coste adicional."
+                        ]
+                    },
+                    {
+                        "question":"Preferencias dietéticas?",
+                        "repense": "Indícanos tus preferencias dietéticas y nos aseguraremos de cubrirlas, especialmente para las cenas incluidas."
+                    },
+                    {
+                        "question":"¿Qué pasa con el equipaje durante el paseo en camello?",
+                        "text":[
+                        "Solo lleva lo necesario para el paseo.",
+                        "El resto del equipaje será transportado por el 4x4 del campamento."
+                        ]
+                    },
+                    {
+                        "question":"Detalles de recogida y devolución?",
+                        "text":[
+                        "La recogida puede ser en el aeropuerto o en tu alojamiento en Fes.",
+                        "Al final del tour, te dejaremos en tu alojamiento en Marrakech o en el aparcamiento más cercano. La hora de finalización varía según los tiempos de visita."
+                        ]
+                    },
+                    {
+                        "question":"¿La tienda del campamento es privada? ¿Tiene baño privado?",
+                        "repense":"La tienda del campamento de lujo es privada y cuenta con baño privado con agua caliente."
+                    },
+                    {
+                        "question":"Gastos adicionales",
+                        "text":[
+                        "Cambio de moneda: Euros o USD pueden cambiarse por Dirham marroquí (MAD) en bancos o casas de cambio. Hay cajeros disponibles.",
+                        "Se aceptan tarjetas y monedas extranjeras, pero se recomienda llevar MAD.",
+                        "Coste de comidas: de 5 € a 20 € por persona, según el lugar.",
+                        "Regateo: es una práctica aceptada en Marruecos."
+                        ]
+                    }
+                    ]
+                },
+                "images":[
+                    "img62", "img5", "img3", "img53", "img57", "img52", "img42", "img30"
+                ]
+                }
+            ]
+        },
+        {
+                    "from": "Tours desde Tánger",
+            "tours": [
+                {
+                    "id": "5",
+                    "to": "Tour de 6 días de Tánger a Marrakech",
+                    "departure": "Desde Tánger",
+                    "titre": "TOUR DE 6 DÍAS DE TÁNGER A MARRAKECH",
+                    "durre": "6 Días",
+                    "about": {
+                        "entete": "Acerca de este tour",
+                        "titre": "6 DÍAS EN MARRUECOS DESDE TÁNGER",
+                        "paragraph1": "Tour de 6 días desde Tánger. Durante estos 6 días / 5 noches disfrutarás de Marruecos como nunca antes con nosotros. Visitarás los lugares más asombrosos de Marruecos. El tour comienza en Tánger. Primero, visitarás el Cabo Espartel y también la cueva de Hércules. Luego cruzarás las montañas del Rif, pasearás por la ciudad azul de Chefchaouen y explorarás las ruinas romanas de Volubilis. El tour también incluye visitas a Fes y Meknes. Además, la visita a la Suiza de Marruecos, Ifrane y el bosque de cedros. Montarás en camellos y disfrutarás del mágico atardecer y amanecer en el desierto del Sahara de Merzouga. Pasearás por las magníficas gargantas de Todra y Dades. Visitarás kasbahs históricos y cruzarás las montañas del Alto Atlas y el puerto de Tizi-n-Tichka. El tour termina en Marrakech."
+                    },
+                    "programme": {
+                        "titre": "ITINERARIO EN MARRUECOS: TOUR DE 6 DÍAS DESDE TÁNGER",
+                        "soustitre": "Tour de 6 DÍAS EN MARRUECOS",
+                        "jours": [
+                            {
+                                "jour": "Día 1: Llegada a Tánger - Chefchaouen (<span style='color: #05A317'>2 Horas de viaje</span>)",
+                                "text": [
+                                    "En el primer día de tu <strong>tour de 6 días desde Tánger</strong>, te recogeremos en tu <strong>alojamiento</strong>, <strong>aeropuerto</strong> o <strong>puerto de Tánger</strong>. Conocida como <strong>la Novia del Norte</strong>, la ciudad se encuentra en el noroeste, donde el <strong>Mar Mediterráneo</strong> se encuentra con el <strong>Océano Atlántico</strong> cerca del <strong>Cabo Espartel</strong>. Comenzaremos explorando la ciudad, incluyendo las <strong>Cuevas de Hércules</strong> y el <strong>Cabo Espartel</strong>. Tendrás tiempo libre para almorzar. Luego conduciremos hacia el interior hasta <strong>Chefchaouen</strong> pasando por la ciudad de <strong>Tetuán</strong> y las <strong>montañas del Rif</strong>, con paradas para vistas panorámicas. Noche en un hotel en <strong>Chefchaouen</strong>.",
+                                    "La ciudad se encuentra en el <strong>noroeste</strong>, donde el <strong>Mar Mediterráneo</strong> se encuentra con el <strong>Océano Atlántico</strong> cerca del <strong>Cabo Espartel</strong>. Comenzaremos explorando la ciudad, incluyendo las <strong>Cuevas de Hércules</strong> y el <strong>Cabo Espartel</strong>. Tendrás tiempo libre para <strong>almorzar</strong>. Luego conduciremos hacia el interior hasta <strong>Chefchaouen</strong> pasando por la ciudad de <strong>Tetuán</strong> y las <strong>montañas del Rif</strong>, con paradas para vistas panorámicas. Noche en un hotel en <strong>Chefchaouen</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 2: Chefchaouen - Ruinas romanas de Volubilis - Meknes - Fes (<span style='color: #05A317'>4 Horas de viaje</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, disfruta de un paseo por los hermosos callejones de <strong>Chefchaouen azul</strong>. Luego nos dirigimos a las antiguas <strong>ruinas romanas de Volubilis</strong>, Patrimonio Mundial de la UNESCO, famosas por sus <strong>mosaicos</strong>, <strong>columnas</strong> y <strong>arcos</strong> bien conservados. Tras explorar las ruinas, conducimos unos 30 km hasta <strong>Meknes</strong>, la capital ismaelita y una de las <strong>ciudades imperiales de Marruecos</strong>, para visitar <strong>Bab al-Mansour</strong>, el <strong>Sahrij Souani</strong>, los <strong>establos reales</strong> y <strong>graneros</strong>, y el <strong>Mausoleo de Moulay Ismail</strong>. Luego continuamos hacia <strong>Fes</strong>. Noche en un <strong>riad</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 3: Visita guiada en Fes (<span style='color: #05A317'>30min de viaje / 2 a 3 horas a pie</span>)",
+                                "text": [
+                                    "Te recogeremos en tu <strong>Riad</strong> en <strong>Fes</strong> después del <strong>desayuno</strong> para comenzar la exploración inmersiva de una de las <strong>ciudades imperiales más icónicas de Marruecos</strong>, <strong>Fes</strong>, corazón <strong>cultural</strong> y <strong>espiritual</strong> del país.",
+                                    "Tu recorrido comienza con un <strong>tour en coche</strong>. Primero, nos detendremos en la magnífica <strong>Puerta del Palacio Real</strong>, seguida de una visita a <strong>'El Mellah'</strong>, el histórico <strong>barrio judío</strong>. Luego disfruta de vistas impresionantes desde la <strong>fortaleza Borj Sud</strong>, con vistas a la <strong>antigua medina</strong>. La última parada de esta parte es la <strong>Villa y Escuela de Cerámica</strong>, donde presenciarás <strong>artesanía tradicional</strong>.",
+                                    "Luego, un <strong>recorrido a pie</strong>, retrocede en el tiempo mientras entras en la <strong>medina medieval</strong>, Patrimonio Mundial de la UNESCO y una de las ciudades históricas mejor conservadas del mundo árabe. Acompañado por un <strong>guía local</strong>, explorarás lugares destacados como la <strong>Madrasa Al Attarine</strong>, la <strong>Universidad y Mezquita de Al Quaraouiyine</strong>, considerada la <strong>universidad más antigua del mundo</strong>, y los coloridos <strong>curtidurías Chouara</strong>, donde se tiñe <strong>cuero</strong> utilizando métodos centenarios.",
+                                    "Después de este inolvidable viaje a través de la <strong>historia</strong>, regresarás a tu <strong>riad</strong> para <strong>relajarte</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 4: Fes - Ifrane - Bosque de cedros - Midelt - Valle de Ziz - Desierto de Merzouga (<span style='color: #05A317'>7 Horas de viaje</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, el <strong>tour de 6 días desde Tánger</strong> continúa hacia el sur pasando por <strong>Imouzzer</strong> para visitar <strong>Ifrane</strong>, famosa por su <strong>clima fresco</strong>, <strong>nieve invernal</strong> y <strong>casas de estilo alpino</strong> – por eso se le conoce como <strong>'la Suiza de Marruecos'</strong>. Luego continuamos hacia el <strong>Bosque de Cedros</strong>, hogar de <strong>macacos de Berbería</strong>; disfruta de un breve paseo entre los <strong>árboles antiguos</strong>. Más tarde, continuamos hacia <strong>Midelt</strong> para tiempo libre en <strong>almuerzo</strong>, luego conducimos por el <strong>Paso Tizi-n-Talghamt</strong> y a lo largo del <strong>Valle de Ziz</strong>, con paradas para <strong>vistas panorámicas</strong>.",
+                                    "Por la tarde llegamos a las <strong>dunas del Sahara en Merzouga</strong>, donde cambiarás a <strong>camellos</strong> y cruzarás las <strong>arenas</strong>, haciendo una parada en lo alto de una <strong>duna alta</strong> para disfrutar del <strong>atardecer</strong>. Continuamos hacia tu <strong>campamento en el desierto</strong> – una mezcla de <strong>tiendas tradicionales nómadas</strong> y <strong>comodidades modernas</strong> – donde podrás disfrutar de <strong>tambores bereberes</strong> alrededor de la <strong>fogata</strong> bajo un vasto cielo <strong>lleno de estrellas</strong>. Noche en un <strong>campamento de lujo</strong> en <strong>Merzouga</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 5: Desierto de Merzouga - Rissani - Erfoud - Gargantas de Todra - Valle del Dades (<span style='color: #05A317'>5 Horas de viaje</span>)",
+                                "text": [
+                                    "Levantarse temprano para ver el <strong>amanecer</strong> es imprescindible. Después del <strong>desayuno</strong>, dejamos el <strong>desierto</strong> para ir a <strong>Rissani</strong>, la antigua capital de <strong>Tafilalet</strong> y un importante <strong>centro comercial</strong> con un animado <strong>souk</strong> los martes, jueves y domingos. Continuamos hacia <strong>Erfoud</strong> para visitar un <strong>taller de mármol fosilizado</strong>.",
+                                    "Luego conducimos por los <strong>palmerales</strong> de <strong>Touroug</strong> y <strong>Tinjdad</strong> para llegar a las <strong>Gargantas de Todra</strong>, donde el <strong>río Todra</strong> ha tallado un espectacular <strong>cañón</strong> con imponentes <strong>acantilados rojos</strong> populares entre los <strong>escaladores</strong>. Disfruta de tiempo libre para explorar la <strong>garganta</strong> y almorzar. Por la tarde, continuamos hacia el <strong>Valle del Dades</strong> a través de <strong>Boumalne Dades</strong>, con paradas en las formaciones rocosas <strong>'Dedos de mono'</strong> y un <strong>mirador</strong> panorámico del valle. <strong>Cena</strong> y noche en un <strong>hotel</strong>."
+                                ]
+                            },
+                            {
+                                "jour": "Día 6: Valle del Dades - Valle de las Rosas - Palmerales de Skoura - Ouarzazate - Ait Benhaddou - Alto Atlas - Marrakech (<span style='color: #05A317'>5.5 Horas de viaje</span>)",
+                                "text": [
+                                    "Después del <strong>desayuno</strong>, el tour continúa hacia <strong>Kelaat M'Gouna</strong> para visitar el <strong>Valle de las Rosas</strong>. Cada <strong>mayo</strong>, el <strong>Festival de la Rosa</strong> exhibe productos locales — <strong>agua de rosas</strong>, <strong>aceites esenciales</strong> y <strong>cosméticos</strong>. Luego conducimos por los <strong>palmerales de Skoura</strong> y llegamos a <strong>Ouarzazate</strong> para visitar los <strong>estudios de cine</strong>.",
+                                    "Continuamos hacia la famosa <strong>Kasbah de Ait Benhaddou</strong>, un pueblo fortificado listado por la UNESCO, que ha aparecido en películas como <strong>Gladiator</strong>, <strong>Alexander</strong> y <strong>The Mummy</strong>, así como en la serie <strong>Game of Thrones</strong>. Después, visitamos la <strong>Kasbah de Telouet</strong> y cruzamos el <strong>Alto Atlas</strong> por el <strong>Puerto Tizi n'Tichka</strong>, con paradas para <strong>almuerzo</strong> y <strong>fotos</strong>. Finalmente, te dejamos en tu <strong>riad</strong> en <strong>Marrakech</strong>. Fin del <strong>tour de 6 días</strong>."
+                                ]
+                            }
+                        ]
+                    },
+                    "infos": {
+                        "titre": "TOUR DE 6 DÍAS DESDE TÁNGER",
+                        "soustitre": "ITINERARIO DE 6 DÍAS EN MARRUECOS",
+                        "price": {
+                            "titreIncludes": "El precio incluye:",
+                            "includes": [
+                                "Transporte privado de 6 días en 4x4 o Minivan con A/C + combustible.",
+                                "Conductor privado que habla inglés.",
+                                "Tour a pie en Fes con guía local.",
+                                "Noches en excelentes riads.",
+                                "Noche en un campamento de lujo en el desierto, con baño privado.",
+                                "Paseo en camello (un camello por persona), o transferencia en 4x4 como alternativa.",
+                                "Tablas de arena disponibles en el campamento.",
+                                "Recogida en cualquier ubicación en Tánger (aeropuerto, hotel, etc.)",
+                                "Traslado a tu alojamiento en Marrakech.",
+                                "2 cenas en el campamento y Valle del Dades.",
+                                "Desayunos diarios."
+                            ],
+                            "titreNotIncludes": "El precio no incluye:",
+                            "notIncludes": [
+                                "Almuerzos, bebidas y algunas cenas",
+                                "Entradas a monumentos (22€ por persona)"
+                            ],
+                            "important": {
+                                "titre": "<span style='color: #05A317'>¡Importante!:</span>",
+                                "text": "Ten en cuenta que el <strong>viaje de 5 días</strong> es solo una <span style='color: #E67E22'>sugerencia de itinerario</span>, si no coincide con lo que buscas, no dudes en <strong>contactarnos</strong>. Organizaremos un <span style='color: #3498DB'>itinerario diferente</span> según tus <strong>preferencias</strong> y <strong>duración de estancia</strong>. Ofrecemos tours y viajes <strong>personalizados</strong> y a medida por todo Marruecos."
+                            },
+                            "priceText": {
+                                "titre": "<span style='color: #0264C7'>El precio</span>",
+                                "text": "Varía según el <strong>número de personas</strong>, cuantos más se unan al tour, menor será el precio. Dado que el <span style='color: #3498DB'>costo del transporte</span> es fijo, el precio se dividirá según el número de personas. El precio también depende de la <strong>calidad del alojamiento</strong>. <strong>Contáctanos</strong> para un precio exacto."
+                            }
+                        }
+                    },
+                    "reviews": {
+                        "titre": "RESEÑAS: ITINERARIO DEL TOUR DE 6 DÍAS EN MARRUECOS",
+                        "listes": [
+                            {
+                                "name": "Sophie L. – Francia",
+                                "img":"profil_29",
+                                "rating": "5",
+                                "comment": "¡Increíble tour de 6 días! El guía fue muy conocedor y el itinerario estaba perfectamente planeado. Desde las calles azules de Chefchaouen hasta el atardecer en el Sahara, cada momento fue inolvidable."
+                            },
+                            {
+                                "name": "James K. – USA",
+                                "img":"profil_30",
+                                "rating": "4.8",
+                                "comment": "¡Excelente experiencia! Me encantó el paseo en camello en Merzouga y el campamento de lujo en el desierto. El paso del Alto Atlas fue impresionante. Recomiendo altamente este tour para quienes quieren conocer Marruecos al completo."
+                            },
+                            {
+                                "name": "Amina B. – Marruecos",
+                                "img":"profil_31",
+                                "rating": "5",
+                                "comment": "El tour superó mis expectativas. Las visitas a Fes y Meknes fueron fantásticas, y las gargantas de Todra y Dades impresionantes. Transporte privado excelente y hoteles cómodos."
+                            },
+                            {
+                                "name": "Marc T. – Suiza",
+                                "img":"profil_32",
+                                "rating": "4.7",
+                                "comment": "Tour muy bien organizado. El guía fue amable e informativo. Me encantó visitar Ait Benhaddou y el Valle de las Rosas. Mezcla perfecta de cultura, aventura y relax."
+                            }
+                        ]
+                    },
+                    "faqs": {
+                        "titre": "PREGUNTAS FRECUENTES: ITINERARIO DEL TOUR DE 6 DÍAS",
+                        "listes":[
+                            {
+                                "question":"¿El tour de 6 días es privado o compartido?",
+                                "repense": "El tour de seis días es una experiencia privada, asegurando que solo los viajeros que hicieron la reserva participen. Ninguna persona adicional se unirá al tour. Nuestro objetivo principal es ofrecer experiencias personalizadas y de alta calidad, por eso ofrecemos principalmente tours privados."
+                            },
+                            {
+                                "question": "¿Cuál es la mejor época para visitar Marruecos?",
+                                "text": [
+                                    "Las mejores épocas para visitar son primavera (marzo-mayo) y otoño (septiembre-noviembre), cuando el clima es templado y agradable en la mayoría de las regiones.",
+                                    "El invierno también es ideal, especialmente en el sur / zona del desierto."
+                                ]
+                            },
+                            {
+                                "question": "¿El tour es adecuado para todas las edades?",
+                                "repense": "Este tour de 6 días es adecuado para personas de todas las edades. Sin embargo, ten en cuenta que el tour implica aproximadamente de 1 a 7 horas de conducción cada día. Aunque nuestros vehículos son nuevos y cómodos, y hacemos paradas regulares, si no estás acostumbrado a este nivel de viaje, podrías considerar un tour más largo o personalizado."
+                            },
+                            {
+                                "question": "¿Qué tipo de vehículos se utilizan?",
+                                "repense": "El vehículo será un SUV (4x4) o una minivan, ambos con aire acondicionado. Detalles del vehículo:",
+                                "listeRep": [
+                                    "4 Land Cruiser Prado (hasta 4 pasajeros)",
+                                    "Minivans: Mercedes Vito Tourer, Ford Tourneo Van o similar (hasta 8 pasajeros)"
+                                ],
+                                "text":[
+                                    "Para grupos de más de 8 personas, se puede proporcionar un minibús que transporte hasta 18 pasajeros."
+                                ]
+                            },
+                            {
+                                "question": "¿Cuánto dura el paseo en camello? ¿Cuál es la alternativa?",
+                                "text":[
+                                    "El paseo en camello dura de 40 minutos a 1,5 horas, según el campamento donde te hospedes.",
+                                    "Si no deseas montar en camello, el campamento dispone de un 4x4 para transportar personas y equipaje dentro y fuera del campamento.",
+                                    "Alternativamente, se pueden organizar vehículos todo terreno (ATV) con un costo adicional."
+                                ]
+                            },
+                            {
+                                "question": "¿Preferencias alimenticias?",
+                                "repense": "Por favor, indícanos tus preferencias alimenticias y nos aseguraremos de que se cumplan. Infórmanos con antelación para organizar paradas para almorzar y notificar al Riad/Campamento, ya que algunas cenas están incluidas en el paquete."
+                            },
+                            {
+                                "question": "¿Qué pasa con tu equipaje durante el paseo en camello?",
+                                "text": [
+                                    "Durante el paseo en camello, solo llevarás lo necesario para la ruta.",
+                                    "El resto de tu equipaje será transportado en el 4x4 del campamento y lo encontrarás a tu llegada."
+                                ]
+                            },
+                            {
+                                "question": "Detalles de recogida y entrega",
+                                "text": [
+                                    "La recogida puede ser desde el aeropuerto o tu alojamiento en Casablanca.",
+                                    "Al final del tour de 7 días, te dejaremos en tu hotel o riad en Marrakech, o en el estacionamiento más cercano disponible. El tour generalmente concluye entre las 5:00 p.m. y 7:00 p.m. en Marrakech, pero la duración exacta puede variar según el tiempo en cada lugar."
+                                ]
+                            },
+                            {
+                                "question": "¿La tienda es privada? ¿Tiene baño privado?",
+                                "repense": "La tienda en el campamento de lujo es privada y tiene baños privados con agua caliente."
+                            },
+                            {
+                                "question": "Gastos?",
+                                "text": [
+                                    "Cambio de divisas: Euros o USD se pueden cambiar por Dirham marroquí (MAD) en bancos y casas de cambio. Además, hay cajeros automáticos ampliamente disponibles.",
+                                    "Aunque las tarjetas de crédito y monedas extranjeras (EUR/USD) suelen aceptarse, es recomendable llevar moneda local (MAD) para mayor comodidad.",
+                                    "Costos de comidas: Las comidas suelen variar de 5€ a 20€ por persona, según el establecimiento.",
+                                    "Regateo / Negociación de precios: El regateo es una práctica aceptada en Marruecos y se espera que los clientes participen. Muchos lugares lo aplican comúnmente."
+                                ]
+                            }
+                        ]
+                    },
+                    "images":[
+                        "img61", "img70", "img84", "img62", "img10", "img48", "img36", "img25", "img39", "img50", "img28", "img31", "img40"
+                    ]
+                }
+            ]
+        },
+        {
+            "from": "Tours Desde Errachidia",
+            "tours": [
+                {
+                "id": "6",
+                "to": "Excursión de 4 días al desierto de Merzouga desde Errachidia hasta Marrakech",
+                "departure": "Desde Errachidia",
+                "titre": "TOUR DE 4 DÍAS DESDE ERRACHIDIA A MARRAKECH",
+                "durre": "4 Días",
+                "about": {
+                    "entete": "Sobre este tour",
+                    "titre": "4 DÍAS EN MARRUECOS DESDE ERRACHIDIA",
+                    "paragraph1": "Excursión de <strong>4 días al desierto de Merzouga desde Errachidia</strong>. Durante estos <strong>4 días y 3 noches</strong>, explorarás la <strong>zona desértica</strong>. Visitarás a los <strong>nómadas</strong> en sus <strong>haimas</strong>, disfrutarás de la música <strong>Gnawa</strong> y de las danzas del <strong>pueblo de Khamlia</strong>. Después, visitarás una antigua <strong>mina de kohl</strong> y el <strong>Lago de la Fauna de Merzouga</strong>, a pocos kilómetros de distancia. Luego, pasearás por los <strong>palmerales</strong>, montarás en <strong>camello</strong> y disfrutarás del mágico <strong>atardecer</strong> y <strong>amanecer</strong> en las <strong>dunas</strong>. Pasarás una noche en un <strong>campamento</strong> en medio del <strong>Desierto del Sahara</strong>. Después visitaremos el <strong>Valle del Dades</strong>, el <strong>Cañón del Todra</strong> y la <strong>Kashbah de Ait Ben Haddou</strong>. Cruzaremos las <strong>Montañas del Alto Atlas</strong> y el <strong>Puerto Tizi-n-Tichka</strong>. El tour termina en <strong>Marrakech</strong>."
+                },
+                "programme": {
+                    "titre": "ITINERARIO DE MARRUECOS: TOUR DE 4 DÍAS DESDE ERRACHIDIA",
+                    "soustitre": "Tour de 4 Días en Marruecos",
+                    "jours": [
+                    {
+                        "jour": "Día 1: Llegada a Errachidia - Merzouga (<span style='color: #05A317'>2 horas de viaje</span>)",
+                        "text": [
+                        "En el <strong>primer día</strong> de tu <strong>tour de 4 días al desierto de Merzouga</strong>, te recogemos en el <strong>Aeropuerto de Errachidia (ERH)</strong> o en tu <strong>alojamiento</strong> y conducimos hacia las <strong>dunas del Sahara en Merzouga</strong>. <strong>Noche en Merzouga</strong>.",
+                        "Opciones de vuelo"
+                        ],
+                        "listes": [
+                        "Vuelos internos desde Marrakech operan 3 días a la semana (Ryanair), llegando entre las 7:00 y las 15:00.",
+                        "Vuelos internos desde Casablanca operan 7 días a la semana (Royal Air Maroc), llegando a medianoche."
+                        ]
+                    },
+                    {
+                        "jour": "Día 2: Explorar Merzouga - Nómadas - Khamlia (pueblo Gnawa) - Lago de Merzouga - Erg Chebbi - Palmeral (<span style='color: #05A317'>2 horas de viaje</span>)",
+                        "text": [
+                        "Después del <strong>desayuno</strong>, dedicamos el día a explorar el <strong>Desierto de Merzouga (Erg Chebbi)</strong>. Esta zona ofrece <strong>dunas</strong>, un <strong>lago estacional</strong>, <strong>sitios de fósiles</strong>, <strong>pequeñas minas</strong> y <strong>bellos oasis</strong>—perfecto para <strong>actividades al aire libre</strong>.",
+                        "Empezamos con una <strong>conducción off-road</strong> hacia una antigua <strong>mina de kohl</strong>, luego visitamos a los <strong>nómadas en sus tiendas tradicionales</strong> y descubrimos <strong>su modo de vida</strong> mientras tomamos un <strong>té bereber</strong>. Después continuamos hacia <strong>Khamlia</strong> para disfrutar de la <strong>música y danzas Gnawa</strong>; muchos habitantes tienen orígenes en <strong>Mali</strong>, <strong>Sudán</strong> y <strong>Níger</strong>. <strong>Tiempo libre para almorzar</strong> en un <strong>restaurante local</strong>. Por la <strong>tarde</strong>, paseamos por un <strong>palmeral</strong> y nos acercamos al <strong>lago salvaje de Merzouga</strong> (conocido como el <strong>lago de los flamencos</strong>).",
+                        "Más tarde, cambiamos a <strong>camellos</strong> para cruzar las <strong>dunas</strong>, haciendo una parada en una <strong>duna alta</strong> para disfrutar del <strong>atardecer</strong>. Luego continuamos al <strong>campamento de lujo</strong>. Disfrutarás de <strong>tambores bereberes</strong> alrededor de la <strong>hoguera</strong> bajo un <strong>cielo lleno de estrellas</strong>. <strong>Cena</strong> y <strong>noche en el campamento</strong>."
+                        ]
+                    },
+                    {
+                        "jour": "Día 3: Sahara de Merzouga - Rissani - Erfoud - Gargantas del Todra - Valle del Dades (<span style='color: #05A317'>5 horas de viaje</span>)",
+                        "text": [
+                        "Después del <strong>desayuno</strong>, dejamos el <strong>desierto</strong> para visitar la <strong>ciudad de Rissani</strong>, la <strong>antigua capital de Tafilalet</strong>. <strong>Rissani</strong> sigue siendo un <strong>gran centro comercial</strong> con un <strong>souk muy animado</strong> los <strong>martes</strong>, <strong>jueves</strong> y <strong>domingos</strong>.",
+                        "Tras una caminata por el <strong>Souk de Rissani</strong>, continuamos hacia <strong>Erfoud</strong> para visitar un <strong>taller de mármol fosilizado</strong>. Luego seguimos por los palmerales de <strong>Touroug</strong> y <strong>Tinjdad</strong> hasta llegar a las <strong>Gargantas del Todra</strong>, un <strong>gran cañón</strong> de paredes rojas ideal para <strong>escaladores</strong>. <strong>Tiempo libre para almorzar</strong>. Después continuamos al <strong>Valle del Dades</strong>, pasando por <strong>Boumalne Dades</strong>. Haremos una parada en la formación rocosa <strong>‘Dedos de Mono’</strong> y en un mirador sobre el <strong>Valle del Dades</strong>. Finalmente, <strong>cena</strong> y <strong>noche en un hotel</strong>."
+                        ]
+                    },
+                    {
+                        "jour": "Día 4: Valle del Dades - Valle de las Rosas - Palmerales de Skoura - Ouarzazate - Kasbah Ait Ben Haddou - Alto Atlas - Marrakech (<span style='color: #05A317'>5.5 horas de viaje</span>)",
+                        "text": [
+                        "En el <strong>último día</strong> de tu <strong>tour de 4 días</strong>, continuamos hacia <strong>Kalaa Magouna</strong> para visitar el <strong>Valle de las Rosas</strong>. Cada <strong>mayo</strong>, se celebra un <strong>Festival de las Rosas</strong> donde los <strong>habitantes</strong> ofrecen productos como <strong>perfumes</strong>, <strong>agua de rosas</strong>, <strong>aceite</strong> y <strong>cosméticos</strong>. Luego atravesamos los <strong>palmerales de Skoura</strong>. Más tarde, llegamos a <strong>Ouarzazate</strong>, conocida como la <strong>puerta del desierto</strong>, donde visitaremos los <strong>estudios de cine</strong> donde se filmaron películas famosas.",
+                        "Después visitamos la famosa <strong>Kasbah de Ait Ben Haddou</strong>, un <strong>pueblo fortificado</strong> declarado <strong>Patrimonio Mundial</strong> por la UNESCO. También ha aparecido en muchas <strong>películas</strong> como <strong>Gladiator</strong>, <strong>Alexander</strong> y <strong>The Mummy</strong>, además de series como <strong>Game of Thrones</strong>. Luego seguimos hacia <strong>Marrakech</strong> atravesando el <strong>Puerto Tizi-N-Tichka</strong> y las espectaculares <strong>Montañas del Alto Atlas</strong>. Haremos paradas para <strong>almorzar</strong> y sacar <strong>fotos</strong>. Finalmente, llegamos a <strong>Marrakech</strong> y te dejamos en el <strong>aeropuerto</strong> o en tu <strong>alojamiento</strong>. (<strong>Fin del tour</strong>)"
+                        ]
+                    }
+                    ]
+                },
+                "infos": {
+                    "titre": "EXCURSIÓN DE 4 DÍAS DESDE ERRACHIDIA",
+                    "soustitre": "ITINERARIO 4 DÍAS EN MARRUECOS",
+                    "price": {
+                    "titreIncludes": "El precio incluye:",
+                    "includes": [
+                        "Transporte privado 6 días en 4x4 o Miniván con A/C + combustible.",
+                        "Conductor privado de habla inglesa.",
+                        "Visita guiada a pie en Fez con guía local.",
+                        "Noches en Riads de excelente calidad.",
+                        "Noche en un campamento de lujo con baños privados.",
+                        "Paseo en camello (1 camello por persona) o traslado alternativo en 4x4.",
+                        "Sandboard disponible en el campamento.",
+                        "Recogida en cualquier lugar de Errachidia (aeropuerto, hotel, etc.).",
+                        "Traslado al alojamiento en Marrakech.",
+                        "2 cenas en el campamento y en el Valle del Dades.",
+                        "Desayuno diario."
+                    ],
+                    "titreNotIncludes": "El precio no incluye:",
+                    "notIncludes": [
+                        "Almuerzos, bebidas & algunas cenas.",
+                        "Entradas a monumentos (22€ por persona)."
+                    ],
+                    "important": {
+                        "titre": "<span style='color: #05A317'>¡Importante!:</span>",
+                        "text": "Ten en cuenta que este <strong>tour de 4 días</strong> es solo una <span style='color: #E67E22'>sugerencia de itinerario</span>. Si no coincide con lo que buscas, no dudes en <strong>contactarnos</strong>. Organizaremos un <span style='color: #3498DB'>itinerario diferente</span> según tus <strong>preferencias</strong> y la <strong>duración de tu estancia</strong>. Ofrecemos tours <strong>personalizados</strong> por todo Marruecos."
+                    },
+                    "priceText": {
+                        "titre": "<span style='color: #0264C7'>El Precio</span>",
+                        "text": "Varía según el <strong>número de personas</strong>: cuanto más personas, más económico será. El coste del <span style='color: #3498DB'>transporte</span> es fijo, por lo que se divide entre los participantes. El precio también depende de la <strong>calidad del alojamiento</strong>. <strong>Contáctanos</strong> para un precio exacto."
+                    }
+                    }
+                },
+                "reviews": {
+                    "titre": "RESEÑAS : ITINERARIO DE 4 DÍAS EN MARRUECOS",
+                    "listes": [
+                    {
+                        "name": "Sophie Martin - Francia",
+                        "img": "profil_39",
+                        "rating": "5",
+                        "comment": "¡Una experiencia increíble! El <strong>desierto de Merzouga</strong> es impresionante, el <strong>paseo en camello</strong> y el <strong>atardecer en las dunas</strong> fueron inolvidables. Nuestro guía era muy amable y experto."
+                    },
+                    {
+                        "name": "James Thompson - Reino Unido",
+                        "img": "profil_40",
+                        "rating": "4",
+                        "comment": "El <strong>tour de 4 días</strong> estuvo muy bien organizado. Visitar el <strong>Valle del Dades</strong> y las <strong>Gargantas del Todra</strong> fue increíble. Me hubiera gustado tener un poco más de tiempo en el <strong>Valle de las Rosas</strong>."
+                    },
+                    {
+                        "name": "Laura Garcia - España",
+                        "img": "profil_41",
+                        "rating": "5",
+                        "comment": "Me encantó la experiencia en el <strong>campamento de lujo</strong>. La <strong>música bereber</strong> alrededor del <strong>fuego</strong> fue mágica, y las vistas del <strong>Alto Atlas</strong> eran espectaculares."
+                    },
+                    {
+                        "name": "Emma Wilson - Países Bajos",
+                        "img": "profil_42",
+                        "rating": "5",
+                        "comment": "¡Todo superó mis expectativas! La <strong>Kashbah de Ait Ben Haddou</strong> fue fascinante, y el viaje por el <strong>Tizi-n-Tichka</strong> ofreció vistas increíbles. Muy recomendable este <strong>tour de 4 días</strong>."
+                    },
+                    {
+                        "name": "Mohamed El Idrissi - Marruecos",
+                        "img": "profil_43",
+                        "rating": "4",
+                        "comment": "¡Gran tour! Conocer a los <strong>nómadas</strong> en sus <strong>haimas</strong> fue una experiencia única, y el <strong>Lago de Merzouga</strong> era precioso. El ritmo del tour fue muy cómodo."
+                    }
+                    ]
+                },
+                "faqs": {
+                    "titre": "PREGUNTAS FRECUENTES : TOUR DE 4 DÍAS EN MARRUECOS",
+                    "listes": [
+                    {
+                        "question": "¿El tour de 4 días es privado o compartido?",
+                        "repense": "El tour de cuatro días es completamente privado. Solo participan los viajeros que realizan la reserva. Nuestro objetivo es asegurar experiencias personalizadas y de alta calidad, por eso ofrecemos principalmente tours privados."
+                    },
+                    {
+                        "question": "¿Cuál es la mejor época para visitar Marruecos?",
+                        "text": [
+                        "Las mejores épocas son primavera (marzo-mayo) y otoño (septiembre-noviembre), cuando el clima es suave y agradable.",
+                        "El invierno también es una buena opción, especialmente en el sur y la zona del desierto."
+                        ]
+                    },
+                    {
+                        "question": "¿Para qué edades es adecuado este tour?",
+                        "repense": "Este tour de 4 días es adecuado para todas las edades. Sin embargo, ten en cuenta que cada día incluye entre 1 y 7 horas de viaje. Aunque los vehículos son cómodos y hacemos paradas frecuentes, si no estás acostumbrado a viajar tanto en coche, puedes considerar un tour más largo o personalizado."
+                    },
+                    {
+                        "question": "¿Qué tipo de vehículos se utilizan?",
+                        "repense": "El vehículo será un SUV (4x4) o una minivan, ambos con aire acondicionado.",
+                        "listeRep": [
+                        "4x4 Land Cruiser Prado (hasta 4 pasajeros)",
+                        "Minivans: Mercedes Vito Tourer, Ford Tourneo, o similar (hasta 8 pasajeros)"
+                        ],
+                        "text": [
+                        "Para grupos mayores de 8 personas, podemos ofrecer un minibús de hasta 18 plazas."
+                        ]
+                    },
+                    {
+                        "question": "¿Cuánto dura el paseo en camello? ¿Hay alternativa?",
+                        "text": [
+                        "El paseo en camello dura entre 40 minutos y 1 hora y media, dependiendo del campamento.",
+                        "Si no deseas montar en camello, el campamento dispone de un 4x4 que transporta a personas y equipaje.",
+                        "También puedes optar por quads (ATV) con un coste adicional."
+                        ]
+                    },
+                    {
+                        "question": "Preferencias alimentarias",
+                        "repense": "Infórmanos con antelación sobre cualquier preferencia o restricción alimentaria, y nos aseguraremos de adaptarnos. Esto nos permite coordinarnos con los alojamientos y los restaurantes durante el tour."
+                    },
+                    {
+                        "question": "¿Qué sucede con el equipaje durante el paseo en camello?",
+                        "text": [
+                        "Durante el paseo en camello, solo llevarás lo necesario.",
+                        "El resto del equipaje será transportado al campamento en un vehículo 4x4, donde lo encontrarás a tu llegada."
+                        ]
+                    },
+                    {
+                        "question": "Detalles de recogida y entrega",
+                        "text": [
+                        "La recogida puede ser en el aeropuerto o en tu alojamiento en Casablanca.",
+                        "Al finalizar el tour, te dejaremos en tu riad u hotel en Marrakech o en el aparcamiento más cercano disponible."
+                        ]
+                    },
+                    {
+                        "question": "¿La tienda del campamento es privada? ¿Tiene baño privado?",
+                        "repense": "Sí, la tienda en el campamento de lujo es privada y cuenta con baño privado con agua caliente."
+                    },
+                    {
+                        "question": "Gastos adicionales",
+                        "text": [
+                        "Cambio de divisa: Se puede cambiar euros o dólares a dírhams en bancos o casas de cambio. Los cajeros automáticos están disponibles.",
+                        "Aunque muchas zonas aceptan tarjetas o euros, es mejor llevar algo de efectivo en dírhams.",
+                        "Comidas: Los precios suelen variar entre 5€ y 20€ según el lugar.",
+                        "Regateo: El regateo es común en Marruecos y se espera que los clientes participen."
+                        ]
+                    }
+                    ]
+                },
+                "images": [
+                    "img39", "img35", "img57", "img42", "img59", "img50", "img36", "img45", "img40", "img27", "img30", "img28", "img31"
+                ]
+                }
+            ]
+        }
+    ]
+}

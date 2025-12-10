@@ -1,0 +1,93 @@
+/* Container des liens */
+.contactIconContainer {
+    position: fixed;
+    bottom: 130px;
+    right: 38px;
+    display: inline-block;
+    z-index: 1000;
+}
+
+
+/* Main button */
+.contact-icon {
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: transform 0.2s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+}
+
+.contact-icon svg {
+  width: 32px;
+  height: 32px;
+  color: #c97a03;
+}
+
+/* Popup icons: appear ABOVE the button */
+.social-popup {
+  position: absolute;
+  bottom: 50px; /* JUSTE AU-DESSUS DU BOUTON */
+  right: -30px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+
+  opacity: 0;
+  transform: translateY(15px);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* When active */
+.social-popup.active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Social icons */
+.social-item {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+  color: #c97a03;
+}
+
+.social-item:hover {
+  transform: scale(1.10);
+}
+
+.email, .phone{
+    margin-top: 20px;
+}
+
+/* 📱 Responsive (mobile) */
+@media (max-width: 768px) {
+    .contactIconContainer {
+      right: 25px; 
+    }
+    .social-popup {
+      right: -20px;
+       gap: 0px;
+    }
+    .social-item {
+      width: 30px;
+      height: 30px;
+    }
+} 

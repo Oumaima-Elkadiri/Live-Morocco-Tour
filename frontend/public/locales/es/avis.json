@@ -1,0 +1,24 @@
+{
+  "avis_title": "Lo Que Dicen Nuestros Viajeros",
+  "avis_text": "Experiencias reales de aventureros reales",
+  "comments": [
+    {
+      "name": "Emily Rodriguez",
+      "pays": "California, EE. UU.",
+      "message": "¡El tour por el desierto del Sahara fue una experiencia que cambió mi vida!",
+      "image": "profil_1"
+    },
+    {
+      "name": "Liam Smith",
+      "pays": "Londres, Reino Unido",
+      "message": "Un viaje increíble al corazón del desierto.",
+      "image": "profil_2"
+    },
+    {
+      "name": "Sofia Martinez",
+      "pays": "Madrid, España",
+      "message": "Desde el momento en que llegamos, nos trataron como familia.",
+      "image": "profil_3"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "tours_Lists": [
+    {
+      "from": "Escursioni di un giorno da Marrakech",
+      "tours": [
+        {
+          "id": "7",
+          "to": "Gita di un giorno da Marrakech a Essaouira",
+          "departure": "Da Marrakech",
+          "titre": "Gita di un giorno da Marrakech a Essaouira - Escursione da Marrakech",
+          "durre": "1 GIORNO",
+          "about": {
+            "entete": "Informazioni su questa escursione",
+            "titre": "Gita di un giorno da Marrakech a Essaouira",
+            "paragraph1": "Parti per una gita di un giorno da <strong>Marrakech</strong> a <strong>Essaouira</strong>, una affascinante città costiera nota per la sua atmosfera rilassata, la sua storica <strong>medina</strong> e le sue splendide <strong>spiagge</strong>.",
+            "paragraph2": "Questa escursione offre <strong>cultura</strong>, <strong>storia</strong> e splendidi <strong>paesaggi</strong>, permettendoti di sfuggire al trambusto di <strong>Marrakech</strong>."
+          },
+          "programme": {
+            "titre": "ITINERARIO – GITA DI UN GIORNO DA MARRAKECH A ESSAOUIRA",
+            "soustitre": "1 GIORNO IN MAROCCO",
+            "jours": [
+              {
+                "jour": "Giorno 1: Marrakech - Essaouira - Marrakech",
+                "text": [
+                  "Partendo da <strong>Marrakech</strong> la mattina presto, godrai di un piacevole viaggio attraverso le <strong>foreste di argan</strong>, un paesaggio autentico e tipico della regione. Una volta arrivato a <strong>Essaouira</strong>, il tour guidato inizia con la scoperta della <strong>Skala della Città</strong> e della storica <strong>medina</strong>, un <strong>Sito Patrimonio dell'Umanità UNESCO</strong>. Potrai poi passeggiare nel <strong>mercato del pesce</strong> e nel <strong>porto</strong>, veri centri della vita cittadina dove l’atmosfera marittima è particolarmente affascinante.",
+                  "Dopo il tour, avrai la possibilità di pranzare in un <strong>ristorante locale</strong> prima di goderti del tempo libero per rilassarti sulla <strong>spiaggia</strong> o esplorare <strong>Essaouira</strong> a tuo ritmo. Alla fine della giornata, tornerai verso <strong>Marrakech</strong> con ricordi indimenticabili di questa fuga sulla costa."
+                ]
+              }
+            ]
+          },
+          "infos": {
+            "titre": "Informazioni sulla gita da Marrakech a Essaouira",
+            "soustitre": "Incluso & Non incluso",
+            "price": {
+              "titreIncludes": "Il prezzo include:",
+              "includes": [
+                "Trasporto in un veicolo confortevole",
+                "Autista/guida parlante inglese/francese",
+                "Pick-up e drop-off presso il tuo alloggio a Marrakech"
+              ],
+              "titreNotIncludes": "Il prezzo non include:",
+              "notIncludes": [
+                "Pranzo e bevande",
+                "Spese personali",
+                "Mance"
+              ],
+              "important": {
+                "titre": "<span style='color: #05A317'>Importante!:</span>",
+                "text": "Indossa scarpe comode e porta acqua per la camminata."
+              },
+              "priceText": {
+                "titre": "<span style='color: #0264C7'>Prezzo :</span>",
+                "text": "<strong>Contattaci</strong> per il miglior prezzo in base alle dimensioni del tuo gruppo."
+              }
+            }
+          },
+          "reviews": {
+            "titre": "Recensioni",
+            "listes": [
+              {
+                "name": "Sophie Martin – Francia",
+                "img": "profil_33",
+                "rating": "5",
+                "comment": "Una splendida gita! Essaouira è affascinante e tranquilla, e la nostra guida era molto preparata. La medina e il porto sono stati i momenti migliori. Consigliatissimo!"
+              },
+              {
+                "name": "James Thompson – Regno Unito",
+                "img": "profil_34",
+                "rating": "4",
+                "comment": "Bellissima città costiera con un’atmosfera rilassata. Il viaggio è stato piacevole e le soste lungo il percorso interessanti. Avrei voluto un po’ più di tempo in spiaggia."
+              },
+              {
+                "name": "Laura Garcia – Spagna",
+                "img": "profil_35",
+                "rating": "5",
+                "comment": "Esperienza fantastica! La Skala, la medina e il pesce fresco hanno reso la giornata perfetta. Ottima fuga dal caos di Marrakech."
+              }
+            ]
+          },
+          "faqs": {
+            "titre": "Domande Frequenti",
+            "listes": [
+              {
+                "question": "Quanto dura la gita?",
+                "repense": "L’escursione dura circa 10–11 ore."
+              },
+              {
+                "question": "C'è del tempo libero a Essaouira?",
+                "repense": "Sì, avrai tempo libero per esplorare la spiaggia, la medina o il porto."
+              },
+              {
+                "question": "Devo prenotare il pranzo in anticipo?",
+                "repense": "No, il pranzo è opzionale e può essere scelto sul posto."
+              },
+              {
+                "question": "Il tour guidato è incluso?",
+                "repense": "Sì, è incluso un tour guidato a piedi della medina e della Skala."
+              }
+            ]
+          },
+          "images": ["img1", "img4", "img5", "img7", "img10", "img13", "img12", "img58"]
+        }
+      ]
+    },
+    {
+      "from": "Escursioni di un giorno da Fes",
+      "tours": [
+        {
+          "id": "8",
+          "to": "Gita di un giorno da Fes a Chefchaouen",
+          "departure": "Da Fes",
+          "titre": "Gita di un giorno da Fes a Chefchaouen - Escursione da Fes",
+          "durre": "1 GIORNO",
+          "about": {
+            "entete": "Informazioni su questa escursione",
+            "titre": "Gita di un giorno da Fes a Chefchaouen",
+            "paragraph1": "Parti per una <strong>gita di un giorno</strong> da <strong>Fes</strong> a <strong>Chefchaouen</strong>, la famosa <strong>città blu</strong> situata nelle <strong>Montagne del Rif</strong>.",
+            "paragraph2": "Rinomata per le sue pittoresche <strong>strade blu</strong> e la sua atmosfera serena, offre un'esperienza <strong>marocchina unica</strong>."
+          },
+          "programme": {
+            "titre": "ITINERARIO – GITA DI UN GIORNO DA FES A CHEFCHAOUEN",
+            "soustitre": "1 GIORNO IN MAROCCO",
+            "jours": [
+              {
+                "jour": "Giorno 1: Fes - Chefchaouen - Fes",
+                "text": [
+                  "Il tuo viaggio inizia la mattina presto con la partenza da <strong>Fes</strong>, seguita da un percorso panoramico attraverso le splendide <strong>Montagne del Rif</strong>. All’arrivo a <strong>Chefchaouen</strong>, inizierai un tour guidato della città, partendo dalla visita al <strong>Museo della Kasbah</strong> e alla <strong>Grande Moschea</strong>. Passeggerai poi tra le iconiche <strong>strade blu</strong> e i vivaci <strong>mercati locali</strong>, immergendoti nell’atmosfera unica di questa cittadina pittoresca.",
+                  "Successivamente, potrai scegliere di pranzare in un <strong>ristorante locale</strong> (opzionale) prima di dirigerti verso la <strong>Moschea Spagnola</strong>, dove potrai ammirare splendide <strong>vedute panoramiche</strong> della città. Avrai poi del tempo libero per esplorare <strong>Chefchaouen</strong> al tuo ritmo. La sera rientrerai a <strong>Fes</strong>, concludendo una giornata ricca di paesaggi e momenti indimenticabili."
+                ]
+              }
+            ]
+          },
+          "infos": {
+            "titre": "Informazioni sulla gita da Fes a Chefchaouen",
+            "soustitre": "Incluso & Non incluso",
+            "price": {
+              "titreIncludes": "Il prezzo include:",
+              "includes": [
+                "Trasporto in un veicolo confortevole",
+                "Autista/guida parlante inglese/francese",
+                "Pick-up e drop-off presso il tuo alloggio a Fes"
+              ],
+              "titreNotIncludes": "Il prezzo non include:",
+              "notIncludes": [
+                "Pranzo e bevande",
+                "Spese personali",
+                "Mance"
+              ],
+              "important": {
+                "titre": "<span style='color: #05A317'>Importante!:</span>",
+                "text": "Indossa scarpe comode e porta acqua per la camminata."
+              },
+              "priceText": {
+                "titre": "<span style='color: #0264C7'>Prezzo :</span>",
+                "text": "<strong>Contattaci</strong> per il miglior prezzo in base alle dimensioni del tuo gruppo."
+              }
+            }
+          },
+          "reviews": {
+            "titre": "Recensioni",
+            "listes": [
+              {
+                "name": "Emma Wilson – USA",
+                "img": "profil_36",
+                "rating": "5",
+                "comment": "Chefchaouen è assolutamente magica! Le strade blu sono ancora più belle dal vivo. Un viaggio imperdibile da Fes!"
+              },
+              {
+                "name": "Mohamed El Idrissi – Marocco",
+                "img": "profil_37",
+                "rating": "5",
+                "comment": "Ottima organizzazione e viaggio confortevole. Il panorama dalla Moschea Spagnola era mozzafiato. Consigliatissimo."
+              },
+              {
+                "name": "Rebecca Lee – Canada",
+                "img": "profil_38",
+                "rating": "4",
+                "comment": "Visita meravigliosa alla città blu. Atmosfera tranquilla e tour ben organizzato. Avrei voluto un po’ più di tempo libero."
+              }
+            ]
+          },
+          "faqs": {
+            "titre": "Domande Frequenti",
+            "listes": [
+              {
+                "question": "Quanto dura il viaggio da Fes a Chefchaouen?",
+                "repense": "Il viaggio dura circa 3,5–4 ore per tratta."
+              },
+              {
+                "question": "Chefchaouen è facile da visitare a piedi?",
+                "repense": "Sì, la città è molto pedonale, ma alcune zone sono in salita."
+              },
+              {
+                "question": "L’ingresso al Museo della Kasbah è incluso?",
+                "repense": "No, i biglietti d’ingresso non sono inclusi e devono essere pagati in loco."
+              },
+              {
+                "question": "Posso esplorare Chefchaouen da solo?",
+                "repense": "Sì, dopo l’introduzione guidata avrai del tempo libero per esplorare autonomamente."
+              }
+            ]
+          },
+          "images": ["img62", "img61", "img70", "img79", "img82", "img84"]
+        }
+      ]
+    }
+  ]
+}

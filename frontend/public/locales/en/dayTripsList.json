@@ -1,0 +1,209 @@
+{
+  "tours_Lists": [
+    {
+        "from": "Day Trips from Marrakech",
+        "tours": [
+            {
+                "id": "7",
+                "to": "Day Trip from Marrakech to Essaouira",
+                "departure": "From Marrakech",
+                "titre": "Day Trip from Marrakech to Essaouira - Marrakech Excursion",
+                "durre": "1 DAY",
+                "about": {
+                    "entete": "About This Day Trips",
+                    "titre": "Day Trip from Marrakech to Essaouira",
+                    "paragraph1": "Embark on a day trip from <strong>Marrakech</strong> to <strong>Essaouira</strong>, a charming coastal city known for its relaxed atmosphere, historic <strong>medina</strong>, and beautiful <strong>beaches</strong>.",
+                    "paragraph2": "This excursion offers <strong>culture</strong>, <strong>history</strong>, and scenic <strong>landscapes</strong> while escaping the bustling city of <strong>Marrakech</strong>."
+                },
+                "programme": {
+                    "titre": "ITINERARY DAY TRIP FROM MARRAKECH TO ESSAOUIRA",
+                    "soustitre": "1 DAY TRIP MOROCCO",
+                    "jours": [
+                        {
+                            "jour": "Day 1: Marrakech - Essaouira - Marrakech",
+                            "text": [
+                                "Departing from <strong>Marrakech</strong> early in the morning, you will enjoy a pleasant drive through the <strong>argan forests</strong>, an authentic and typical landscape of the region. Once you arrive in <strong>Essaouira</strong>, the guided tour begins with the discovery of the <strong>Skala of the City</strong> and the historic <strong>medina</strong>, a <strong>UNESCO World Heritage Site</strong>. You can then stroll through the <strong>fish market</strong> and the <strong>port</strong>, true hubs of city life where the maritime atmosphere is particularly charming.",
+                                "After the tour, you'll have the option of having lunch at a <strong>local restaurant</strong> before enjoying some free time to relax on the <strong>beach</strong> or explore <strong>Essaouira</strong> at your own pace. At the end of the day, you'll head back towards <strong>Marrakech</strong>, with unforgettable memories of this coastal getaway."
+                            ]
+
+                        }
+                    ]
+                },
+                "infos": {
+                    "titre": "Tour From Marrakech To Essaouira Informations",
+                    "soustitre": "Included & Not Included",
+                    "price": {
+                        "titreIncludes": "Price includes:",
+                        "includes": [
+                            "Transport in a comfortable vehicle",
+                            "English/French-speaking driver/guide",
+                            "Pickup and drop-off at your accommodation in Marrakech"
+                        ],
+                        "titreNotIncludes": "Price Does Not Include:",
+                        "notIncludes": [
+                            "Lunch and drinks",
+                            "Personal expenses",
+                            "Tips"
+                        ],
+                        "important": {
+                                "titre": "<span style='color: #05A317'>Important!:<span",
+                                "text": "Wear comfortable shoes and bring water for the walk."
+                        },
+                        "priceText": {
+                            "titre": "<span style='color: #0264C7'>The Price :</span>",
+                            "text": "<strong>Contact us</strong> for the best price based on your group size."
+                        }
+                    }
+                },
+                "reviews": {
+                    "titre": "Reviews",
+                    "listes": [
+                        {
+                            "name": "Sophie Martin – France",
+                            "img": "profil_33",
+                            "rating": "5",
+                            "comment": "A wonderful day trip! Essaouira is charming and peaceful, and our guide was very knowledgeable. The medina and port were highlights. Highly recommended!"
+                        },
+                        {
+                            "name": "James Thompson – United Kingdom",
+                            "img": "profil_34",
+                            "rating": "4",
+                            "comment": "Beautiful coastal town with a relaxed vibe. The drive was smooth and the stops along the way were interesting. Would have loved a bit more time on the beach."
+                        },
+                        {
+                            "name": "Laura Garcia – Spain",
+                            "img": "profil_35",
+                            "rating": "5",
+                            "comment": "Amazing experience! The Skala, the medina, and the fresh seafood made my day. Perfect escape from Marrakech’s hustle and bustle."
+                        }
+                    ]
+                },
+                "faqs": {
+                    "titre": "FAQs",
+                   "listes": [
+                        {
+                            "question": "How long does the trip take?",
+                            "repense": "The excursion lasts approximately 10–11 hours."
+                        },
+                        {
+                            "question": "Is there free time in Essaouira?",
+                            "repense": "Yes, you will have free time to explore the beach, medina, or port at your own pace."
+                        },
+                        {
+                            "question": "Do I need to book lunch in advance?",
+                            "repense": "No, lunch is optional and can be chosen on-site from various local restaurants."
+                        },
+                        {
+                            "question": "Is the guided tour included?",
+                            "repense": "Yes, a guided walking tour of the medina and Skala is included."
+                        }
+                    ]
+                },
+                "images":["img1", "img4", "img5", "img7", "img10", "img13", "img12", "img58"]
+            }
+        ]
+    },
+    {
+        "from": "Day Trips from Fes",
+        "tours": [
+            {
+                "id": "8",
+                "to": "Day Trip from Fes to Chefchaouen",
+                "departure": "From Fes",
+                "titre": "Day Trip from Fes to Chefchaouen - Fes Excursion",
+                "durre": "1 DAY",
+                "about": {
+                    "entete": "About This Day Trips",
+                    "titre": "Day Trip from Fes to Chefchaouen",
+                    "paragraph1": "Embark on a <strong>day trip</strong> from <strong>Fes</strong> to <strong>Chefchaouen</strong>, the famous <strong>blue city</strong> nestled in the <strong>Rif Mountains</strong>.",
+                    "paragraph2": "Known for its picturesque <strong>blue-painted streets</strong> and peaceful atmosphere, it offers a truly unique <strong>Moroccan experience</strong>."
+                },
+                "programme": {
+                    "titre": "ITINERARY DAY TRIP FROM FES TO CHEFCHAOUEN",
+                    "soustitre": "1 DAY TRIP MOROCCO",
+                    "jours": [
+                        {
+                            "jour": "Day 1: Fes - Chefchaouen - Fes",
+                            "text": [
+                                "Your journey begins with an early morning departure from <strong>Fes</strong>, followed by a scenic drive through the beautiful <strong>Rif Mountains</strong>. Upon arrival in <strong>Chefchaouen</strong>, you’ll start a guided tour of the city, beginning with a visit to the <strong>Kasbah Museum</strong> and the <strong>Grand Mosque</strong>. You’ll then stroll through the iconic <strong>blue-painted streets</strong> and vibrant <strong>local markets</strong>, taking in the charm and unique atmosphere of this picturesque town.",
+                                "Afterward, you may choose to enjoy lunch in a <strong>local restaurant</strong> (optional) before heading to the <strong>Spanish Mosque</strong>, where you can admire breathtaking <strong>panoramic views</strong> of the city. You will then have free time to explore <strong>Chefchaouen</strong> at your own pace, wandering through its serene alleys or relaxing in one of its charming <strong>cafés</strong>. In the evening, you will return to <strong>Fes</strong>, ending a day filled with unforgettable sights and experiences."
+                            ]
+                        }
+                    ]
+                },
+                "infos": {
+                    "titre": "Tour From Fes to Chefchaouen Informations",
+                    "soustitre": "Included & Not Included",
+                    "price": {
+                        "titreIncludes": "Price includes:",
+                        "includes": [
+                            "Transport in a comfortable vehicle",
+                            "English/French-speaking driver/guide",
+                            "Pickup and drop-off at your accommodation in Fes"
+                        ],
+                        "titreNotIncludes": "Price Does Not Include:",
+                        "notIncludes": [
+                            "Lunch and drinks",
+                            "Personal expenses",
+                            "Tips"
+                        ],
+                        "important": {
+                            "titre": "<span style='color: #05A317'>Important!:<span",
+                            "text": "Wear comfortable shoes and bring water for the walk."
+                        },
+                        "priceText": {
+                            "titre": "<span style='color: #0264C7'>The Price :</span>",
+                            "text": "<strong>Contact us</strong> for the best price based on your group size."
+                        }
+                    }
+                },
+                "reviews": {
+                    "titre": "Reviews",
+                    "listes": [
+                        {
+                            "name": "Emma Wilson – USA",
+                            "img": "profil_36",
+                            "rating": "5",
+                            "comment": "Chefchaouen is absolutely magical! The blue streets were even more beautiful in person. A must-do trip from Fes!"
+                        },
+                        {
+                            "name": "Mohamed El Idrissi – Morocco",
+                            "img": "profil_37",
+                            "rating": "5",
+                            "comment": "Great organization and comfortable ride. The Spanish Mosque viewpoint was breathtaking. Highly recommended."
+                        },
+                        {
+                            "name": "Rebecca Lee – Canada",
+                            "img": "profil_38",
+                            "rating": "4",
+                            "comment": "Wonderful visit to the blue city. I loved the calm atmosphere. The tour was well-paced, but I wish we had a bit more free time."
+                        }
+                    ]
+                },
+                "faqs": {
+                    "titre": "FAQs",
+                    "listes": [
+                        {
+                            "question": "How long is the journey from Fes to Chefchaouen?",
+                            "repense": "The drive takes around 3.5 to 4 hours each way."
+                        },
+                        {
+                            "question": "Is Chefchaouen walking-friendly?",
+                            "repense": "Yes, the city is very pedestrian-friendly, but some areas include uphill streets."
+                        },
+                        {
+                            "question": "Is the entrance to the Kasbah Museum included?",
+                            "repense": "Entrance fees are not included and must be paid on-site."
+                        },
+                        {
+                            "question": "Can I explore Chefchaouen on my own?",
+                            "repense": "Yes, after the guided introduction, you will have free time to explore independently."
+                        }
+                    ]
+                },
+                "images": ["img62", "img61", "img70", "img79", "img82", "img84"]
+            }
+        ]
+    }
+  ]
+}

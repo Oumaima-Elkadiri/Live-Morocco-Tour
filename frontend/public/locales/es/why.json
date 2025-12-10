@@ -1,0 +1,22 @@
+{
+    "question": "¿Por qué viajar con nosotros?",
+    "repense": "Tu aventura, perfeccionada por nuestro compromiso con la excelencia.",
+    "reasons": [
+      {
+        "title": "Guías Expertos",
+        "description": "Nuestros guías locales experimentados ofrecen un conocimiento profundo y atención personalizada."
+      },
+      {
+        "title": "Tours en Grupos Pequeños",
+        "description": "Disfruta de una experiencia más íntima e inmersiva con nuestros grupos reducidos."
+      },
+      {
+        "title": "Seguro y Confiable",
+        "description": "Priorizamos tu seguridad y bienestar durante todo tu viaje."
+      },
+      {
+        "title": "Altamente Calificado",
+        "description": "Nuestros tours reciben constantemente altas calificaciones de nuestros huéspedes."
+      }
+    ]
+}

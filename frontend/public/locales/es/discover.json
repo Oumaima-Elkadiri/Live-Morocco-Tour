@@ -1,0 +1,30 @@
+{
+    "title": "Descubre MARRUECOS",
+    "subtitle": "Desde las dunas doradas del Sahara hasta las calles azules de Chefchaouen, explora con nosotros los destinos más cautivadores de Marruecos.",
+    "cards_from":[
+        {
+            "title_from": "CASABLANCA",
+            "description": "La capital moderna donde el océano se encuentra con la elegancia."
+        },
+        {
+            "title_from": "MARRAKECH",
+            "description": "La ciudad roja, vibrante y mágica en cada momento."
+        },
+        {
+            "title_from": "TÁNGER",
+            "description": "Donde el Atlántico se encuentra con el Mediterráneo."
+        },
+        {
+            "title_from": "FEZ",
+            "description": "Viaja al corazón de la historia y las tradiciones marroquíes."
+        },
+        {
+            "title_from": "OUARZAZATE",
+            "description": "La puerta al desierto y la capital del cine marroquí."
+        },
+        {
+            "title_from": "ERRACHIDIA",
+            "description": "Un oasis tranquilo entre montañas y arena dorada."
+        }
+    ]
+}

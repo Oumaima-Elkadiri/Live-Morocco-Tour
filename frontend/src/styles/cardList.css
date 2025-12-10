@@ -1,0 +1,165 @@
+/* styles/cardList.css */
+.card-list { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes de largeur égale */
+    gap: 30px; /* Espace entre les cartes */
+    padding: 20px; /* Espace autour de la grille */
+    justify-content: center; /* Centre les cartes horizontalement */
+    max-width: 1200px; /* Largeur maximale de la grille */
+    margin: 0 auto; /* Centre la grille dans son conteneur parent */
+}
+.card-list-home {
+  grid-template-columns: repeat(3, 1fr); /* 4 colonnes de largeur égale */
+  gap: 30px; /* Espace entre les cartes */
+  padding: 10px; /* Espace autour de la grille */
+  max-width: 1270px; /* Largeur maximale de la grille */
+  margin: 0 auto;
+}
+.card {
+  background-color: none;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* === Image === */
+.card-image-container {
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+/* === Badge bleu "xx jours" === */
+.card-duration-badge {
+  position: absolute;
+  bottom: -1px;
+  left: 25px;
+  background-color: #3B82F6; /* Bleu vif */
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 15px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* === Contenu texte === */
+.card-content {
+  padding: 15px 20px;
+  color: #222;
+}
+
+/* Conteneur du titre + icône */
+.title {
+  display: flex;
+  align-items: flex-start;     /* aligne l’icône en haut */
+  justify-content: flex-start;
+  gap: 8px;                    /* espace entre l’icône et le texte */
+  height: 90px;              /* même hauteur pour toutes les cartes */
+  margin: 0 auto 10px auto;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  top: 0;                      /* bien collé en haut du card */
+}
+
+/* Icône avant le titre */
+.title .icon {
+  color: #3366ff;              /* couleur bleue (modifiable) */
+  font-size: 1.4rem;
+  margin-top: 2px;             /* petit ajustement vertical */
+}
+
+/* Titre */
+.card-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.4;
+  color: #000;
+  margin: 0;
+  flex: 1;
+}
+
+
+
+/* === Footer infos === */
+.footerCard {
+  justify-content: flex-start;
+  gap: 15px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.card-duration,
+.card-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.icon{
+  color: #3B82F6; /* Bleu vif pour les icônes */
+  font-size: 1.2rem;
+}
+/* 🌐 Responsive Design */
+
+/* --- Tablettes (≤ 992px) --- */
+@media (max-width: 1030px) {
+  .card-list,
+  .card-list-home {
+    grid-template-columns: repeat(2, 1fr); /* 2 cartes par ligne */
+    gap: 20px;
+  }
+
+  .title {
+    height: auto; /* permet au titre de s’adapter */
+    flex-wrap: wrap;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-image {
+    height: 180px;
+  }
+}
+
+/* --- Téléphones (≤ 600px) --- */
+@media (max-width: 600px) {
+  .card-list,
+  .card-list-home {
+    grid-template-columns: 1fr; /* 1 carte par ligne */
+    gap: 15px;
+  }
+
+  .title {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .card-content {
+    padding: 10px 15px;
+  }
+
+  .card-image {
+    height: 160px;
+  }
+}

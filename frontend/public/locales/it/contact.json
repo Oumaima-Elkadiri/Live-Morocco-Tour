@@ -1,0 +1,30 @@
+{
+    "slider_h2": "Che il Viaggio Inizi",
+    "slider_h1": "CONTATTACI",
+    "slider_h3": "Tour nel Deserto",
+    "titre": "CONTATTACI",
+    "p1": "Saremo felici di parlare con te.",
+    "p2": "Non esitare a contattarci utilizzando i dettagli sottostanti.",
+    "social": "I NOSTRI SOCIAL MEDIA",
+    "touch": "Mettiti in Contatto",
+    "bookingP": "PROCESSO DI PRENOTAZIONE",
+    "info1": [
+        "Contattaci",
+        "tramite moduli di contatto, e-mail, WhatsApp o i nostri social network, fornendoci il numero di viaggiatori, il tipo di alloggio (Eccellente, Lusso ...), la data del tuo tour (se disponibile) e il tour scelto o alcuni dettagli per pianificare un nuovo itinerario per te."
+    ],
+    "booking": "PRENOTAZIONE",
+    "info2": [
+        "Richiediamo un piccolo acconto",
+        "per confermare la prenotazione (preferibilmente tramite il nostro account PayPal). Il resto del pagamento dovrà essere corrisposto in contanti al tuo autista / guida all’arrivo. Oppure tramite PayPal, che richiede una commissione di transazione del 5%."
+    ],
+    "paypal": "Se non hai PayPal, possiamo inviare una fattura online che puoi pagare con la tua carta.",
+    "bank": "Un bonifico bancario è un’altra opzione e può richiedere fino a 12 giorni per apparire nel nostro sistema. Possiamo confermare il tour con una ricevuta di transazione fino a quando non riceviamo il pagamento.",
+    "send": "Compila il modulo qui sotto e ti contatteremo il prima possibile!",
+    "share": "Condividi",
+    "heroForm": "Inviaci un messaggio",
+    "nom": "Il Tuo Nome:",
+    "email": "La Tua Email:",
+    "message": "Il Tuo Messaggio (opzionale):",
+    "button": "INVIA",
+    "join": "ISCRIVITI ALLA NOSTRA NEWSLETTER"
+}

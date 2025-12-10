@@ -1,0 +1,31 @@
+{
+    "title": "Discover MOROCCAN",
+    "subtitle": "From the golden dunes of the Sahara to the blue streets of Chefchaouen, explore Morocco's most captivating destinations with us.",
+    "cards_from":[
+        {
+            "title_from": "CASABLANCA",
+            "description": "The modern capital where the ocean meets elegance."
+        },
+        {
+            "title_from": "MARRAKECH",
+            "description": "The red city, vibrant and magical at every moment."
+        },
+        {
+            "title_from": "TANGIER",
+            "description": "Where the Atlantic meets the Mediterranean."
+        },
+        {
+            "title_from": "FES",
+            "description": "Travel to the heart of Moroccan history and traditions."
+        },
+        {
+            "title_from": "OUARZAZATE",
+            "description": "The gateway to the desert and capital of Moroccan cinema."
+        },
+        {
+            "title_from": "ERRACHIDIA",
+            "description": "A peaceful oasis between mountains and golden sand."
+        }
+
+    ]
+}

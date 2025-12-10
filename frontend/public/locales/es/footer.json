@@ -1,0 +1,28 @@
+{
+  "parag": "Descubre el mundo con tours cuidadosamente diseñados y experiencias de viaje auténticas. Tu aventura comienza aquí.",
+
+  "quickLinks": {
+    "title": "Enlaces Rápidos",
+    "aboutUs": "Sobre Nosotros",
+    "ourTours": "Nuestros Tours",
+    "destinations": "Destinos",
+    "travelBlog": "Blog de Viajes",
+    "contact": "Contacto"
+  },
+
+  "support": {
+    "title": "Soporte",
+    "helpCenter": "Centro de Ayuda",
+    "booking": "Política de Reservas",
+    "cancellation": "Política de Cancelación",
+    "travelInsurance": "Seguro de Viaje",
+    "safetyGuidelines": "Guías de Seguridad"
+  },
+
+  "newsletter": {
+    "title": "Boletín",
+    "message": "Suscríbete para recibir consejos de viaje, ofertas exclusivas e inspiración para destinos.",
+    "emailPlaceholder": "Tu correo electrónico",
+    "subscribe": "Suscribirse"
+  }
+}

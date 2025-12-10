@@ -1,0 +1,121 @@
+.slider_about{
+    background-image: url('../assets/images/back.PNG');
+    text-align: center;
+    margin-top: 120px;
+    padding: 30px 0;
+} 
+.slider_about h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.slider_about h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    letter-spacing: 5px;
+}
+.slider_about h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+.info_about{
+    margin-top: 30px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.text_about{
+    flex: 1;
+    margin: 0 0 0 80px ;
+    text-align: left;
+    font-size: 19px;
+}
+.text_about1{
+    flex: 1;
+    margin: 0 80px 0 0 ;
+    text-align: left;
+    font-size: 19px;
+}
+.info_about h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.info_about img{
+    width: 100px;
+    height: auto;
+    margin: 0 80px 0 0;
+    flex: 0.7;
+}
+.info_about .img1{
+    margin: 0 0 0 80px;
+}
+.help_about {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.help_about h1{
+    font-size: 40px;
+    margin: 60px 0;
+    font-weight: bolder;
+}
+.help_about a{
+    background-color: #3366ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 40px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow:  0 0 10px #3366ff62;
+    transition: all 0.3s ease;
+    margin-bottom: 100px;
+}
+.help_about a:hover{
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .info_about{
+        margin-top: 10px;
+        padding: 20px 0;
+    }
+    .text_about{
+        margin: 0 0 0 20px ;
+        font-size: 13px;
+    }
+    .text_about1{
+        margin: 0 20px 0 0 ;
+        font-size: 12px;
+    }
+    .info_about h1{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .info_about img{
+        width: 150px;
+        margin: 0 20px 0 0;
+        flex: 0.6;
+    }
+    .info_about .img1{
+        margin: 0 0 0 20px;
+    }
+    .help_about h1{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .help_about a{
+        padding: 8px 15px;
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    .help_about a:hover{
+        
+        font-size: 17px;
+    }
+    
+}

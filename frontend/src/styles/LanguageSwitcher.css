@@ -1,0 +1,74 @@
+.language-switcher {
+    position: fixed;
+    bottom: 60px;
+    right: 32px;
+    display: inline-block;
+    z-index: 10000;
+  } 
+  
+  .selected-language {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .selected-language:hover {
+    transform: scale(1.1);
+  }
+  
+  .selected-language img {
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  
+  .language-list {
+    position: absolute;
+    bottom: 60px; /* S'affiche au-dessus du bouton */
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+    padding: 5px;
+  }
+  
+  .language-switcher.open .language-list {
+    display: block;
+  }
+  
+  .language-option {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .language-option:hover {
+    background: #f0f0f0;
+  }
+  
+  .language-option img {
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+  }
+   /* 📱 Responsive (mobile) */
+   @media (max-width: 768px) {
+    .language-switcher {
+      right: 20px; 
+    }
+   } 

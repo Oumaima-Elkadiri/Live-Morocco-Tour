@@ -1,0 +1,58 @@
+.entete{
+  background-color: #c97a03;
+  color: white;
+  padding: 7px;
+  text-align: center;
+}
+.entete h2{
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.details-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.details-form label {
+  font-weight: bold;
+  color: #444;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.details-form input,
+.details-form textarea {
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+}
+
+.details-form input:focus,
+.details-form textarea:focus {
+  border-color: #c97a03;
+}
+
+.details-form textarea {
+  resize: vertical;
+}
+
+.details-form button {
+  margin-top: 3px;
+  padding: 8px;
+  background: #c97a03;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+ 
+.details-form button:hover {
+  background: #a86502;
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="Logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOROCCAN TRAILS</title>
+    <meta name="description" content="Discover camel excursions, desert nights and tours offered by MOROCCAN TRAILS." />
+    <meta name="keywords" content="Merzouga, desert, excursions, dromedary, bivouac, Maroc, Sahara, MOROCCAN TRAILS, Morocco" />
+    <meta name="author" content="MOROCCAN TRAILS" />
+
+    <style>
+      /* Réinitialisation */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html, body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden; /* Supprime le scroll horizontal */
+        overflow-y: scroll; /* Garde le scroll vertical */
+        scrollbar-width: none; /* Masque la barre sur Firefox */
+      }
+
+      /* Masquer la barre sur Chrome, Edge, Safari */
+      body::-webkit-scrollbar {
+        display: none;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+         /* Limite la largeur sur grands écrans */
+        /* Centre le contenu horizontalement */
+        background-color: #fff;
+      }
+      .page-container{
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto; 
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

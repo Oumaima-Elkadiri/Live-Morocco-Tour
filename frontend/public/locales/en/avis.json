@@ -1,0 +1,24 @@
+{
+  "avis_title": "What Our Travelers Say",
+  "avis_text": "Real experiences from real adventurers",
+  "comments": [
+    {
+      "name": "Emily Rodriguez",
+      "pays": "California, USA",
+      "message": "The Sahara Desert tour was a life-changing experience!",
+      "image": "profil_1"
+    },
+    {
+      "name": "Liam Smith",
+      "pays": "London, UK",
+      "message": "An incredible journey into the heart of the desert.",
+      "image": "profil_2"
+    },
+    {
+      "name": "Sofia Martinez",
+      "pays": "Madrid, Spain",
+      "message": "From the moment we arrived, we were treated like family.",
+      "image": "profil_3"
+    }
+  ]
+}

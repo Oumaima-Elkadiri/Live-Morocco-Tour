@@ -1,0 +1,28 @@
+{
+  "parag": "Discover the world with expertly crafted tours and authentic travel experiences. Your adventure starts here.",
+
+  "quickLinks": {
+    "title": "Quick Links",
+    "aboutUs": "About Us",
+    "ourTours": "Our Tours",
+    "destinations": "Destinations",
+    "travelBlog": "Travel Blog",
+    "contact": "Contact"
+  },
+
+  "support": {
+    "title": "Support",
+    "helpCenter": "Help Center",
+    "booking": "Booking Policy",
+    "cancellation": "Cancellation Policy",
+    "travelInsurance": "Travel Insurance",
+    "safetyGuidelines": "Safety Guidelines"
+  },
+
+  "newsletter": {
+    "title": "Newsletter",
+    "message": "Subscribe to get travel tips, exclusive deals, and destination inspiration.",
+    "emailPlaceholder": "Your email",
+    "subscribe": "Subscribe"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "tours_Lists": [
+    {
+      "from": "Dagtrips vanuit Marrakech",
+      "tours": [
+        {
+          "id": "7",
+          "to": "Dagtrip van Marrakech naar Essaouira",
+          "departure": "Vertrek vanuit Marrakech",
+          "titre": "Dagtrip van Marrakech naar Essaouira - Marrakech Excursie",
+          "durre": "1 DAG",
+          "about": {
+            "entete": "Over deze dagtrip",
+            "titre": "Dagtrip van Marrakech naar Essaouira",
+            "paragraph1": "Ga op een dagtrip van <strong>Marrakech</strong> naar <strong>Essaouira</strong>, een charmante kuststad die bekend staat om zijn ontspannen sfeer, historische <strong>medina</strong> en prachtige <strong>stranden</strong>.",
+            "paragraph2": "Deze excursie biedt <strong>cultuur</strong>, <strong>geschiedenis</strong> en schilderachtige <strong>landschappen</strong> terwijl je ontsnapt aan de drukte van <strong>Marrakech</strong>."
+          },
+          "programme": {
+            "titre": "ROUTE DAGTRIP VANUIT MARRAKECH NAAR ESSAOUIRA",
+            "soustitre": "1 DAGTRIP MAROKKO",
+            "jours": [
+              {
+                "jour": "Dag 1: Marrakech - Essaouira - Marrakech",
+                "text": [
+                  "Je vertrekt vroeg in de ochtend vanuit <strong>Marrakech</strong> en geniet van een aangename rit door de <strong>arganbossen</strong>, een authentiek en typisch landschap van de regio. Bij aankomst in <strong>Essaouira</strong> begint de rondleiding met de ontdekking van de <strong>Skala van de Stad</strong> en de historische <strong>medina</strong>, een <strong>UNESCO Werelderfgoed</strong>. Daarna wandel je door de <strong>vismarkt</strong> en de <strong>haven</strong>, echte ontmoetingsplekken waar de maritieme sfeer heel charmant is.",
+                  "Na de rondleiding kun je lunchen in een <strong>lokaal restaurant</strong> (optioneel) voordat je wat vrije tijd krijgt om te ontspannen op het <strong>strand</strong> of <strong>Essaouira</strong> op je eigen tempo te verkennen. Aan het einde van de dag rijd je terug richting <strong>Marrakech</strong>, met onvergetelijke herinneringen aan deze kustuitstap."
+                ]
+              }
+            ]
+          },
+          "infos": {
+            "titre": "Informatie over de tour van Marrakech naar Essaouira",
+            "soustitre": "Inbegrepen & Niet inbegrepen",
+            "price": {
+              "titreIncludes": "Prijs is inclusief:",
+              "includes": [
+                "Vervoer in een comfortabel voertuig",
+                "Engels/Franssprekende chauffeur/gids",
+                "Ophalen en afzetten bij je accommodatie in Marrakech"
+              ],
+              "titreNotIncludes": "Niet inbegrepen:",
+              "notIncludes": [
+                "Lunch en drankjes",
+                "Persoonlijke uitgaven",
+                "Fooien"
+              ],
+              "important": {
+                "titre": "<span style='color: #05A317'>Belangrijk!:</span>",
+                "text": "Draag comfortabele schoenen en neem water mee voor de wandeling."
+              },
+              "priceText": {
+                "titre": "<span style='color: #0264C7'>De Prijs :</span>",
+                "text": "<strong>Neem contact met ons op</strong> voor de beste prijs op basis van de grootte van je groep."
+              }
+            }
+          },
+          "reviews": {
+            "titre": "Beoordelingen",
+            "listes": [
+              {
+                "name": "Sophie Martin – Frankrijk",
+                "img": "profil_33",
+                "rating": "5",
+                "comment": "Een geweldige dagtrip! Essaouira is charmant en rustig, en onze gids was zeer deskundig. De medina en haven waren hoogtepunten. Zeker een aanrader!"
+              },
+              {
+                "name": "James Thompson – Verenigd Koninkrijk",
+                "img": "profil_34",
+                "rating": "4",
+                "comment": "Prachtige kuststad met een ontspannen sfeer. De rit was soepel en de stops onderweg waren interessant. Had graag iets meer tijd op het strand gehad."
+              },
+              {
+                "name": "Laura Garcia – Spanje",
+                "img": "profil_35",
+                "rating": "5",
+                "comment": "Fantastische ervaring! De Skala, de medina en de verse zeevruchten hebben mijn dag gemaakt. Perfecte ontsnapping aan de drukte van Marrakech."
+              }
+            ]
+          },
+          "faqs": {
+            "titre": "Veelgestelde vragen",
+            "listes": [
+              {
+                "question": "Hoe lang duurt de trip?",
+                "repense": "De excursie duurt ongeveer 10–11 uur."
+              },
+              {
+                "question": "Is er vrije tijd in Essaouira?",
+                "repense": "Ja, je krijgt vrije tijd om het strand, de medina of de haven op eigen tempo te verkennen."
+              },
+              {
+                "question": "Moet ik de lunch vooraf reserveren?",
+                "repense": "Nee, lunch is optioneel en kan ter plaatse worden gekozen uit verschillende lokale restaurants."
+              },
+              {
+                "question": "Is de rondleiding inbegrepen?",
+                "repense": "Ja, een begeleide wandeling door de medina en de Skala is inbegrepen."
+              }
+            ]
+          },
+          "images": ["img1", "img4", "img5", "img7", "img10", "img13", "img12", "img58"]
+        }
+      ]
+    },
+    {
+      "from": "Dagtrips vanuit Fes",
+      "tours": [
+        {
+          "id": "8",
+          "to": "Dagtrip van Fes naar Chefchaouen",
+          "departure": "Vertrek vanuit Fes",
+          "titre": "Dagtrip van Fes naar Chefchaouen - Fes Excursie",
+          "durre": "1 DAG",
+          "about": {
+            "entete": "Over deze dagtrip",
+            "titre": "Dagtrip van Fes naar Chefchaouen",
+            "paragraph1": "Ga op een <strong>dagtrip</strong> van <strong>Fes</strong> naar <strong>Chefchaouen</strong>, de beroemde <strong>blauwe stad</strong> in het <strong>Rifgebergte</strong>.",
+            "paragraph2": "Bekend om zijn pittoreske <strong>blauwgeschilderde straatjes</strong> en rustige sfeer, biedt het een werkelijk unieke <strong>Marokkaanse ervaring</strong>."
+          },
+          "programme": {
+            "titre": "ROUTE DAGTRIP VAN FES NAAR CHEFCHAOUEN",
+            "soustitre": "1 DAGTRIP MAROKKO",
+            "jours": [
+              {
+                "jour": "Dag 1: Fes - Chefchaouen - Fes",
+                "text": [
+                  "Je reis begint met een vroege ochtendvertrek vanuit <strong>Fes</strong>, gevolgd door een schilderachtige rit door het prachtige <strong>Rifgebergte</strong>. Bij aankomst in <strong>Chefchaouen</strong> begin je aan een rondleiding, te beginnen met een bezoek aan het <strong>Kasbah Museum</strong> en de <strong>Grote Moskee</strong>. Vervolgens wandel je door de iconische <strong>blauwgeschilderde straten</strong> en levendige <strong>lokale markten</strong>, waar je de charme en unieke sfeer van deze pittoreske stad kunt ervaren.",
+                  "Daarna kun je ervoor kiezen om te lunchen in een <strong>lokaal restaurant</strong> (optioneel) voordat je naar de <strong>Spaanse Moskee</strong> gaat, waar je kunt genieten van adembenemende <strong>panoramische uitzichten</strong>. Je krijgt daarna vrije tijd om <strong>Chefchaouen</strong> op je eigen tempo te verkennen, door de rustige steegjes te wandelen of te ontspannen in een van de charmante <strong>cafés</strong>. ’s Avonds keer je terug naar <strong>Fes</strong>, waarmee een dag vol onvergetelijke indrukken wordt afgesloten."
+                ]
+              }
+            ]
+          },
+          "infos": {
+            "titre": "Informatie over de tour van Fes naar Chefchaouen",
+            "soustitre": "Inbegrepen & Niet inbegrepen",
+            "price": {
+              "titreIncludes": "Prijs is inclusief:",
+              "includes": [
+                "Vervoer in een comfortabel voertuig",
+                "Engels/Franssprekende chauffeur/gids",
+                "Ophalen en afzetten bij je accommodatie in Fes"
+              ],
+              "titreNotIncludes": "Niet inbegrepen:",
+              "notIncludes": [
+                "Lunch en drankjes",
+                "Persoonlijke uitgaven",
+                "Fooien"
+              ],
+              "important": {
+                "titre": "<span style='color: #05A317'>Belangrijk!:</span>",
+                "text": "Draag comfortabele schoenen en neem water mee voor de wandeling."
+              },
+              "priceText": {
+                "titre": "<span style='color: #0264C7'>De Prijs :</span>",
+                "text": "<strong>Neem contact met ons op</strong> voor de beste prijs op basis van je groepsgrootte."
+              }
+            }
+          },
+          "reviews": {
+            "titre": "Beoordelingen",
+            "listes": [
+              {
+                "name": "Emma Wilson – VS",
+                "img": "profil_36",
+                "rating": "5",
+                "comment": "Chefchaouen is absoluut magisch! De blauwe straten waren nog mooier in het echt. Een must-do trip vanuit Fes!"
+              },
+              {
+                "name": "Mohamed El Idrissi – Marokko",
+                "img": "profil_37",
+                "rating": "5",
+                "comment": "Geweldige organisatie en comfortabele rit. Het uitzicht vanaf de Spaanse Moskee was adembenemend. Zeker een aanrader."
+              },
+              {
+                "name": "Rebecca Lee – Canada",
+                "img": "profil_38",
+                "rating": "4",
+                "comment": "Prachtige bezoek aan de blauwe stad. Ik hield van de rustige sfeer. De tour was goed gepland, maar ik had graag iets meer vrije tijd gehad."
+              }
+            ]
+          },
+          "faqs": {
+            "titre": "Veelgestelde vragen",
+            "listes": [
+              {
+                "question": "Hoe lang is de rit van Fes naar Chefchaouen?",
+                "repense": "De rit duurt ongeveer 3,5 tot 4 uur per enkele reis."
+              },
+              {
+                "question": "Is Chefchaouen wandelvriendelijk?",
+                "repense": "Ja, de stad is zeer geschikt om te voet te verkennen, maar sommige delen zijn heuvelachtig."
+              },
+              {
+                "question": "Is de toegang tot het Kasbah Museum inbegrepen?",
+                "repense": "Toegangsprijzen zijn niet inbegrepen en moeten ter plaatse worden betaald."
+              },
+              {
+                "question": "Kan ik Chefchaouen zelf verkennen?",
+                "repense": "Ja, na de begeleide introductie krijg je vrije tijd om zelfstandig te verkennen."
+              }
+            ]
+          },
+          "images": ["img62", "img61", "img70", "img79", "img82", "img84"]
+        }
+      ]
+    }
+  ]
+}

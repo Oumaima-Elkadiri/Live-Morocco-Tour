@@ -1,0 +1,30 @@
+{
+    "title": "Ontdek MAROKKO",
+    "subtitle": "Van de gouden duinen van de Sahara tot de blauwe straatjes van Chefchaouen, verken de meest betoverende bestemmingen van Marokko met ons.",
+    "cards_from":[
+        {
+            "title_from": "CASABLANCA",
+            "description": "De moderne hoofdstad waar de oceaan elegantie ontmoet."
+        },
+        {
+            "title_from": "MARRAKECH",
+            "description": "De rode stad, levendig en magisch in elk moment."
+        },
+        {
+            "title_from": "TANGIER",
+            "description": "Waar de Atlantische Oceaan de Middellandse Zee ontmoet."
+        },
+        {
+            "title_from": "FES",
+            "description": "Reis naar het hart van de Marokkaanse geschiedenis en tradities."
+        },
+        {
+            "title_from": "OUARZAZATE",
+            "description": "De toegangspoort tot de woestijn en hoofdstad van de Marokkaanse cinema."
+        },
+        {
+            "title_from": "ERRACHIDIA",
+            "description": "Een vredige oase tussen bergen en gouden zand."
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+  "tours_Lists": [
+    {
+      "from": "Excursiones de un día desde Marrakech",
+      "tours": [
+        {
+          "id": "7",
+          "to": "Excursión de un día desde Marrakech a Essaouira",
+          "departure": "Desde Marrakech",
+          "titre": "Excursión de un día desde Marrakech a Essaouira - Excursión Marrakech",
+          "durre": "1 DÍA",
+          "about": {
+            "entete": "Sobre esta excursión",
+            "titre": "Excursión de un día desde Marrakech a Essaouira",
+            "paragraph1": "Embárcate en una excursión de un día desde <strong>Marrakech</strong> a <strong>Essaouira</strong>, una encantadora ciudad costera conocida por su ambiente relajado, su histórica <strong>medina</strong> y sus hermosas <strong>playas</strong>.",
+            "paragraph2": "Esta excursión ofrece <strong>cultura</strong>, <strong>historia</strong> y paisajes <strong>escénicos</strong> mientras escapas del bullicioso ritmo de <strong>Marrakech</strong>."
+          },
+          "programme": {
+            "titre": "ITINERARIO EXCURSIÓN DE UN DÍA DE MARRAKECH A ESSAOUIRA",
+            "soustitre": "1 DÍA VIAJE MARRUECOS",
+            "jours": [
+              {
+                "jour": "Día 1: Marrakech - Essaouira - Marrakech",
+                "text": [
+                  "Saliendo de <strong>Marrakech</strong> temprano por la mañana, disfrutarás de un agradable trayecto a través de los <strong>bosques de argán</strong>, un paisaje auténtico y típico de la región. Una vez en <strong>Essaouira</strong>, comenzará la visita guiada descubriendo la <strong>Skala de la Ciudad</strong> y la histórica <strong>medina</strong>, declarada <strong>Patrimonio de la Humanidad por la UNESCO</strong>. Luego podrás pasear por el <strong>mercado de pescado</strong> y el <strong>puerto</strong>, centros de la vida local con un ambiente marítimo particularmente encantador.",
+                  "Después de la visita, tendrás la opción de almorzar en un <strong>restaurante local</strong> antes de disfrutar de tiempo libre para relajarte en la <strong>playa</strong> o explorar <strong>Essaouira</strong> a tu propio ritmo. Al final del día, regresarás a <strong>Marrakech</strong> con recuerdos inolvidables de esta escapada costera."
+                ]
+              }
+            ]
+          },
+          "infos": {
+            "titre": "Información de la excursión de Marrakech a Essaouira",
+            "soustitre": "Incluido & No Incluido",
+            "price": {
+              "titreIncludes": "El precio incluye:",
+              "includes": [
+                "Transporte en un vehículo cómodo",
+                "Conductor/guía de habla inglesa/francesa",
+                "Recogida y regreso a tu alojamiento en Marrakech"
+              ],
+              "titreNotIncludes": "El precio no incluye:",
+              "notIncludes": [
+                "Comida y bebidas",
+                "Gastos personales",
+                "Propinas"
+              ],
+              "important": {
+                "titre": "<span style='color: #05A317'>¡Importante!:<span",
+                "text": "Usa zapatos cómodos y lleva agua para la caminata."
+              },
+              "priceText": {
+                "titre": "<span style='color: #0264C7'>El Precio :</span>",
+                "text": "Ponte en <strong>contacto con nosotros</strong> para obtener el mejor precio según el tamaño de tu grupo."
+              }
+            }
+          },
+          "reviews": {
+            "titre": "Opiniones",
+            "listes": [
+              {
+                "name": "Sophie Martin – Francia",
+                "img": "profil_33",
+                "rating": "5",
+                "comment": "¡Una excursión maravillosa! Essaouira es encantadora y tranquila, y nuestro guía fue muy informado. La medina y el puerto fueron lo mejor. ¡Muy recomendado!"
+              },
+              {
+                "name": "James Thompson – Reino Unido",
+                "img": "profil_34",
+                "rating": "4",
+                "comment": "Hermosa ciudad costera con un ambiente relajado. El trayecto fue agradable y las paradas interesantes. Me hubiera gustado un poco más de tiempo en la playa."
+              },
+              {
+                "name": "Laura Garcia – España",
+                "img": "profil_35",
+                "rating": "5",
+                "comment": "¡Experiencia increíble! La Skala, la medina y el marisco fresco hicieron mi día. La escapada perfecta del bullicio de Marrakech."
+              }
+            ]
+          },
+          "faqs": {
+            "titre": "Preguntas Frecuentes",
+            "listes": [
+              {
+                "question": "¿Cuánto dura la excursión?",
+                "repense": "La excursión dura aproximadamente entre 10 y 11 horas."
+              },
+              {
+                "question": "¿Hay tiempo libre en Essaouira?",
+                "repense": "Sí, tendrás tiempo libre para explorar la playa, la medina o el puerto a tu ritmo."
+              },
+              {
+                "question": "¿Necesito reservar el almuerzo con antelación?",
+                "repense": "No, el almuerzo es opcional y puedes elegir entre varios restaurantes locales."
+              },
+              {
+                "question": "¿La visita guiada está incluida?",
+                "repense": "Sí, se incluye una visita guiada a pie por la medina y la Skala."
+              }
+            ]
+          },
+          "images": ["img1", "img4", "img5", "img7", "img10", "img13", "img12", "img58"]
+        }
+      ]
+    },
+
+    {
+      "from": "Excursiones de un día desde Fez",
+      "tours": [
+        {
+          "id": "8",
+          "to": "Excursión de un día desde Fez a Chefchaouen",
+          "departure": "Desde Fez",
+          "titre": "Excursión de un día desde Fez a Chefchaouen - Excursión Fez",
+          "durre": "1 DÍA",
+          "about": {
+            "entete": "Sobre esta excursión",
+            "titre": "Excursión de un día desde Fez a Chefchaouen",
+            "paragraph1": "Embárcate en una <strong>excursión de un día</strong> desde <strong>Fez</strong> a <strong>Chefchaouen</strong>, la famosa <strong>ciudad azul</strong> ubicada en las <strong>Montañas del Rif</strong>.",
+            "paragraph2": "Conocida por sus pintorescas <strong>calles azules</strong> y su ambiente tranquilo, ofrece una <strong>experiencia marroquí</strong> verdaderamente única."
+          },
+          "programme": {
+            "titre": "ITINERARIO EXCURSIÓN DE FEZ A CHEFCHAOUEN",
+            "soustitre": "1 DÍA VIAJE MARRUECOS",
+            "jours": [
+              {
+                "jour": "Día 1: Fez - Chefchaouen - Fez",
+                "text": [
+                  "Tu viaje comienza temprano desde <strong>Fez</strong>, seguido de un recorrido panorámico por las hermosas <strong>Montañas del Rif</strong>. Al llegar a <strong>Chefchaouen</strong>, iniciarás un recorrido guiado visitando el <strong>Museo de la Kasbah</strong> y la <strong>Gran Mezquita</strong>. Luego pasearás por las icónicas <strong>calles azules</strong> y los vibrantes <strong>mercados locales</strong>, disfrutando del encanto de esta pintoresca ciudad.",
+                  "Después, podrás almorzar en un <strong>restaurante local</strong> (opcional) antes de dirigirte a la <strong>Mezquita Española</strong>, desde donde podrás admirar impresionantes <strong>vistas panorámicas</strong> de la ciudad. Luego tendrás tiempo libre para explorar <strong>Chefchaouen</strong> a tu ritmo, paseando por sus tranquilas calles o relajándote en uno de sus encantadores <strong>cafés</strong>. Por la tarde, regresarás a <strong>Fez</strong>, concluyendo un día lleno de experiencias inolvidables."
+                ]
+              }
+            ]
+          },
+          "infos": {
+            "titre": "Información de la excursión de Fez a Chefchaouen",
+            "soustitre": "Incluido & No Incluido",
+            "price": {
+              "titreIncludes": "El precio incluye:",
+              "includes": [
+                "Transporte en un vehículo cómodo",
+                "Conductor/guía de habla inglesa/francesa",
+                "Recogida y regreso a tu alojamiento en Fez"
+              ],
+              "titreNotIncludes": "El precio no incluye:",
+              "notIncludes": [
+                "Comida y bebidas",
+                "Gastos personales",
+                "Propinas"
+              ],
+              "important": {
+                "titre": "<span style='color: #05A317'>¡Importante!:<span",
+                "text": "Usa zapatos cómodos y lleva agua para la caminata."
+              },
+              "priceText": {
+                "titre": "<span style='color: #0264C7'>El Precio :</span>",
+                "text": "Ponte en <strong>contacto con nosotros</strong> para obtener el mejor precio según el tamaño de tu grupo."
+              }
+            }
+          },
+          "reviews": {
+            "titre": "Opiniones",
+            "listes": [
+              {
+                "name": "Emma Wilson – EE.UU.",
+                "img": "profil_36",
+                "rating": "5",
+                "comment": "¡Chefchaouen es absolutamente mágica! Las calles azules son aún más hermosas en persona. ¡Una excursión obligatoria desde Fez!"
+              },
+              {
+                "name": "Mohamed El Idrissi – Marruecos",
+                "img": "profil_37",
+                "rating": "5",
+                "comment": "Gran organización y viaje cómodo. Las vistas desde la Mezquita Española fueron impresionantes. Muy recomendado."
+              },
+              {
+                "name": "Rebecca Lee – Canadá",
+                "img": "profil_38",
+                "rating": "4",
+                "comment": "Una visita maravillosa a la ciudad azul. Me encantó el ambiente tranquilo. El recorrido fue equilibrado, aunque hubiera querido un poco más de tiempo libre."
+              }
+            ]
+          },
+          "faqs": {
+            "titre": "Preguntas Frecuentes",
+            "listes": [
+              {
+                "question": "¿Cuánto dura el viaje de Fez a Chefchaouen?",
+                "repense": "El trayecto dura aproximadamente entre 3,5 y 4 horas por trayecto."
+              },
+              {
+                "question": "¿Es Chefchaouen una ciudad cómoda para caminar?",
+                "repense": "Sí, es muy accesible a pie, aunque algunas zonas tienen cuestas."
+              },
+              {
+                "question": "¿La entrada al Museo de la Kasbah está incluida?",
+                "repense": "No, la entrada no está incluida y debe pagarse en el lugar."
+              },
+              {
+                "question": "¿Puedo explorar Chefchaouen por mi cuenta?",
+                "repense": "Sí, después del recorrido guiado tendrás tiempo libre para explorar por tu cuenta."
+              }
+            ]
+          },
+          "images": ["img62", "img61", "img70", "img79", "img82", "img84"]
+        }
+      ]
+    }
+  ]
+}
