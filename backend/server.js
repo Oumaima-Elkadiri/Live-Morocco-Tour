@@ -63,7 +63,7 @@ transporter
   .catch((err) => console.warn("⚠ Problème SMTP :", err.message));
 
 // --- Traductions simple ---
-const messages = {
+const images = {
   en: {
     email_invalid: "Invalid email.",
     newsletter_success: "Subscription successful!",
@@ -101,7 +101,6 @@ const messages = {
   },
 };
 
-
 // --- Email JSON ---
 async function readEmailsFile() {
   try {
@@ -112,6 +111,7 @@ async function readEmailsFile() {
     throw err;
   }
 }
+
 async function writeEmailsFile(emails) {
   await fs.writeFile(DATA_FILE, JSON.stringify(emails, null, 2), "utf8");
 }
@@ -142,7 +142,6 @@ app.use((req, res, next) => {
   next();
 });
 
-
 // --- ROUTE : NEWSLETTER ---
 app.post("/api/newsletter", async (req, res) => {
   const release = await mutex.acquire();
@@ -151,20 +150,20 @@ app.post("/api/newsletter", async (req, res) => {
     const lang = req.lang;
 
     if (!email || !validator.isEmail(String(email))) {
-      return res.status(400).json({ message: messages[lang].email_invalid });
+      return res.status(400).json({ message: images[lang].email_invalid });
     }
 
     const normalized = validator.normalizeEmail(email);
     const domainCheck = await checkEmailDomain(normalized);
     if (!domainCheck.valid) {
       return res.status(400).json({
-        message: messages[lang].email_invalid + " (" + domainCheck.reason + ")",
+        message: images[lang].email_invalid + " (" + domainCheck.reason + ")",
       });
     }
 
     let emails = await readEmailsFile();
     if (emails.includes(normalized)) {
-      return res.status(409).json({ message: messages[lang].already_subscribed });
+      return res.status(409).json({ message: images[lang].already_subscribed });
     }
 
     emails.push(normalized);
@@ -176,29 +175,27 @@ app.post("/api/newsletter", async (req, res) => {
         from: `"Moroccan Trails" <${process.env.FROM_EMAIL}>`,
         to: normalized,
         subject: "Welcome to Moroccan Trails!",
-        html: `
-          <div style="font-family: Arial, sans-serif; color: #333; max-width: 600px; margin:auto; padding:20px; border-radius:10px; border:1px solid #eee;">
-            <div style="text-align:center; margin-bottom:20px;">
-              <img src="LOGO_URL" alt="Moroccan Trails" style="max-width:150px;">
-            </div>
-            <h2 style="text-align:center; color:#3366ff;">Welcome to Moroccan Trails!</h2>
-            <p>Thank you for subscribing to Moroccan Trails! You will receive our latest updates and travel tips.</p>
-            <p style="text-align:center; margin-top:30px;">
-              <a href="https://yourwebsite.com" style="background-color:##3366ff; color:#fff; text-decoration:none; padding:12px 25px; border-radius:5px; font-weight:bold;">
-                Visit Our Website
-              </a>
-            </p>
-          </div>
-        `,
+        html: `<div style="font-family: Arial, sans-serif; color: #333; max-width: 600px; margin:auto; padding:20px; border-radius:10px; border:1px solid #eee;">
+                 <div style="text-align:center; margin-bottom:20px;">
+                   <img src="LOGO_URL" alt="Moroccan Trails" style="max-width:150px;">
+                 </div>
+                 <h2 style="text-align:center; color:#3366ff;">Welcome to Moroccan Trails!</h2>
+                 <p>Thank you for subscribing to Moroccan Trails! You will receive our latest updates and travel tips.</p>
+                 <p style="text-align:center; margin-top:30px;">
+                   <a href="https://yourwebsite.com" style="background-color:#3366ff; color:#fff; text-decoration:none; padding:12px 25px; border-radius:5px; font-weight:bold;">
+                     Visit Our Website
+                   </a>
+                 </p>
+               </div>`,
       });
     } catch (mailErr) {
       console.error("Mail error:", mailErr);
     }
 
-    return res.status(201).json({ message: messages[lang].newsletter_success });
+    return res.status(201).json({ message: images[lang].newsletter_success });
   } catch (err) {
     console.error(err);
-    return res.status(500).json({ message: "Erreur serveur." });
+    return res.status(500).json({ message: "Server error." });
   } finally {
     release();
   }
@@ -210,33 +207,35 @@ app.post("/api/contact", async (req, res) => {
   const lang = req.lang;
 
   if (!nom || !email || !validator.isEmail(email) || !message) {
-    return res.status(400).json({ message: messages[lang].contact_error });
+    return res.status(400).json({ message: images[lang].contact_error });
   }
 
   const domainCheck = await checkEmailDomain(email);
   if (!domainCheck.valid) {
     return res.status(400).json({
-      message: messages[lang].email_invalid + " (" + domainCheck.reason + ")",
+      message: images[lang].email_invalid + " (" + domainCheck.reason + ")",
     });
   }
 
   try {
+    // Email TOUJOURS EN ANGLAIS
     await transporter.sendMail({
       from: `"${nom}" <${email}>`,
       to: process.env.SMTP_USER,
-      subject: lang === "fr" ? `Nouveau message de ${nom}` : `New message from ${nom}`,
-      html: `<p><strong>${lang === "fr" ? "Nom" : "Name"} :</strong> ${nom}</p>
-             <p><strong>Email :</strong> ${email}</p>
+      subject: `New message from ${nom}`,
+      html: `<p><strong>Name:</strong> ${nom}</p>
+             <p><strong>Email:</strong> ${email}</p>
              <p>${message.replace(/\n/g, "<br>")}</p>`,
     });
 
-    return res.status(200).json({ message: messages[lang].contact_success });
+    return res.status(200).json({ message: images[lang].contact_success });
   } catch (err) {
-    console.error("Erreur contact:", err);
-    return res.status(500).json({ message: "Erreur serveur." });
+    console.error("Contact error:", err);
+    return res.status(500).json({ message: "Server error." });
   }
 });
 
+// --- ROUTE RACINE ---
 app.get("/", (req, res) => {
   res.send("Backend running — newsletter & contact API.");
 });
@@ -245,4 +244,3 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Backend on http://localhost:${PORT}`);
 });
-

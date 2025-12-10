@@ -1,6 +1,6 @@
-import React, {memo, useState } from "react";
+import React, { memo, useState } from "react";
 import i18n from "../i18n";
-import "../styles/LanguageSwitcher.css"; // Import du CSS
+import "../styles/LanguageSwitcher.css";
 
 const languages = {
   en: { name: "English", flag: "https://flagcdn.com/w40/gb.png" },
@@ -10,8 +10,7 @@ const languages = {
   ru: { name: "Russe", flag: "https://flagcdn.com/w40/ru.png" }, 
 };
 
-
-const LanguageSwitcher= memo(() =>{
+const LanguageSwitcher = memo(() => {
   const [selectedLang, setSelectedLang] = useState("en");
   const [open, setOpen] = useState(false);
 
@@ -23,9 +22,10 @@ const LanguageSwitcher= memo(() =>{
 
   return (
     <div className={`language-switcher ${open ? "open" : ""}`}>
-      {/* Bouton affichant la langue actuelle */}
+      {/* Bouton affichant la langue actuelle + flèche */}
       <button className="selected-language" onClick={() => setOpen(!open)}>
         <img src={languages[selectedLang].flag} alt={languages[selectedLang].name} />
+        <span className={`arrow ${open ? "open" : ""}`}>▾</span>
       </button>
 
       {/* Liste déroulante des langues */}
@@ -35,7 +35,6 @@ const LanguageSwitcher= memo(() =>{
             lang !== selectedLang && (
               <button key={lang} className="language-option" onClick={() => changeLanguage(lang)}>
                 <img src={languages[lang].flag} alt={languages[lang].name} />
-                
               </button>
             )
         )}
@@ -43,4 +42,5 @@ const LanguageSwitcher= memo(() =>{
     </div>
   );
 });
+
 export default LanguageSwitcher;
