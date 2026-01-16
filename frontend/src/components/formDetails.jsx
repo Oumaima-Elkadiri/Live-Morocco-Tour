@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Popup from "./Popup";
+import Popup from "./popup";
 import "../styles/formDetails.css";
 
 const FormDetails = ({ nameTour }) => {

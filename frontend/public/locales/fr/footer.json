@@ -1,0 +1,28 @@
+{
+  "parag": "Découvrez le monde grâce à des circuits soigneusement conçus et des expériences de voyage authentiques. Votre aventure commence ici.",
+
+  "quickLinks": {
+    "title": "Liens rapides",
+    "aboutUs": "À propos de nous",
+    "ourTours": "Nos circuits",
+    "destinations": "Destinations",
+    "travelBlog": "Blog de voyage",
+    "contact": "Contact"
+  },
+
+  "support": {
+    "title": "Assistance",
+    "helpCenter": "Centre d’aide",
+    "booking": "Politique de réservation",
+    "cancellation": "Politique d’annulation",
+    "travelInsurance": "Assurance voyage",
+    "safetyGuidelines": "Consignes de sécurité"
+  },
+
+  "newsletter": {
+    "title": "Newsletter",
+    "message": "Abonnez-vous pour recevoir des conseils de voyage, des offres exclusives et de l’inspiration pour vos prochaines destinations.",
+    "emailPlaceholder": "Votre e-mail",
+    "subscribe": "S’abonner"
+  }
+}

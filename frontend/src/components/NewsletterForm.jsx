@@ -41,10 +41,10 @@ const NewsletterForm = () => {
           required
         />
         <button type="submit">{t("newsletter.subscribe")}</button>
-      </form>
+      </form> 
       <Popup message={popupMessage} onClose={() => setPopupMessage("")} />
     </>
   );
-};
+}; 
 
 export default NewsletterForm;

@@ -42,7 +42,7 @@ const Header = memo(() => {
     <header>
       {/* LOGO */}
       <Link to="/">
-        <img src={logo} alt="Camel Company Merzouga" />
+        <img src={logo} alt="Live Morocco Tour" />
       </Link>
 
       {/* BURGER MENU */}
@@ -97,7 +97,7 @@ const Header = memo(() => {
                     {item.tours.map((tour, tIndex) => (
                       <li key={tIndex}>
                         <Link
-                          to="/detailsessai"
+                          to="/details"
                           state={{ id: tour.id }}   // Send ONLY ID
                           className={activeTourId === tour.id ? "active-sub-link" : ""}
                           onClick={() => setMenuOpen(false)}
@@ -144,7 +144,7 @@ const Header = memo(() => {
                     {item.tours.map((trip, tIndex) => (
                       <li key={tIndex}>
                         <Link
-                          to="/detailsessai"
+                          to="/details"
                           state={{ id: trip.id }}
                           className={activeTourId === trip.id ? "active-sub-link" : ""}
                           onClick={() => setMenuOpen(false)}

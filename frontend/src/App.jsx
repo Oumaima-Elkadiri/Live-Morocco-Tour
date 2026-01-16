@@ -4,12 +4,14 @@ import Header from "./components/header";
 import LanguageSwitcher from "./components/traduction";
 import ContactIcon from "./components/contactIcon";
 import Footer from "./components/footer";
+import AdminNewsletter from "./pages/AdminNewsletter";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Lazy loading des composants
 const Home = lazy(() => import("./components/home"));
 const About = lazy(() => import("./components/about"));
 const Contact = lazy(() => import("./components/contact"));
-const Detailsessai = lazy(() => import("./components/detailsessai"));
+const Details = lazy(() => import("./components/details"));
 
 // Fallback pour le Suspense
 const LoadingFallback = () => <div>Chargement...</div>;
@@ -17,6 +19,7 @@ const LoadingFallback = () => <div>Chargement...</div>;
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <LanguageSwitcher />
       <ContactIcon />
@@ -26,7 +29,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/detailsessai" element={<Detailsessai />} />
+          <Route path="/details" element={<Details />} />
+          <Route path="/admin/newsletter" element={<AdminNewsletter />} />
         </Routes>
       </Suspense>
       <Footer />

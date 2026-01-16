@@ -115,7 +115,7 @@
 /* 🌐 Responsive Design */
 
 /* --- Tablettes (≤ 992px) --- */
-@media (max-width: 1030px) {
+@media (max-width: 1260px) {
   .card-list,
   .card-list-home {
     grid-template-columns: repeat(2, 1fr); /* 2 cartes par ligne */
@@ -136,8 +136,8 @@
   }
 }
 
-/* --- Téléphones (≤ 600px) --- */
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
   .card-list,
   .card-list-home {
     grid-template-columns: 1fr; /* 1 carte par ligne */

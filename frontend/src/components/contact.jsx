@@ -4,7 +4,7 @@ import "../i18n";
 import { useLocation } from "react-router-dom";
 import contact1 from '../assets/images/contact1.jpg';
 import contact2 from '../assets/images/contact2.jpeg';
-import contact3 from '../assets/images/contact3.jpeg';
+import contact3 from '../assets/images/contact3.jpg';
 import '../styles/contact.css';
 import { FaWhatsapp, FaTripadvisor, FaInstagram, FaFacebook, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { motion, useAnimation } from 'framer-motion';
@@ -17,8 +17,8 @@ const Contact = () => {
   const location = useLocation();
 
   // Numéro de téléphone et e-mail
-  const phoneNumber1 = "+212652492025";
-  const email = "Hassansahara617@gmail.com";
+  const phoneNumber1 = "+212623199726";
+  const email = "moroccantrails1@gmail.com";
  
   // Remonter en haut de la page à chaque changement d'URL
   useEffect(() => {
@@ -62,10 +62,10 @@ const Contact = () => {
     );
   };
   useEffect(() => {
-    document.title = "Contact - Camel Company Merzouga";
+    document.title = "Contact - Live Morocco Tour";
     const metaDescription = document.createElement('meta');
     metaDescription.name = "description";
-    metaDescription.content = "Contact Camel Company Merzouga to book your Moroccan desert tour. Available on WhatsApp, Instagram, and TripAdvisor.";
+    metaDescription.content = "Contact Live Morocco Tour to book your Moroccan desert tour. Available on WhatsApp, Instagram, and TripAdvisor.";
     document.head.appendChild(metaDescription);
 
     return () => {
@@ -126,25 +126,25 @@ const Contact = () => {
       {/* Section Social Contact */}
       <AnimatedSection id="socialContact">
         <div className="social_contact">
-          <h3>{t("social")}</h3>
+          <h3>{t("social")}</h3> 
           <div className="img_contact">
             <div className="social">
-              <a href="https://www.instagram.com/hassan_anaam96/" target="_blank">
-                <p><FaInstagram /> @moroccan_trails</p>
+              <a href="https://www.instagram.com/moroccan_trails1/" target="_blank">
+                <p><FaInstagram /> @live_morocco_tour</p>
               </a>
-              <img src={contact2} alt="" />
+              <img src={contact2} alt="live_morocco_tour" />
             </div>
             <div className="social">
-              <a href="https://www.facebook.com/hassan.anaam.14?mibextid=rS40aB7S9Ucbxw6v" target="_blank">
-                <p><FaFacebook /> @moroccan_trails</p>
+              <a href="https://www.facebook.com/profile.php?id=61584734673978" target="_blank">
+                <p><FaFacebook /> @live_morocco_tour</p>
               </a>
-              <img src={contact1} alt="" />
+              <img src={contact1} alt="live_morocco_tour" />
             </div>
             <div className="social">
               <a href={`https://wa.me/${phoneNumber1}`} target="_blank" rel="noopener noreferrer">
-                <p><FaWhatsapp /> @moroccan_trails</p>
+                <p><FaWhatsapp /> @live_morocco_tour</p>
               </a>
-              <img src={contact3} alt="" />
+              <img src={contact3} alt="live_morocco_tour" />
             </div>
           </div>
         </div>

@@ -1,0 +1,30 @@
+{
+    "title": "探索摩洛哥",
+    "subtitle": "从撒哈拉沙漠的金色沙丘到舍夫沙万的蓝色街道，与我们一起探索摩洛哥最迷人的目的地。",
+    "cards_from": [
+        {
+            "title_from": "卡萨布兰卡",
+            "description": "现代化的城市，海洋与优雅在此相遇。"
+        },
+        {
+            "title_from": "马拉喀什",
+            "description": "红色之城，每一刻都充满活力与魔力。"
+        },
+        {
+            "title_from": "丹吉尔",
+            "description": "大西洋与地中海的交汇之地。"
+        },
+        {
+            "title_from": "菲斯",
+            "description": "走进摩洛哥历史与传统的核心。"
+        },
+        {
+            "title_from": "瓦尔扎扎特",
+            "description": "通往沙漠的大门，摩洛哥电影之都。"
+        },
+        {
+            "title_from": "埃拉希迪亚",
+            "description": "群山与金色沙海之间的宁静绿洲。"
+        }
+    ]
+}

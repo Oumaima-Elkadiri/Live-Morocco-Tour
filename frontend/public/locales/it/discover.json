@@ -1,30 +1,30 @@
 {
-    "title": "Scopri il MAROCCO",
-    "subtitle": "Dalle dune dorate del Sahara alle strade blu di Chefchaouen, esplora con noi le destinazioni più affascinanti del Marocco.",
-    "cards_from":[
-        {
-            "title_from": "CASABLANCA",
-            "description": "La capitale moderna dove l'oceano incontra l'eleganza."
-        },
-        {
-            "title_from": "MARRAKECH",
-            "description": "La città rossa, vivace e magica in ogni momento."
-        },
-        {
-            "title_from": "TANGERI",
-            "description": "Dove l'Atlantico incontra il Mediterraneo."
-        },
-        {
-            "title_from": "FES",
-            "description": "Viaggia nel cuore della storia e delle tradizioni marocchine."
-        },
-        {
-            "title_from": "OUARZAZATE",
-            "description": "La porta del deserto e capitale del cinema marocchino."
-        },
-        {
-            "title_from": "ERRACHIDIA",
-            "description": "Un'oasi tranquilla tra montagne e sabbia dorata."
-        }
-    ]
+  "title": "Scopri il MAROCCO",
+  "subtitle": "Dalle dune dorate del Sahara alle strade blu di Chefchaouen, esplora con noi le destinazioni più affascinanti del Marocco.",
+  "cards_from": [
+    {
+      "title_from": "CASABLANCA",
+      "description": "La capitale moderna, dove l’oceano incontra l’eleganza."
+    },
+    {
+      "title_from": "MARRAKECH",
+      "description": "La città rossa, vibrante e magica in ogni momento."
+    },
+    {
+      "title_from": "TANGERI",
+      "description": "Dove l’Oceano Atlantico incontra il Mar Mediterraneo."
+    },
+    {
+      "title_from": "FES",
+      "description": "Un viaggio nel cuore della storia e delle tradizioni marocchine."
+    },
+    {
+      "title_from": "OUARZAZATE",
+      "description": "La porta del deserto e la capitale del cinema marocchino."
+    },
+    {
+      "title_from": "ERRACHIDIA",
+      "description": "Un’oasi tranquilla tra montagne e sabbie dorate."
+    }
+  ]
 }

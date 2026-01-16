@@ -1,13 +1,13 @@
 {
-  "parag": "Scopri il mondo con tour accuratamente studiati ed esperienze di viaggio autentiche. La tua avventura inizia qui.",
+  "parag": "Scopri il mondo con tour progettati con cura ed esperienze di viaggio autentiche. La tua avventura inizia qui.",
 
   "quickLinks": {
     "title": "Link Rapidi",
     "aboutUs": "Chi Siamo",
     "ourTours": "I Nostri Tour",
     "destinations": "Destinazioni",
-    "travelBlog": "Blog di Viaggi",
-    "contact": "Contatto"
+    "travelBlog": "Blog di Viaggio",
+    "contact": "Contatti"
   },
 
   "support": {
@@ -21,7 +21,7 @@
 
   "newsletter": {
     "title": "Newsletter",
-    "message": "Iscriviti per ricevere consigli di viaggio, offerte esclusive e ispirazione per le destinazioni.",
+    "message": "Iscriviti per ricevere consigli di viaggio, offerte esclusive e ispirazione sulle destinazioni.",
     "emailPlaceholder": "La tua email",
     "subscribe": "Iscriviti"
   }

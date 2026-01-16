@@ -1,0 +1,30 @@
+{
+  "title": "Découvrez le MAROC",
+  "subtitle": "Des dunes dorées du Sahara aux rues bleues de Chefchaouen, explorez avec nous les destinations les plus fascinantes du Maroc.",
+  "cards_from": [
+    {
+      "title_from": "CASABLANCA",
+      "description": "La capitale économique moderne où l’océan rencontre l’élégance."
+    },
+    {
+      "title_from": "MARRAKECH",
+      "description": "La ville rouge, vibrante et magique à chaque instant."
+    },
+    {
+      "title_from": "TANGER",
+      "description": "Là où l’océan Atlantique rencontre la mer Méditerranée."
+    },
+    {
+      "title_from": "FÈS",
+      "description": "Un voyage au cœur de l’histoire et des traditions marocaines."
+    },
+    {
+      "title_from": "OUARZAZATE",
+      "description": "La porte du désert et la capitale du cinéma marocain."
+    },
+    {
+      "title_from": "ERRACHIDIA",
+      "description": "Une oasis paisible entre montagnes et sables dorés."
+    }
+  ]
+}

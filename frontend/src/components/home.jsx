@@ -3,12 +3,14 @@ import { useTranslation } from 'react-i18next';
 import { useLocation, useNavigate } from 'react-router-dom'; // Importez useLocation
 import '../i18n'; 
 import about_img from '../assets/images/img_about.jpg';
-import profil_1 from '../assets/images/profil/profil_1.jpg';
-import profil_2 from '../assets/images/profil/profil_2.jpg';
-import profil_3 from '../assets/images/profil/profil_3.jpg';
+
+import profil_1 from '../assets/images/profil/girls/profil_1.jpg';
+import profil_2 from '../assets/images/profil/boys/profil_1.jpg';
+import profil_3 from '../assets/images/profil/girls/profil_2.jpg';
+
 import { MapPinned, Users, ShieldCheck, Star} from "lucide-react";
 import '../styles/home.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
 import CardList from "./Card/cardList";
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -81,10 +83,10 @@ useEffect(() => {
 
   // 🔹 Ajout du useEffect pour le SEO
   useEffect(() => {
-    document.title = "Home - Moroccan Trails";
+    document.title = "Home - Live Morocco Tour";
     const metaDescription = document.createElement('meta');
     metaDescription.name = "description";
-    metaDescription.content = "Discover MOROCCAN TRAILS, your expert in camel treks and excursions in the Moroccan desert.";
+    metaDescription.content = "Discover LIVE MOROCCO TOUR, your expert in camel treks and excursions in the Moroccan desert.";
     document.head.appendChild(metaDescription);
 
     return () => {
@@ -118,7 +120,18 @@ useEffect(() => {
           <p>{t("home:text")}</p>
           <div className="actions">
             <button onClick={() => navigate("/contact")}>{t("home:button1")}</button>
-            <button onClick={() => navigate("/AllTours")}>{t("home:button2")}</button>
+            <button
+              onClick={() =>
+                window.open(
+                  "https://www.tripadvisor.com/Attraction_Review-g304017-d33032002-Reviews-Moroccan_Trails-Merzouga_Draa_Tafilalet.html",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              {t("home:button2")}
+            </button>
+
           </div>
         </div>
       </Section>
@@ -257,16 +270,22 @@ useEffect(() => {
             </div>
 
             <div className="social-links">
-              <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.livemoroccotour.com" target="_blank" rel="noopener noreferrer">
                 <FaGlobe className="social-icon" />
               </a>
-              <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer">
+
+              <a href="https://www.facebook.com/profile.php?id=61584734673978" target="_blank" rel="noopener noreferrer">
                 <FaFacebookF className="social-icon" />
               </a>
-              <a href="https://www.example.com/discover" target="_blank" rel="noopener noreferrer">
+
+              <a href="https://www.tripadvisor.com/Attraction_Review-g304017-d33032002-Reviews-Moroccan_Trails-Merzouga_Draa_Tafilalet.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <MdTravelExplore className="social-icon" />
               </a>
             </div>
+
           </div>
         </div>
       </Section>
@@ -281,14 +300,20 @@ useEffect(() => {
             <p>{t("adventure:adventure_text")}</p>
 
             <div className="adventure-buttons">
-              <Link to="/tours" className="adventure-button primary">
+              <a
+                href="https://www.tripadvisor.com/Attraction_Review-g304017-d33032002-Reviews-Moroccan_Trails-Merzouga_Draa_Tafilalet.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="adventure-button primary"
+              >
                 {t("adventure:button_explore")}
-              </Link>
+              </a>
 
-              <Link to="/Contact" className="adventure-button secondary">
+              <Link to="/contact" className="adventure-button secondary">
                 {t("adventure:button_contact")}
               </Link>
             </div>
+
           </div>
 
         </div>

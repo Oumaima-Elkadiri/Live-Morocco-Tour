@@ -1,0 +1,24 @@
+{
+  "avis_title": "Ce que disent nos voyageurs",
+  "avis_text": "Des expériences authentiques vécues par de vrais aventuriers",
+  "comments": [
+    {
+      "name": "Emily Rodriguez",
+      "pays": "Californie, États-Unis",
+      "message": "Le circuit dans le désert du Sahara a été une expérience qui a changé ma vie !",
+      "image": "profil_1"
+    },
+    {
+      "name": "Liam Smith",
+      "pays": "Londres, Royaume-Uni",
+      "message": "Un voyage incroyable au cœur du désert.",
+      "image": "profil_2"
+    },
+    {
+      "name": "Sofia Martinez",
+      "pays": "Madrid, Espagne",
+      "message": "Dès notre arrivée, nous avons été accueillis comme des membres de la famille.",
+      "image": "profil_3"
+    }
+  ]
+}

@@ -4,204 +4,753 @@
       "from": "Escursioni di un giorno da Marrakech",
       "tours": [
         {
-          "id": "7",
-          "to": "Gita di un giorno da Marrakech a Essaouira",
-          "departure": "Da Marrakech",
-          "titre": "Gita di un giorno da Marrakech a Essaouira - Escursione da Marrakech",
-          "durre": "1 GIORNO",
-          "about": {
-            "entete": "Informazioni su questa escursione",
-            "titre": "Gita di un giorno da Marrakech a Essaouira",
-            "paragraph1": "Parti per una gita di un giorno da <strong>Marrakech</strong> a <strong>Essaouira</strong>, una affascinante città costiera nota per la sua atmosfera rilassata, la sua storica <strong>medina</strong> e le sue splendide <strong>spiagge</strong>.",
-            "paragraph2": "Questa escursione offre <strong>cultura</strong>, <strong>storia</strong> e splendidi <strong>paesaggi</strong>, permettendoti di sfuggire al trambusto di <strong>Marrakech</strong>."
-          },
-          "programme": {
-            "titre": "ITINERARIO – GITA DI UN GIORNO DA MARRAKECH A ESSAOUIRA",
-            "soustitre": "1 GIORNO IN MAROCCO",
-            "jours": [
-              {
-                "jour": "Giorno 1: Marrakech - Essaouira - Marrakech",
-                "text": [
-                  "Partendo da <strong>Marrakech</strong> la mattina presto, godrai di un piacevole viaggio attraverso le <strong>foreste di argan</strong>, un paesaggio autentico e tipico della regione. Una volta arrivato a <strong>Essaouira</strong>, il tour guidato inizia con la scoperta della <strong>Skala della Città</strong> e della storica <strong>medina</strong>, un <strong>Sito Patrimonio dell'Umanità UNESCO</strong>. Potrai poi passeggiare nel <strong>mercato del pesce</strong> e nel <strong>porto</strong>, veri centri della vita cittadina dove l’atmosfera marittima è particolarmente affascinante.",
-                  "Dopo il tour, avrai la possibilità di pranzare in un <strong>ristorante locale</strong> prima di goderti del tempo libero per rilassarti sulla <strong>spiaggia</strong> o esplorare <strong>Essaouira</strong> a tuo ritmo. Alla fine della giornata, tornerai verso <strong>Marrakech</strong> con ricordi indimenticabili di questa fuga sulla costa."
-                ]
-              }
-            ]
-          },
-          "infos": {
-            "titre": "Informazioni sulla gita da Marrakech a Essaouira",
-            "soustitre": "Incluso & Non incluso",
-            "price": {
-              "titreIncludes": "Il prezzo include:",
-              "includes": [
-                "Trasporto in un veicolo confortevole",
-                "Autista/guida parlante inglese/francese",
-                "Pick-up e drop-off presso il tuo alloggio a Marrakech"
-              ],
-              "titreNotIncludes": "Il prezzo non include:",
-              "notIncludes": [
-                "Pranzo e bevande",
-                "Spese personali",
-                "Mance"
-              ],
-              "important": {
-                "titre": "<span style='color: #05A317'>Importante!:</span>",
-                "text": "Indossa scarpe comode e porta acqua per la camminata."
-              },
-              "priceText": {
-                "titre": "<span style='color: #0264C7'>Prezzo :</span>",
-                "text": "<strong>Contattaci</strong> per il miglior prezzo in base alle dimensioni del tuo gruppo."
-              }
-            }
-          },
-          "reviews": {
-            "titre": "Recensioni",
-            "listes": [
-              {
-                "name": "Sophie Martin – Francia",
-                "img": "profil_33",
-                "rating": "5",
-                "comment": "Una splendida gita! Essaouira è affascinante e tranquilla, e la nostra guida era molto preparata. La medina e il porto sono stati i momenti migliori. Consigliatissimo!"
-              },
-              {
-                "name": "James Thompson – Regno Unito",
-                "img": "profil_34",
-                "rating": "4",
-                "comment": "Bellissima città costiera con un’atmosfera rilassata. Il viaggio è stato piacevole e le soste lungo il percorso interessanti. Avrei voluto un po’ più di tempo in spiaggia."
-              },
-              {
-                "name": "Laura Garcia – Spagna",
-                "img": "profil_35",
-                "rating": "5",
-                "comment": "Esperienza fantastica! La Skala, la medina e il pesce fresco hanno reso la giornata perfetta. Ottima fuga dal caos di Marrakech."
-              }
-            ]
-          },
-          "faqs": {
-            "titre": "Domande Frequenti",
-            "listes": [
-              {
-                "question": "Quanto dura la gita?",
-                "repense": "L’escursione dura circa 10–11 ore."
-              },
-              {
-                "question": "C'è del tempo libero a Essaouira?",
-                "repense": "Sì, avrai tempo libero per esplorare la spiaggia, la medina o il porto."
-              },
-              {
-                "question": "Devo prenotare il pranzo in anticipo?",
-                "repense": "No, il pranzo è opzionale e può essere scelto sul posto."
-              },
-              {
-                "question": "Il tour guidato è incluso?",
-                "repense": "Sì, è incluso un tour guidato a piedi della medina e della Skala."
-              }
-            ]
-          },
-          "images": ["img1", "img4", "img5", "img7", "img10", "img13", "img12", "img58"]
-        }
+  "id": "1",
+  "to": "Escursione di un Giorno da Marrakech a Essaouira",
+  "departure": "Da Marrakech",
+  "titre": "Escursione di un Giorno da Marrakech a Essaouira - Escursione da Marrakech",
+  "durre": "1 GIORNO",
+  "about": {
+    "entete": "Informazioni su Questa Escursione Giornaliera",
+    "titre": "Escursione di un Giorno da Marrakech a Essaouira",
+    "paragraph1": "Parti per un’escursione di un giorno da <strong>Marrakech</strong> a <strong>Essaouira</strong>, una graziosa città costiera conosciuta per la sua atmosfera rilassata, la storica <strong>medina</strong> e le sue splendide <strong>spiagge</strong>.",
+    "paragraph2": "Questa escursione offre un perfetto mix di <strong>cultura</strong>, <strong>storia</strong> e magnifici <strong>paesaggi</strong>, permettendoti di fuggire dal ritmo frenetico di <strong>Marrakech</strong>."
+  },
+  "programme": {
+    "titre": "ITINERARIO ESCURSIONE DA MARRAKECH A ESSAOUIRA",
+    "soustitre": "ESCURSIONE DI 1 GIORNO IN MAROCCO",
+    "jours": [
+      {
+        "jour": "Giorno 1: Marrakech - Essaouira - Marrakech",
+        "text": [
+          "Partenza da <strong>Marrakech</strong> di prima mattina per un piacevole viaggio attraverso le <strong>foreste di argan</strong>, un paesaggio autentico e tipico della regione. All’arrivo a <strong>Essaouira</strong>, la visita guidata inizia con la scoperta della <strong>Skala della Città</strong> e della storica <strong>medina</strong>, dichiarata <strong>Patrimonio dell’Umanità UNESCO</strong>. Successivamente potrai passeggiare nel <strong>mercato del pesce</strong> e nel <strong>porto</strong>, veri centri della vita cittadina, dove l’atmosfera marittima è particolarmente affascinante.",
+          "Dopo la visita, avrai la possibilità di pranzare in un <strong>ristorante locale</strong> e goderti del tempo libero per rilassarti sulla <strong>spiaggia</strong> o esplorare <strong>Essaouira</strong> al tuo ritmo. Nel tardo pomeriggio, rientro verso <strong>Marrakech</strong>, portando con te ricordi indimenticabili di questa splendida fuga sulla costa."
+        ]
+      }
+    ]
+  },
+  "infos": {
+    "titre": "Informazioni Tour da Marrakech a Essaouira",
+    "soustitre": "Incluso & Non Incluso",
+    "price": {
+      "titreIncludes": "Il prezzo include:",
+      "includes": [
+        "Trasporto in veicolo confortevole",
+        "Autista/guida parlante inglese e francese",
+        "Prelievo e rientro presso il tuo alloggio a Marrakech"
+      ],
+      "titreNotIncludes": "Il prezzo non include:",
+      "notIncludes": [
+        "Pranzo e bevande",
+        "Spese personali",
+        "Mance"
+      ],
+      "important": {
+        "titre": "<span style='color: #05A317'>Importante!:<span",
+        "text": "Indossare scarpe comode e portare acqua per la passeggiata."
+      },
+      "priceText": {
+        "titre": "<span style='color: #0264C7'>Il Prezzo :</span>",
+        "text": "<strong>Contattaci</strong> per ottenere il miglior prezzo in base al numero di partecipanti."
+      }
+    }
+  },
+  "reviews": {
+    "titre": "Recensioni",
+    "listes": [
+      {
+        "name": "Sophie Martin – Francia",
+        "img": "girl_profil_1",
+        "rating": "5",
+        "comment": "Un’escursione meravigliosa! Essaouira è affascinante e tranquilla, e la nostra guida era molto preparata. La medina e il porto sono stati i punti forti. Consigliatissimo!"
+      },
+      {
+        "name": "James Thompson – Regno Unito",
+        "img": "inconu",
+        "rating": "4",
+        "comment": "Bellissima città costiera con un’atmosfera rilassante. Il viaggio è stato confortevole e le soste lungo il percorso interessanti. Avrei voluto un po’ più di tempo in spiaggia."
+      },
+      {
+        "name": "Laura Garcia – Spagna",
+        "img": "girl_profil_2",
+        "rating": "5",
+        "comment": "Esperienza fantastica! La Skala, la medina e il pesce fresco hanno reso la giornata perfetta. Un’ottima fuga dal caos di Marrakech."
+      }
+    ]
+  },
+  "faqs": {
+    "titre": "Domande Frequenti",
+    "listes": [
+      {
+        "question": "Quanto dura l’escursione?",
+        "repense": "L’escursione dura circa 10–11 ore."
+      },
+      {
+        "question": "C’è tempo libero a Essaouira?",
+        "repense": "Sì, avrai tempo libero per esplorare la spiaggia, la medina o il porto al tuo ritmo."
+      },
+      {
+        "question": "Devo prenotare il pranzo in anticipo?",
+        "repense": "No, il pranzo è facoltativo e può essere scelto sul posto tra diversi ristoranti locali."
+      },
+      {
+        "question": "La visita guidata è inclusa?",
+        "repense": "Sì, è inclusa una visita guidata a piedi della medina e della Skala."
+      }
+    ]
+  },
+  "images": [
+    "img1",
+    "img4",
+    "img5",
+    "img7",
+    "img10",
+    "img13",
+    "img12",
+    "img58"
+  ]
+},
+{
+  "id": "2",
+  "to": "Escursione di un Giorno alle Cascate di Ouzoud da Marrakech",
+  "departure": "Da Marrakech",
+  "titre": "",
+  "durre": "1 GIORNO",
+  "about": {
+    "entete": "Informazioni su Questa Escursione Giornaliera",
+    "titre": "Escursione di un Giorno da Marrakech alle Cascate di Ouzoud",
+    "paragraph2": "Scopri le spettacolari Cascate di Ouzoud durante questa escursione di un giorno. Le cascate di Ouzoud sono una delle meraviglie naturali più famose e suggestive del Marocco e rappresentano la seconda cascata più alta del paese, con un’altezza di 110 metri. Il tour inizia con il prelievo dal tuo alloggio, seguito da un viaggio di circa 160 km da Marrakech. Una volta arrivati alle Cascate di Ouzoud, avrai tempo per esplorare la zona e partecipare a diverse attività (facoltative). Nel pomeriggio rientro a Marrakech."
+  },
+  "programme": {
+    "titre": "ITINERARIO ESCURSIONE DA MARRAKECH ALLE CASCATE DI OUZOUD",
+    "soustitre": "ESCURSIONE DI 1 GIORNO IN MAROCCO",
+    "jours": [
+      {
+        "jour": "Giorno 1: Marrakech - Cascate di Ouzoud - Marrakech",
+        "text": [
+          "Escursione giornaliera alle Cascate di Ouzoud da Marrakech (durata totale 10–11 ore; circa 2,5–3 ore di viaggio per tratta): dopo il prelievo alle 08:00 dal tuo riad o hotel, si viaggia verso nord-est attraversando uliveti e villaggi berberi, con una breve sosta lungo il percorso. Arrivo intorno alle 10:45 a Ouzoud (Tanaghmeilt) per una breve introduzione dal punto panoramico superiore, quindi discesa a piedi tra terrazze e bancarelle fino ai belvedere intermedi e alla base delle cascate alte 110 metri (con gradini e sentieri irregolari in alcuni punti). Tempo libero dalle 12:15 alle 14:00 circa per un giro in barca vicino alle cascate (facoltativo), relax lungo il fiume o pranzo in un caffè locale (a proprie spese).",
+          "Dopo il pranzo, ulteriore tempo libero per attraversare il ponte pedonale e ammirare il panorama da diverse angolazioni, visitare le bancarelle locali e osservare i macachi di Barberia. Chi preferisce camminare meno può restare nella zona panoramica superiore e godere comunque di viste eccellenti. Ritrovo alle 15:30 nel parcheggio superiore e rientro a Marrakech con una sosta lungo il tragitto, arrivo previsto tra le 18:00 e le 18:30. Si consiglia di portare protezione solare, scarpe chiuse antiscivolo e un po’ di contanti per caffè o barca; prevedere spruzzi d’acqua vicino alla base delle cascate e temperature più elevate nelle ore centrali della giornata."
+        ]
+      }
+    ]
+  },
+  "infos": {
+    "titre": "Informazioni Tour da Marrakech alle Cascate di Ouzoud",
+    "soustitre": "Incluso & Non Incluso",
+    "price": {
+      "titreIncludes": "Il prezzo include:",
+      "includes": [
+        "Trasporto in 4x4 privato o minivan con aria condizionata + carburante",
+        "Autista privato parlante inglese",
+        "Prelievo dal tuo riad o da qualsiasi luogo a Marrakech",
+        "Rientro in qualsiasi luogo a Marrakech",
+        "Tempo libero alle Cascate di Ouzoud",
+        "Soste lungo il percorso per viste panoramiche"
+      ],
+      "titreNotIncludes": "Il prezzo non include:",
+      "notIncludes": [
+        "Pranzo e bevande",
+        "Spese personali",
+        "Mance"
+      ],
+      "important": {
+        "titre": "<span style='color: #05A317'>Importante!:<span",
+        "text": "Indossare scarpe comode e portare acqua per la passeggiata."
+      },
+      "priceText": {
+        "titre": "<span style='color: #0264C7'>Il Prezzo :</span>",
+        "text": "<strong>Contattaci</strong> per ottenere il miglior prezzo in base al numero di partecipanti."
+      }
+    }
+  },
+  "reviews": {
+    "titre": "Recensioni",
+    "listes": [
+      {
+        "name": "Sarah – Regno Unito",
+        "img": "inconu",
+        "rating": "5",
+        "comment": "Un’escursione davvero fantastica! Le Cascate di Ouzoud sono mozzafiato e l’intera esperienza è stata organizzata molto bene. L’autista era cordiale e puntuale, e abbiamo avuto molto tempo libero per esplorare, scattare foto e persino fare un giro in barca vicino alle cascate. Consigliatissima agli amanti della natura."
+      },
+      {
+        "name": "Marco – Italia",
+        "img": "boy_profil_1",
+        "rating": "5",
+        "comment": "Uno dei momenti più belli del nostro soggiorno a Marrakech. Il viaggio è stato confortevole e i panorami lungo il percorso splendidi. Le Cascate di Ouzoud sono impressionanti e ci è piaciuto molto passeggiare intorno alle cascate e vedere le scimmie. Un’ottima fuga dalla città per una giornata."
+      },
+      {
+        "name": "Amina – Francia",
+        "img": "girl_profil_3",
+        "rating": "5",
+        "comment": "Un’escursione bellissima! Le cascate di Ouzoud sono spettacolari e l’organizzazione era eccellente. L’autista è stato professionale e ci ha lasciato tutto il tempo necessario per goderci il sito con calma. Consiglio vivamente questa esperienza."
+      }
+    ]
+  },
+  "faqs": {
+    "titre": "Domande Frequenti",
+    "listes": [
+      {
+        "question": "Quanto dura l’escursione?",
+        "repense": "L’escursione dura circa 10–11 ore."
+      },
+      {
+        "question": "C’è tempo libero durante la visita?",
+        "repense": "Sì, avrai tempo libero per esplorare le cascate, rilassarti o partecipare ad attività facoltative."
+      },
+      {
+        "question": "Devo prenotare il pranzo in anticipo?",
+        "repense": "No, il pranzo è facoltativo e può essere scelto sul posto tra diversi ristoranti locali."
+      },
+      {
+        "question": "La visita guidata è inclusa?",
+        "repense": "Il tour include un accompagnamento, ma l’esplorazione del sito avviene in autonomia."
+      }
+    ]
+  },
+  "images": [
+    "img1",
+    "img2",
+    "img5",
+    "img13",
+    "img19",
+    "img10",
+    "img12",
+    "img97"
+  ]
+},
+{
+  "id": "3",
+  "to": "Escursione di un Giorno da Marrakech a Ouarzazate e Ait Ben Haddou",
+  "departure": "Da Marrakech",
+  "titre": "",
+  "durre": "1 GIORNO",
+  "about": {
+    "entete": "Informazioni su Questa Escursione Giornaliera",
+    "titre": "Escursione di un Giorno da Marrakech a Ouarzazate e Ait Ben Haddou",
+    "list": [
+      "Esplora il suggestivo passo di Tizi N-Tichka a un’altitudine di 2.260 m.",
+      "Goditi i paesaggi mozzafiato delle montagne dell’Alto Atlante.",
+      "Visita la Kasbah riconosciuta come Patrimonio Mondiale dell’UNESCO.",
+      "Scopri gli Atlas Studios, famosi studi cinematografici.",
+      "Attraversa autentici villaggi berberi nelle montagne dell’Alto Atlante."
+    ]
+  },
+  "programme": {
+    "titre": "ITINERARIO ESCURSIONE DA MARRAKECH A OUARZAZATE E AIT BEN HADDOU",
+    "soustitre": "ESCURSIONE DI 1 GIORNO IN MAROCCO",
+    "jours": [
+      {
+        "jour": "Giorno 1: Marrakech - Ait Ben Haddou - Ouarzazate - Marrakech",
+        "text": [
+          "L’escursione giornaliera alla Kasbah di Ait Ben Haddou e a Ouarzazate (circa 8 ore totali di guida) inizia da Marrakech. L’autista/guida verrà a prenderti dal tuo alloggio alle 08:00 del mattino. Si parte in direzione di Ouarzazate, conosciuta come la porta del deserto. La prima sosta è nel villaggio di Ait Barka, all’inizio della catena montuosa dell’Alto Atlante. Successivamente si prosegue verso la cima del passo di Tizi N-Tichka, situato a 2.260 metri sul livello del mare, dove potrai ammirare panorami spettacolari e paesaggi mozzafiato delle montagne dell’Alto Atlante, la catena montuosa più alta del Marocco.",
+          "In seguito si raggiunge la Kasbah di Ait Ben Haddou, un antico villaggio fortificato inserito nella lista del Patrimonio Mondiale dell’UNESCO. Questa kasbah è stata il set di numerosi film famosi come *Asterix e Obelix: Missione Cleopatra*, *Lawrence d’Arabia*, *Il Gladiatore* e anche di serie TV come *Game of Thrones*. Pranzo nella kasbah. Nel pomeriggio si prosegue verso la città di Ouarzazate, con visita agli Atlas Studios e alla Kasbah di Taourirt. Infine rientro a Marrakech nel pomeriggio, con rientro al tuo alloggio."
+        ]
+      }
+    ]
+  },
+  "infos": {
+    "titre": "Informazioni Tour da Marrakech a Ouarzazate e Ait Ben Haddou",
+    "soustitre": "Incluso & Non Incluso",
+    "price": {
+      "titreIncludes": "Il prezzo include:",
+      "includes": [
+        "Trasporto in 4x4 privato o minivan con aria condizionata + carburante",
+        "Autista privato parlante inglese",
+        "Prelievo dal tuo riad o da qualsiasi luogo a Marrakech",
+        "Rientro in qualsiasi luogo a Marrakech",
+        "Soste lungo il percorso per viste panoramiche"
+      ],
+      "titreNotIncludes": "Il prezzo non include:",
+      "notIncludes": [
+        "Pranzo e bevande",
+        "Biglietto d’ingresso agli Atlas Studios (8€ a persona)"
+      ],
+      "important": {
+        "titre": "<span style='color: #05A317'>Importante!:<span",
+        "text": "Indossare scarpe comode e portare acqua per la passeggiata."
+      },
+      "priceText": {
+        "titre": "<span style='color: #0264C7'>Il Prezzo :</span>",
+        "text": "<strong>Contattaci</strong> per ottenere il miglior prezzo in base al numero di partecipanti."
+      }
+    }
+  },
+  "reviews": {
+    "titre": "Recensioni",
+    "listes": [
+      {
+        "name": "James – Stati Uniti",
+        "img": "boy_profil_2",
+        "rating": "5",
+        "comment": "Un’escursione indimenticabile attraverso le montagne dell’Alto Atlante. Il percorso lungo il passo di Tizi N’Tichka è stato spettacolare e Ait Ben Haddou ha superato ogni aspettativa. Visitare la kasbah è come entrare in un set cinematografico. Tutto era ben organizzato e l’autista molto preparato."
+      },
+      {
+        "name": "Elena – Spagna",
+        "img": "girl_profil_4",
+        "rating": "5",
+        "comment": "Una combinazione perfetta di storia, cultura e paesaggi mozzafiato. Ait Ben Haddou è davvero impressionante e Ouarzazate ha un’atmosfera cinematografica unica. Le soste panoramiche lungo il percorso sono state incredibili. Consigliatissimo ai visitatori alla prima esperienza in Marocco."
+      },
+      {
+        "name": "Thomas – Germania",
+        "img": "inconu",
+        "rating": "5",
+        "comment": "Un’eccellente escursione da Marrakech. Il viaggio attraverso l’Alto Atlante è stato confortevole e molto panoramico. Abbiamo apprezzato tantissimo la visita ad Ait Ben Haddou, patrimonio UNESCO, e le spiegazioni sui film girati lì. Una giornata lunga ma assolutamente ne vale la pena."
+      }
+    ]
+  },
+  "faqs": {
+    "titre": "Domande Frequenti",
+    "listes": [
+      {
+        "question": "Quanto dura l’escursione?",
+        "repense": "L’escursione dura circa 10–11 ore."
+      },
+      {
+        "question": "C’è tempo libero durante la visita?",
+        "repense": "Sì, è previsto del tempo libero per esplorare i siti e scattare fotografie."
+      },
+      {
+        "question": "Devo prenotare il pranzo in anticipo?",
+        "repense": "No, il pranzo è facoltativo e può essere scelto sul posto."
+      },
+      {
+        "question": "La visita guidata è inclusa?",
+        "repense": "Sì, il tour include l’accompagnamento dell’autista/guida durante tutta la giornata."
+      }
+    ]
+  },
+  "images": [
+    "img5",
+    "img19",
+    "img93",
+    "img95",
+    "img123",
+    "img40",
+    "img139",
+    "img106",
+    "img143"
+  ]
+},
+{
+  "id": "4",
+  "to": "Escursione di un Giorno nella Valle dell’Ourika da Marrakech",
+  "departure": "Da Marrakech",
+  "titre": "",
+  "durre": "1 GIORNO",
+  "about": {
+    "entete": "Informazioni su Questa Escursione Giornaliera",
+    "titre": "Escursione di un Giorno da Marrakech alla Valle dell’Ourika",
+    "paragraph1": "Escursione di un giorno nella Valle dell’Ourika: visita i villaggi di montagna e le cascate della Valle dell’Ourika con un’escursione di un’intera giornata da Marrakech. L’esperienza include: un’escursione a piedi da Setti Fatma, sessioni fotografiche tra gli spettacolari paesaggi delle montagne dell’Atlante e una visita a una cooperativa locale di produzione dell’olio di argan.",
+    "paragraph2": "Goditi un percorso panoramico lungo la valle costeggiando il torrente. Visita anche un mercato berbero locale nel villaggio di Tnin Ourika. Ammira i magnifici panorami delle valli verdi con le montagne dell’Atlante innevate sullo sfondo. Potrai inoltre risvegliare il tuo spirito avventuroso salendo fino alle cascate. In aggiunta, concediti un autentico tajine berbero accanto al fiume. Infine, rientro a Marrakech nel pomeriggio."
+  },
+  "programme": {
+    "titre": "ITINERARIO ESCURSIONE DA MARRAKECH ALLA VALLE DELL’OURIKA",
+    "soustitre": "ESCURSIONE DI 1 GIORNO IN MAROCCO",
+    "jours": [
+      {
+        "jour": "Giorno 1: Marrakech - Valle dell’Ourika - Marrakech",
+        "text": [
+          "L’escursione nella Valle dell’Ourika inizia alle 09:00 dal tuo hotel a Marrakech, in direzione delle montagne dell’Atlante. Dopo un breve tragitto si raggiungono le pendici dell’Atlante, per poi proseguire lungo la valle dell’Ourika attraversando una serie di villaggi di montagna. Salendo lungo le colline, sono previste diverse soste per ammirare splendidi paesaggi naturali.",
+          "Successivamente si fa una sosta nel villaggio di Setti Fatma. Qui potrai goderti una breve escursione a piedi per scoprire le bellissime cascate, famose anche per la possibilità di fare il bagno, e ammirare viste mozzafiato sulla valle circostante.",
+          "Dopo l’escursione a Setti Fatma, visiterai una cooperativa locale dove viene prodotto l’olio di argan e avrai l’opportunità di scattare fotografie nei punti panoramici lungo il percorso.",
+          "Visita la Valle dell’Ourika e scopri i villaggi locali e la cultura berbera.",
+          "La tua giornata nelle montagne dell’Atlante si conclude con il rientro al tuo hotel a Marrakech."
+        ]
+      }
+    ]
+  },
+  "infos": {
+    "titre": "Informazioni Tour da Marrakech alla Valle dell’Ourika",
+    "soustitre": "Incluso & Non Incluso",
+    "price": {
+      "titreIncludes": "Il prezzo include:",
+      "includes": [
+        "Trasporto in 4x4 privato o minivan con aria condizionata + carburante",
+        "Autista privato parlante inglese",
+        "Prelievo dal tuo riad o da qualsiasi luogo a Marrakech",
+        "Rientro in qualsiasi luogo a Marrakech",
+        "Soste lungo il percorso per viste panoramiche"
+      ],
+      "titreNotIncludes": "Il prezzo non include:",
+      "notIncludes": [
+        "Pranzo e bevande"
+      ],
+      "important": {
+        "titre": "<span style='color: #05A317'>Importante!:<span",
+        "text": "Indossare scarpe comode e portare acqua per la passeggiata."
+      },
+      "priceText": {
+        "titre": "<span style='color: #0264C7'>Il Prezzo :</span>",
+        "text": "<strong>Contattaci</strong> per ottenere il miglior prezzo in base al numero di partecipanti."
+      }
+    }
+  },
+  "reviews": {
+    "titre": "Recensioni",
+    "listes": [
+      {
+        "name": "Sophie – Francia",
+        "img": "girl_profil_5",
+        "rating": "5",
+        "comment": "Una splendida fuga dal caos di Marrakech. La Valle dell’Ourika è meravigliosa, con paesaggi verdi e villaggi berberi tradizionali. L’escursione alle cascate di Setti Fatma è stata rinfrescante e non troppo impegnativa. Un’escursione perfetta per gli amanti della natura."
+      },
+      {
+        "name": "Mark – Regno Unito",
+        "img": "boy_profil_3",
+        "rating": "5",
+        "comment": "Una giornata eccellente nelle montagne dell’Atlante. I panorami lungo la Valle dell’Ourika erano spettacolari e la visita alla cooperativa di olio di argan è stata molto interessante. L’autista era cordiale e preparato, rendendo il viaggio piacevole."
+      },
+      {
+        "name": "Lina – Italia",
+        "img": "inconu",
+        "rating": "5",
+        "comment": "Paesaggi bellissimi e un’esperienza culturale autentica. Ho adorato passeggiare nei villaggi berberi e pranzare lungo il fiume. Le cascate di Setti Fatma sono impressionanti e valgono assolutamente la breve camminata. Consigliatissimo."
+      }
+    ]
+  },
+  "faqs": {
+    "titre": "Domande Frequenti",
+    "listes": [
+      {
+        "question": "Quanto dura l’escursione?",
+        "repense": "L’escursione dura circa 10–11 ore."
+      },
+      {
+        "question": "C’è tempo libero durante la visita?",
+        "repense": "Sì, è previsto del tempo libero per esplorare la valle e rilassarsi lungo il fiume."
+      },
+      {
+        "question": "È necessario prenotare il pranzo in anticipo?",
+        "repense": "No, il pranzo è facoltativo e può essere scelto sul posto."
+      },
+      {
+        "question": "La visita guidata è inclusa?",
+        "repense": "Sì, il tour include l’accompagnamento dell’autista durante tutta la giornata."
+      }
+    ]
+  },
+  "images": [
+    "img1",
+    "img2",
+    "img5",
+    "img13",
+    "img19",
+    "img10",
+    "img12",
+    "img97",
+    "img111"
+  ]
+}
       ]
     },
     {
       "from": "Escursioni di un giorno da Fes",
       "tours": [
         {
-          "id": "8",
-          "to": "Gita di un giorno da Fes a Chefchaouen",
-          "departure": "Da Fes",
-          "titre": "Gita di un giorno da Fes a Chefchaouen - Escursione da Fes",
-          "durre": "1 GIORNO",
-          "about": {
-            "entete": "Informazioni su questa escursione",
-            "titre": "Gita di un giorno da Fes a Chefchaouen",
-            "paragraph1": "Parti per una <strong>gita di un giorno</strong> da <strong>Fes</strong> a <strong>Chefchaouen</strong>, la famosa <strong>città blu</strong> situata nelle <strong>Montagne del Rif</strong>.",
-            "paragraph2": "Rinomata per le sue pittoresche <strong>strade blu</strong> e la sua atmosfera serena, offre un'esperienza <strong>marocchina unica</strong>."
-          },
-          "programme": {
-            "titre": "ITINERARIO – GITA DI UN GIORNO DA FES A CHEFCHAOUEN",
-            "soustitre": "1 GIORNO IN MAROCCO",
-            "jours": [
-              {
-                "jour": "Giorno 1: Fes - Chefchaouen - Fes",
-                "text": [
-                  "Il tuo viaggio inizia la mattina presto con la partenza da <strong>Fes</strong>, seguita da un percorso panoramico attraverso le splendide <strong>Montagne del Rif</strong>. All’arrivo a <strong>Chefchaouen</strong>, inizierai un tour guidato della città, partendo dalla visita al <strong>Museo della Kasbah</strong> e alla <strong>Grande Moschea</strong>. Passeggerai poi tra le iconiche <strong>strade blu</strong> e i vivaci <strong>mercati locali</strong>, immergendoti nell’atmosfera unica di questa cittadina pittoresca.",
-                  "Successivamente, potrai scegliere di pranzare in un <strong>ristorante locale</strong> (opzionale) prima di dirigerti verso la <strong>Moschea Spagnola</strong>, dove potrai ammirare splendide <strong>vedute panoramiche</strong> della città. Avrai poi del tempo libero per esplorare <strong>Chefchaouen</strong> al tuo ritmo. La sera rientrerai a <strong>Fes</strong>, concludendo una giornata ricca di paesaggi e momenti indimenticabili."
-                ]
-              }
-            ]
-          },
-          "infos": {
-            "titre": "Informazioni sulla gita da Fes a Chefchaouen",
-            "soustitre": "Incluso & Non incluso",
-            "price": {
-              "titreIncludes": "Il prezzo include:",
-              "includes": [
-                "Trasporto in un veicolo confortevole",
-                "Autista/guida parlante inglese/francese",
-                "Pick-up e drop-off presso il tuo alloggio a Fes"
-              ],
-              "titreNotIncludes": "Il prezzo non include:",
-              "notIncludes": [
-                "Pranzo e bevande",
-                "Spese personali",
-                "Mance"
-              ],
-              "important": {
-                "titre": "<span style='color: #05A317'>Importante!:</span>",
-                "text": "Indossa scarpe comode e porta acqua per la camminata."
-              },
-              "priceText": {
-                "titre": "<span style='color: #0264C7'>Prezzo :</span>",
-                "text": "<strong>Contattaci</strong> per il miglior prezzo in base alle dimensioni del tuo gruppo."
-              }
-            }
-          },
-          "reviews": {
-            "titre": "Recensioni",
-            "listes": [
-              {
-                "name": "Emma Wilson – USA",
-                "img": "profil_36",
-                "rating": "5",
-                "comment": "Chefchaouen è assolutamente magica! Le strade blu sono ancora più belle dal vivo. Un viaggio imperdibile da Fes!"
-              },
-              {
-                "name": "Mohamed El Idrissi – Marocco",
-                "img": "profil_37",
-                "rating": "5",
-                "comment": "Ottima organizzazione e viaggio confortevole. Il panorama dalla Moschea Spagnola era mozzafiato. Consigliatissimo."
-              },
-              {
-                "name": "Rebecca Lee – Canada",
-                "img": "profil_38",
-                "rating": "4",
-                "comment": "Visita meravigliosa alla città blu. Atmosfera tranquilla e tour ben organizzato. Avrei voluto un po’ più di tempo libero."
-              }
-            ]
-          },
-          "faqs": {
-            "titre": "Domande Frequenti",
-            "listes": [
-              {
-                "question": "Quanto dura il viaggio da Fes a Chefchaouen?",
-                "repense": "Il viaggio dura circa 3,5–4 ore per tratta."
-              },
-              {
-                "question": "Chefchaouen è facile da visitare a piedi?",
-                "repense": "Sì, la città è molto pedonale, ma alcune zone sono in salita."
-              },
-              {
-                "question": "L’ingresso al Museo della Kasbah è incluso?",
-                "repense": "No, i biglietti d’ingresso non sono inclusi e devono essere pagati in loco."
-              },
-              {
-                "question": "Posso esplorare Chefchaouen da solo?",
-                "repense": "Sì, dopo l’introduzione guidata avrai del tempo libero per esplorare autonomamente."
-              }
-            ]
-          },
-          "images": ["img62", "img61", "img70", "img79", "img82", "img84"]
-        }
+  "id": "5",
+  "to": "Escursione di un Giorno da Fes a Chefchaouen",
+  "departure": "Da Fes",
+  "titre": "Escursione di un Giorno da Fes a Chefchaouen - Tour da Fes",
+  "durre": "1 GIORNO",
+  "about": {
+    "entete": "Informazioni su Questa Escursione Giornaliera",
+    "titre": "Escursione di un Giorno da Fes a Chefchaouen",
+    "paragraph1": "Parti per una <strong>escursione di un giorno</strong> da <strong>Fes</strong> a <strong>Chefchaouen</strong>, la famosa <strong>città blu</strong> situata tra le <strong>Montagne del Rif</strong>.",
+    "paragraph2": "Conosciuta per le sue pittoresche <strong>strade dipinte di blu</strong> e la sua atmosfera tranquilla, offre un’esperienza <strong>marocchina</strong> davvero unica."
+  },
+  "programme": {
+    "titre": "ITINERARIO ESCURSIONE DA FES A CHEFCHAOUEN",
+    "soustitre": "ESCURSIONE DI 1 GIORNO IN MAROCCO",
+    "jours": [
+      {
+        "jour": "Giorno 1: Fes - Chefchaouen - Fes",
+        "text": [
+          "Il viaggio inizia con una partenza di primo mattino da <strong>Fes</strong>, seguita da un percorso panoramico attraverso le splendide <strong>Montagne del Rif</strong>. All’arrivo a <strong>Chefchaouen</strong>, inizierai una visita guidata della città con una tappa al <strong>Museo della Kasbah</strong> e alla <strong>Grande Moschea</strong>. Successivamente, passeggerai tra le iconiche <strong>stradine blu</strong> e i vivaci <strong>mercati locali</strong>, immergendoti nel fascino unico di questa cittadina pittoresca.",
+          "In seguito, potrai scegliere di pranzare in un <strong>ristorante locale</strong> (facoltativo) prima di dirigerti verso la <strong>Moschea Spagnola</strong>, da dove potrai ammirare splendide <strong>vedute panoramiche</strong> sulla città. Avrai poi del tempo libero per esplorare <strong>Chefchaouen</strong> al tuo ritmo, passeggiando nei suoi vicoli tranquilli o rilassandoti in uno dei suoi affascinanti <strong>caffè</strong>. In serata rientro a <strong>Fes</strong>, concludendo una giornata ricca di emozioni ed esperienze indimenticabili."
+        ]
+      }
+    ]
+  },
+  "infos": {
+    "titre": "Informazioni Tour da Fes a Chefchaouen",
+    "soustitre": "Incluso & Non Incluso",
+    "price": {
+      "titreIncludes": "Il prezzo include:",
+      "includes": [
+        "Trasporto in veicolo confortevole",
+        "Autista/guida parlante inglese/francese",
+        "Prelievo e rientro presso il tuo alloggio a Fes"
+      ],
+      "titreNotIncludes": "Il prezzo non include:",
+      "notIncludes": [
+        "Pranzo e bevande",
+        "Spese personali",
+        "Mance"
+      ],
+      "important": {
+        "titre": "<span style='color: #05A317'>Importante!:<span",
+        "text": "Indossare scarpe comode e portare acqua per la passeggiata."
+      },
+      "priceText": {
+        "titre": "<span style='color: #0264C7'>Prezzo :</span>",
+        "text": "<strong>Contattaci</strong> per ottenere il miglior prezzo in base al numero di partecipanti."
+      }
+    }
+  },
+  "reviews": {
+    "titre": "Recensioni",
+    "listes": [
+      {
+        "name": "Emma Wilson – USA",
+        "img": "girl_profil_6",
+        "rating": "5",
+        "comment": "Chefchaouen è assolutamente magica! Le strade blu erano ancora più belle dal vivo. Un’escursione imperdibile da Fes!"
+      },
+      {
+        "name": "Mohamed El Idrissi – Marocco",
+        "img": "boy_profil_4",
+        "rating": "5",
+        "comment": "Ottima organizzazione e viaggio confortevole. Il panorama dalla Moschea Spagnola era mozzafiato. Consigliatissimo."
+      },
+      {
+        "name": "Rebecca Lee – Canada",
+        "img": "inconu",
+        "rating": "4",
+        "comment": "Bellissima visita alla città blu. Ho adorato l’atmosfera rilassante. Il tour era ben organizzato, avrei solo voluto più tempo libero."
+      }
+    ]
+  },
+  "faqs": {
+    "titre": "Domande Frequenti",
+    "listes": [
+      {
+        "question": "Quanto dura il viaggio da Fes a Chefchaouen?",
+        "repense": "Il tragitto dura circa 3,5–4 ore per tratta."
+      },
+      {
+        "question": "Chefchaouen è facile da visitare a piedi?",
+        "repense": "Sì, la città è molto adatta alle passeggiate, anche se alcune zone sono in salita."
+      },
+      {
+        "question": "L’ingresso al Museo della Kasbah è incluso?",
+        "repense": "I biglietti d’ingresso non sono inclusi e devono essere pagati in loco."
+      },
+      {
+        "question": "Posso esplorare Chefchaouen in autonomia?",
+        "repense": "Sì, dopo l’introduzione guidata avrai tempo libero per esplorare la città in autonomia."
+      }
+    ]
+  },
+  "images": ["img62", "img61", "img70", "img79", "img82", "img84"]
+},
+{
+  "id": "6",
+  "to": "Escursione di un Giorno nel Medio Atlante da Fes",
+  "departure": "Da Fes",
+  "titre": "",
+  "durre": "1 GIORNO",
+  "about": {
+    "entete": "Informazioni su Questa Escursione Giornaliera",
+    "titre": "Escursione di un Giorno da Fes al Medio Atlante: Foresta di Cedri, Ifrane, Azrou",
+    "paragraph1": "L’escursione giornaliera nel Medio Atlante, alla foresta di cedri, ad Azrou e a Ifrane, inizia con il prelievo dal tuo alloggio a Fes. Successivamente visiterai le Montagne del Medio Atlante e la città di Ifrane, una località sciistica situata tra le vette più alte del Marocco. In seguito, seguirai i sentieri attraverso le foreste di cedri per incontrare i macachi di Barberia, con la possibilità di dar loro da mangiare. Inoltre, visiterai il lago Daiet Aoua e la città di Azrou. Infine, rientro al tuo hotel a Fes."
+  },
+  "programme": {
+    "titre": "ITINERARIO ESCURSIONE DA FES AL MEDIO ATLANTE",
+    "soustitre": "ESCURSIONE DI 1 GIORNO IN MAROCCO",
+    "jours": [
+      {
+        "jour": "Giorno 1: Fes - Medio Atlante - Fes",
+        "text": [
+          "L’escursione inizia con il prelievo dal tuo alloggio a Fes. Successivamente, si guida verso sud attraversando la piccola città di Immouzer Kandar. Si effettua poi una deviazione verso il magnifico lago Daiet Aoua, dove potrai ammirare le colline circostanti. In seguito, si prosegue verso Ifrane, famosa per le sue basse temperature, la neve e le case in stile alpino — non a caso è conosciuta come la Svizzera del Marocco. Successivamente, si raggiunge Azrou per visitare la foresta di cedri, habitat dei macachi di Barberia. Potrai dar loro da mangiare passeggiando nella foresta. Infine, rientro a Fes.",
+          "In base al tempo trascorso nei vari siti, potrebbero essere visitati luoghi aggiuntivi."
+        ]
+      }
+    ]
+  },
+  "infos": {
+    "titre": "Informazioni Tour da Fes al Medio Atlante",
+    "soustitre": "Incluso & Non Incluso",
+    "price": {
+      "titreIncludes": "Il prezzo include:",
+      "includes": [
+        "Prelievo e rientro presso Hotel o Aeroporto",
+        "Trasporto in 4x4 privato o minivan con aria condizionata + carburante",
+        "Autista parlante inglese/francese"
+      ],
+      "titreNotIncludes": "Il prezzo non include:",
+      "notIncludes": [
+        "Pranzo e bevande",
+        "Biglietti d’ingresso ai monumenti"
+      ],
+      "important": {
+        "titre": "<span style='color: #05A317'>Importante!:<span",
+        "text": "Indossare scarpe comode e portare acqua per la passeggiata."
+      },
+      "priceText": {
+        "titre": "<span style='color: #0264C7'>Prezzo :</span>",
+        "text": "<strong>Contattaci</strong> per ottenere il miglior prezzo in base al numero di partecipanti."
+      }
+    }
+  },
+  "reviews": {
+    "titre": "Recensioni",
+    "listes": [
+      {
+        "name": "Emma – Germania",
+        "img": "inconu",
+        "rating": "5",
+        "comment": "Un’escursione fantastica da Fes. I paesaggi del Medio Atlante sono stupendi, soprattutto la foresta di cedri dove abbiamo visto da vicino i macachi di Barberia. Ifrane è stata una piacevole sorpresa con le sue strade pulite e le case in stile alpino. Tutto molto ben organizzato."
+      },
+      {
+        "name": "Carlos – Spagna",
+        "img": "girl_profil_7",
+        "rating": "5",
+        "comment": "Questa escursione è stata il modo perfetto per scoprire un lato diverso del Marocco. La sosta al lago Daiet Aoua era rilassante e la visita alla foresta di cedri di Azrou è stata indimenticabile. Il nostro autista è stato professionale e ci ha fornito informazioni interessanti lungo il percorso."
+      },
+      {
+        "name": "Nina – Paesi Bassi",
+        "img": "girl_profil_8",
+        "rating": "5",
+        "comment": "Consigliatissimo se soggiorni a Fes. Il Medio Atlante offre una natura splendida e un clima più fresco. Dare da mangiare alle scimmie nella foresta di cedri è stato uno dei momenti più belli. Trasporto confortevole e giornata piacevole."
+      }
+    ]
+  },
+  "faqs": {
+    "titre": "Domande Frequenti",
+    "listes": [
+      {
+        "question": "Quanto dura l’escursione?",
+        "repense": "L’escursione dura circa 10–11 ore."
+      },
+      {
+        "question": "È previsto del tempo libero durante il tour?",
+        "repense": "Sì, avrai del tempo libero in alcune tappe per esplorare e scattare foto."
+      },
+      {
+        "question": "Devo prenotare il pranzo in anticipo?",
+        "repense": "No, il pranzo è facoltativo e può essere scelto sul posto tra vari ristoranti locali."
+      },
+      {
+        "question": "La visita guidata è inclusa?",
+        "repense": "Sì, il tour è accompagnato da un autista/guida locale."
+      }
+    ]
+  },
+  "images": [
+    "img62",
+    "img91",
+    "img128",
+    "img127",
+    "img130",
+    "img99",
+    "img94"
+  ]
+},
+{
+  "id": "7",
+  "to": "Escursione di un Giorno a Meknes e alle Rovine di Volubilis da Fes",
+  "departure": "Da Fes",
+  "titre": "",
+  "durre": "1 GIORNO",
+  "about": {
+    "entete": "Informazioni su Questa Escursione Giornaliera",
+    "titre": "Escursione di un Giorno da Fes a Meknes e alle Rovine di Volubilis",
+    "paragraph1": "L’escursione giornaliera a Volubilis e Meknes inizia con il prelievo dal tuo alloggio a Fes. Successivamente ci dirigiamo verso Meknes, antica capitale ismailita e una delle città imperiali del Marocco. In seguito visiteremo le storiche rovine di Volubilis, dichiarate Patrimonio dell’Umanità dall’UNESCO. Infine, rientro e trasferimento al tuo hotel a Fes."
+  },
+  "programme": {
+    "titre": "ITINERARIO ESCURSIONE DA FES A MEKNES E ALLE ROVINE DI VOLUBILIS",
+    "soustitre": "ESCURSIONE DI 1 GIORNO IN MAROCCO",
+    "jours": [
+      {
+        "jour": "Giorno 1: Fes - Rovine di Volubilis - Meknes - Fes",
+        "text": [
+          "L’escursione inizia con un prelievo mattutino dall’aeroporto o dal tuo alloggio a Fes. Partenza verso Meknes, antica capitale ismailita e una delle città imperiali del Marocco. Durante la visita scoprirai: Bab Al-Mansour, il bacino Sahrij Souani, le scuderie reali, i granai e il Mausoleo di Moulay Ismail. Tempo libero per il pranzo. Successivamente, percorriamo circa 30 km da Meknes per visitare le antiche rovine romane di Volubilis, perfettamente conservate e riconosciute come Patrimonio Mondiale dell’UNESCO. Il sito è famoso per i suoi splendidi mosaici, le antiche colonne e gli archi monumentali.",
+          "Dopo la visita, rientro a Fes. L’escursione termina con il trasferimento presso il tuo alloggio."
+        ]
+      }
+    ]
+  },
+  "infos": {
+    "titre": "Informazioni Tour da Fes a Meknes e alle Rovine di Volubilis",
+    "soustitre": "Incluso & Non Incluso",
+    "price": {
+      "titreIncludes": "Il prezzo include:",
+      "includes": [
+        "Trasporto in 4x4 privato o minivan con aria condizionata + carburante",
+        "Autista privato parlante inglese",
+        "Prelievo dal tuo riad o da qualsiasi punto di Fes",
+        "Soste lungo il percorso per viste panoramiche",
+        "Rientro in qualsiasi punto di Fes"
+      ],
+      "titreNotIncludes": "Il prezzo non include:",
+      "notIncludes": [
+        "Pranzo e bevande",
+        "Biglietti d’ingresso ai monumenti"
+      ],
+      "important": {
+        "titre": "<span style='color: #05A317'>Importante!:<span",
+        "text": "Indossare scarpe comode e portare acqua per la passeggiata."
+      },
+      "priceText": {
+        "titre": "<span style='color: #0264C7'>Prezzo :</span>",
+        "text": "<strong>Contattaci</strong> per ottenere il miglior prezzo in base al numero di partecipanti."
+      }
+    }
+  },
+  "reviews": {
+    "titre": "Recensioni",
+    "listes": [
+      {
+        "name": "Laura – Francia",
+        "img": "inconu",
+        "rating": "5",
+        "comment": "Un’eccellente escursione storica da Fes. Meknes è impressionante, soprattutto Bab Al-Mansour e le scuderie reali. Volubilis è stata il momento clou della giornata, con mosaici e rovine incredibilmente ben conservati. Tutto perfettamente organizzato."
+      },
+      {
+        "name": "Mark – Regno Unito",
+        "img": "boy_profil_5",
+        "rating": "5",
+        "comment": "Un mix perfetto di storia e cultura. La visita a Meknes ci ha permesso di comprendere il passato imperiale del Marocco, e Volubilis è stata semplicemente mozzafiato. L’autista era preparato e il viaggio molto confortevole."
+      },
+      {
+        "name": "Sofia – Italia",
+        "img": "inconu",
+        "rating": "5",
+        "comment": "Consigliatissimo per gli amanti della storia. Volubilis è uno dei siti romani più impressionanti che abbiamo visto nel Nord Africa. Il tour è stato fluido, informativo e ben organizzato, con tempo sufficiente per esplorare Meknes e le rovine."
+      }
+    ]
+  },
+  "faqs": {
+    "titre": "Domande Frequenti",
+    "listes": [
+      {
+        "question": "Quanto dura l’escursione?",
+        "repense": "L’escursione dura circa 10–11 ore."
+      },
+      {
+        "question": "È previsto del tempo libero durante il tour?",
+        "repense": "Sì, è previsto del tempo libero per il pranzo e per esplorare i siti."
+      },
+      {
+        "question": "Devo prenotare il pranzo in anticipo?",
+        "repense": "No, il pranzo è facoltativo e può essere scelto sul posto tra vari ristoranti locali."
+      },
+      {
+        "question": "La visita guidata è inclusa?",
+        "repense": "Sì, il tour è accompagnato da un autista/guida locale."
+      }
+    ]
+  },
+  "images": [
+    "img62",
+    "img91",
+    "img128",
+    "img127",
+    "img130",
+    "img99",
+    "img94",
+    "img121"
+  ]
+}
       ]
     }
   ]

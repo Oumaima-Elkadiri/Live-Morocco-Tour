@@ -16,17 +16,17 @@ const ContactIcon = memo(() => {
       {/* Social Icons Popup */}
       <div className={`social-popup ${open ? "active" : ""}`}>
         {/* Email */}
-        <a href="mailto:your@email.com" target="_blank" rel="noreferrer" className="social-item email">
+        <a href="mailto:moroccantrails1@gmail.com" target="_blank" rel="noreferrer" className="social-item email">
           <Mail size={22} />
         </a>
 
         {/* WhatsApp */}
-        <a href="https://wa.me/212600000000" target="_blank" rel="noreferrer" className="social-item whats">
+        <a href="https://wa.me/212623199726" target="_blank" rel="noreferrer" className="social-item whats">
           <FaWhatsapp size={22} />
         </a>
 
         {/* Téléphone */}
-        <a href="tel:+212600000000" className="social-item phone">
+        <a href="tel:+212623199726" className="social-item phone">
           <PhoneCall size={22} />
         </a>
       </div>

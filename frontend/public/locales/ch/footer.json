@@ -1,0 +1,25 @@
+{
+  "parag": "通过精心设计的旅游线路和真实的旅行体验，探索世界。您的冒险从这里开始。",
+  "quickLinks": {
+    "title": "快速链接", 
+    "aboutUs": "关于我们", 
+    "ourTours": "我们的旅游", 
+    "destinations": "目的地", 
+    "travelBlog": "旅游博客", 
+    "contact": "联系我们" 
+  },
+  "support": {
+    "title": "支持",
+    "helpCenter": "帮助中心", 
+    "booking": "预订政策", 
+    "cancellation": "取消政策", 
+    "travelInsurance": "旅行保险", 
+    "safetyGuidelines": "安全指南" 
+  },
+  "newsletter": {
+    "title": "订阅新闻", 
+    "message": "订阅以获取旅行小贴士、独家优惠和目的地灵感。",
+    "emailPlaceholder": "您的邮箱",
+    "subscribe": "订阅" 
+  }
+}

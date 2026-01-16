@@ -35,7 +35,7 @@ header ul {
 
 header li {
   position: relative;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
@@ -94,11 +94,11 @@ header .contact-btn:hover {
 .submenu {
   position: absolute;
   top: 100%;
-  left: -80px;
+  left: -170px;
   background: #ffffff;
   padding: 15px 0 10px 10px;
   display: none;
-  width: 260px;
+  width: 270px;
   z-index: 99999;
   border: 1px solid rgba(0,0,0,0.1);
 }
@@ -196,7 +196,7 @@ nav ul li:hover .submenu {
 }
 
 /* ============= RESPONSIVE ============= */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
   header {
     padding: 15px 20px;

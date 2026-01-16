@@ -1,0 +1,30 @@
+{
+  "slider_h2": "Que le voyage commence",
+  "slider_h1": "CONTACTEZ-NOUS",
+  "slider_h3": "Circuits dans le désert",
+  "titre": "CONTACTEZ-NOUS",
+  "p1": "Nous serions ravis d’échanger avec vous.",
+  "p2": "N’hésitez pas à nous contacter en utilisant les informations ci-dessous.",
+  "social": "NOS RÉSEAUX SOCIAUX",
+  "touch": "Entrer en contact",
+  "bookingP": "PROCESSUS DE RÉSERVATION",
+  "info1": [
+    "Contactez-nous",
+    "via les formulaires de contact, par e-mail, WhatsApp ou nos réseaux sociaux, et indiquez-nous le nombre de voyageurs, le type d’hébergement (Standard, Confort, Luxe…), la date de votre voyage (si disponible) ainsi que le circuit choisi ou quelques détails afin que nous puissions créer un itinéraire personnalisé pour vous."
+  ],
+  "booking": "RÉSERVATION",
+  "info2": [
+    "Nous demandons un petit acompte",
+    "pour confirmer la réservation (de préférence via notre compte PayPal). Le reste du paiement devra être réglé en espèces à votre chauffeur / guide à votre arrivée, ou via PayPal, ce qui entraîne des frais de transaction de 5 %."
+  ],
+  "paypal": "Si vous n’avez pas de compte PayPal, nous pouvons vous envoyer une facture en ligne que vous pourrez régler par carte bancaire.",
+  "bank": "Le virement bancaire est une autre option. Il peut prendre jusqu’à 12 jours pour apparaître dans notre système. Nous pouvons confirmer le circuit avec un reçu de transaction jusqu’à la réception du paiement.",
+  "send": "Remplissez le formulaire ci-dessous et nous vous contacterons dans les plus brefs délais !",
+  "share": "Partager",
+  "heroForm": "Envoyez-nous un message",
+  "nom": "Votre nom :",
+  "email": "Votre e-mail :",
+  "message": "Votre message (facultatif) :",
+  "button": "ENVOYER",
+  "join": "INSCRIVEZ-VOUS À NOTRE NEWSLETTER"
+}

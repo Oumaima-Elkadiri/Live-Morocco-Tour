@@ -1,0 +1,22 @@
+{
+  "question": "Pourquoi voyager avec nous ?",
+  "repense": "Votre aventure, perfectionnée grâce à notre engagement envers l’excellence.",
+  "reasons": [
+    {
+      "title": "Guides experts",
+      "description": "Nos guides locaux expérimentés fournissent des connaissances approfondies et une attention personnalisée."
+    },
+    {
+      "title": "Circuits en petits groupes",
+      "description": "Profitez d’une expérience plus intime et immersive grâce à la taille réduite de nos groupes."
+    },
+    {
+      "title": "Sûr et fiable",
+      "description": "Nous priorisons votre sécurité et votre bien-être tout au long de votre voyage."
+    },
+    {
+      "title": "Très bien noté",
+      "description": "Nos circuits reçoivent systématiquement d’excellentes évaluations de la part de nos clients."
+    }
+  ]
+}

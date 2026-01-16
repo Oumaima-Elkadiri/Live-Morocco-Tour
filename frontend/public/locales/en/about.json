@@ -1,11 +1,94 @@
 {
-  "text": ["<strong>Moroccan Trails</strong> is your trusted travel company in Morocco, offering unforgettable private tours and authentic experiences across the country. From the lively <strong>souks of Marrakech</strong> to the ancient <strong>medinas of Fes</strong>, the breathtaking <strong>Atlas Mountains</strong>, and the endless <strong>Sahara Desert dunes of Merzouga</strong>, we design journeys that capture the true spirit of Morocco. Enjoy a <strong>camel trek</strong>, a night in a <strong>luxury desert camp</strong>, and discover hidden gems with our expert local guides. Whether you seek adventure, culture, or relaxation, Moroccan Trails will make your Morocco tour <strong>an experience you’ll never forget</strong>."],
+  "text": "<strong>Live Morocco Tour</strong> is your trusted travel company in Morocco, offering unforgettable private tours and authentic experiences across the country. From the lively <strong>souks of Marrakech</strong> to the ancient <strong>medinas of Fes</strong>, the breathtaking <strong>Atlas Mountains</strong>, and the endless <strong>Sahara Desert dunes of Merzouga</strong>, we design journeys that capture the true spirit of Morocco. Enjoy a <strong>camel trek</strong>, a night in a <strong>luxury desert camp</strong>, and discover hidden gems with our expert local guides. Whether you seek adventure, culture, or relaxation, Live Morocco Tour will make your Morocco tour <strong>an experience you’ll never forget</strong>.",
   "button": "About Us",
-  "slider": "Let The Journey Begin",
-  "about_text": "Camel company Merzouga is a premier travel provider across Morocco's diverse landscapes. Based in Hassi Labied Merzouga, we blend cultural authenticity with modern comfort, offering exceptional experiences from coastal cities to mountain ranges, ancient medinas to expansive deserts. Our expertise and commitment to excellence ensure memorable journeys that capture Morocco's true essence.",
+  "slider": [
+    "Let The Journey Begin",
+    "ABOUT",
+    "Live Morocco Tour"
+  ],
+  "about_title": "LIVE MOROCCO TOUR AGENCY",
+  "about_text": [
+    "Live Morocco Tour is your trusted travel company in Morocco, offering unforgettable private tours and authentic experiences across the country. We design journeys that capture the true spirit of Morocco, taking you from the lively souks of Marrakech to the ancient medinas of Fes, the breathtaking Atlas Mountains, and the endless Sahara Desert dunes of Merzouga.",
+    "Enjoy a camel trek, a night in a luxury desert camp, and discover hidden gems with our expert local guides. Every tour is carefully crafted so that whether you seek adventure, culture, or relaxation, your Morocco trip becomes an experience you’ll never forget.",
+    "Why Merzouga is special: this village sits near the towering sand dunes of the Sahara and has long been a gateway for desert travellers, adding a deep sense of history and wonder to your journey."
+  ],
   "mission_title": "Our Mission",
-  "mission_text": "We deliver authentic, personalized experiences showcasing Morocco's vibrant spirit through sustainable tourism and cultural preservation. Our innovative tour designs reveal hidden treasures while supporting local communities and preserving natural beauty. We transform each journey into a meaningful exploration, ensuring comfort, safety, and exceptional service throughout your Moroccan adventure.",
-  "choose_title": "Why Choose Us",
-  "choose_text": "We distinguish ourselves through decades of expertise and multilingual service. From traditional experiences to luxury Mercedes Benz tours, our pressure-free, client-focused approach ensures perfectly tailored journeys. With seamless service from airport arrival through departure, our deep understanding of Morocco's diverse landscapes and commitment to sustainable tourism makes us the premier choice for authentic adventures.",
-  "help": "How Can We Help You?"
-} 
+  "mission_text": {
+    "text": "Our mission is to create authentic, meaningful, and personalized travel experiences that bring you face‑to‑face with Morocco’s culture, landscapes, and traditions.",
+    "title": "We aim to:",
+    "list": [
+      "Deliver high‑quality private tours that reflect the real Morocco, not a one‑size‑fits‑all itinerary.",
+      "Share the country’s heritage through immersive cultural encounters and expert local guidance.",
+      "Support sustainable tourism and local communities, ensuring your visit benefits those who call Morocco home.",
+      "Ensure comfort, safety, and exceptional service from the moment you contact us until your final farewell",
+      "Inspire you, educate you, and leave you with memories that last a lifetime."
+    ],
+    "end": "With Live Morocco Tour, every tour is more than a trip—it is a carefully designed experience filled with discovery, connection, and wonder."
+  },
+  "whyUs":{
+    "choose_title": "Why Choose Us",
+    "choose_text": "Choosing Live Morocco Tour means choosing a journey shaped by genuine care, local knowledge, and demanding quality standards. Here’s what sets us apart:",
+    "arguments": [
+      {
+        "title":"✔ Tailor‑made and private",
+        "text":"Your tour is customized to your interests, pace, and style. Whether you want adventure, culture, relaxation, or a blend of all three, we create the itinerary that fits you perfectly."
+      },
+      {
+        "title":"✔ Expert local guides",
+        "text":"Our guides are deeply familiar with Morocco’s history, traditions, and hidden gems. They bring every destination to life, helping you understand places like Marrakech’s souks or Fes’s historic streets in a richer, more personal way. Fes itself is among the world’s most significant and well‑preserved historic medinas, adding true cultural depth to your visit."
+      },
+      {
+        "title":"✔ Authentic, immersive experiences",
+        "text":"We prioritize real Moroccan encounters—local cuisine, traditional music around the desert fire, visits to meaningful cultural sites, and moments that go beyond surface sightseeing."
+      },
+      {
+        "title":"✔ High comfort and professional service",
+        "text":"From private transportation to carefully selected accommodations and luxury desert camps, we focus on quality at every step so your trip is smooth, comfortable, and relaxing."
+      },
+      {
+        "title":"✔ Flexible private transportation",
+        "text":"To ensure every journey feels comfortable and tailored to your needs, we also provide flexible private transportation options suitable for every type of traveler. You can choose between",
+        "exemple":[
+          {
+            "title": "PRIVATE 4X4S",
+            "photo": "exemple1",
+            "text": "Our 4x4 SUVs are perfect for couples, families, or small groups who want a mix of comfort and off-road adventure. Explore Morocco's diverse landscapes from winding Atlas Mountains roads to the golden dunes of Merzouga - with ease. While designed for up to 4 passengers, some travelers prefer upgrading to a minivan for extra space, even with just 2-4 people."
+          },
+          {
+            "title": "PRIVATE MINIVANS / MINIBUSES",
+            "photo": "exemple2",
+            "text": "Our minivans (up to 8 seats) and minibuses (up to 18+) are ideal for families, friends, or organized groups. But they're also a great choice for smaller parties of 2-4 who want extra comfort, space, and flexibility during long drives. With roomy interiors and professional drivers, these vehicles make every journey - from medina explorations to Sahara adventures - smooth and enjoyable.."
+          }
+        ]
+      },
+      {
+        "title":"✔ Trusted, transparent, and caring",
+        "text": "We build trust through honesty, clear communication, and a commitment to your satisfaction. Your journey is our responsibility, and we treat it with the seriousness and pride it deserves."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "OUR CLIENTS LOVES US",
+    "comments": [
+      {
+        "name": "Daniel Roberts",
+        "pays": "United Kingdom",
+        "message": "An unforgettable experience from start to finish. Live Morocco Tour organized a perfectly balanced trip combining culture, adventure, and comfort. The Sahara desert tour was the highlight of our journey, and the team’s professionalism made us feel safe and well cared for at all times.",
+        "image": "profil_1"
+      }, 
+      {
+        "name": "Claire Dubois",
+        "pays": "France",
+        "message": "We truly discovered the real Morocco thanks to Live Morocco Tour. From the medinas to the desert camp in Merzouga, everything was authentic and well planned. Our guide was knowledgeable and kind, and the whole trip felt personal and meaningful.",
+        "image": "inconu"
+      },
+      {
+        "name": "Marco Bianchi",
+        "pays": "Italy",
+        "message": "Excellent service and amazing attention to detail. The private tour was perfectly adapted to our pace, and the landscapes were breathtaking. Sleeping under the stars in the Sahara was a dream come true. Highly recommended for anyone visiting Morocco.",
+        "image": "profil_2"
+      }
+    ]
+  },
+  "NewsLetter": "JOIN OUR NEWSLETTER"
+}

@@ -5,9 +5,9 @@ import "../styles/LanguageSwitcher.css";
 const languages = {
   en: { name: "English", flag: "https://flagcdn.com/w40/gb.png" },
   es: { name: "Espagne", flag: "https://flagcdn.com/w40/es.png" },
-  du: { name: "Dutch", flag: "https://flagcdn.com/w40/nl.png" }, 
+  ch: { name: "Chinois", flag: "https://flagcdn.com/w40/cn.png" }, 
   it: { name: "Italien", flag: "https://flagcdn.com/w40/it.png" },
-  ru: { name: "Russe", flag: "https://flagcdn.com/w40/ru.png" }, 
+  fr: { name: "français", flag: "https://flagcdn.com/w40/fr.png" }, 
 };
 
 const LanguageSwitcher = memo(() => {

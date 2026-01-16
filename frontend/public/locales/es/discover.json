@@ -1,6 +1,6 @@
 {
     "title": "Descubre MARRUECOS",
-    "subtitle": "Desde las dunas doradas del Sahara hasta las calles azules de Chefchaouen, explora con nosotros los destinos más cautivadores de Marruecos.",
+    "subtitle": "Desde las doradas dunas del Sahara hasta las calles azules de Chefchaouen, explora los destinos más cautivadores de Marruecos con nosotros.",
     "cards_from":[
         {
             "title_from": "CASABLANCA",
@@ -15,12 +15,12 @@
             "description": "Donde el Atlántico se encuentra con el Mediterráneo."
         },
         {
-            "title_from": "FEZ",
+            "title_from": "FES",
             "description": "Viaja al corazón de la historia y las tradiciones marroquíes."
         },
         {
             "title_from": "OUARZAZATE",
-            "description": "La puerta al desierto y la capital del cine marroquí."
+            "description": "La puerta al desierto y capital del cine marroquí."
         },
         {
             "title_from": "ERRACHIDIA",

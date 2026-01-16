@@ -20,7 +20,7 @@ import NewsletterForm from "./NewsletterForm";
 const Footer = memo(() => {
   const { t } = useTranslation("footer");
 
-  const phoneNumber1 = "+212652492025";
+  const phoneNumber1 = "+212623199726";
 
   return (
     <footer className="footer">
@@ -30,14 +30,14 @@ const Footer = memo(() => {
 
         {/* ---- Left: Logo Section ---- */}
         <div className="footer-section section1">
-          <img src={logo} alt="Logo" className="footer-logo" />
+          <img src={logo} alt="Live Morocco Tour" className="footer-logo" />
           <p>{t("parag")}</p>
 
           <div className="social-icons">
             <a href={`https://wa.me/${phoneNumber1}`} target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
-            <a href="https://www.instagram.com/hassan_anaam96/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://www.facebook.com/hassan.anaam.14?mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-            <a href="https://www.tripadvisor.com/Profile/Escape35816424065" target="_blank" rel="noopener noreferrer"><FaTripadvisor /></a>
+            <a href="https://www.instagram.com/moroccan_trails1/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://www.facebook.com/profile.php?id=61584734673978" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+            <a href="https://www.tripadvisor.com/Attraction_Review-g304017-d33032002-Reviews-Moroccan_Trails-Merzouga_Draa_Tafilalet.html" target="_blank" rel="noopener noreferrer"><FaTripadvisor /></a>
           </div>
         </div>
 
@@ -46,9 +46,9 @@ const Footer = memo(() => {
           <h3>{t("quickLinks.title")}</h3>
           <ul>
             <li><Link to="/About">{t("quickLinks.aboutUs")}</Link></li>
-            <li><a href="https://www.instagram.com/hassan_anaam96/" target="_blank" rel="noopener noreferrer">{t("quickLinks.ourTours")}</a></li>
-            <li><Link to="">{t("quickLinks.destinations")}</Link></li>
-            <li><Link to="">{t("quickLinks.travelBlog")}</Link></li>
+            <li><a href="https://www.tripadvisor.com/Attraction_Review-g304017-d33032002-Reviews-Moroccan_Trails-Merzouga_Draa_Tafilalet.html" target="_blank" rel="noopener noreferrer">{t("quickLinks.ourTours")}</a></li>
+            <li><a href="https://www.visitmorocco.com" target="_blank" rel="noopener noreferrer">{t("quickLinks.destinations")}</a></li>
+            <li><a href="https://www.instagram.com/moroccan_trails1/" target="_blank" rel="noopener noreferrer">{t("quickLinks.travelBlog")}</a></li>
             <li><Link to="/Contact">{t("quickLinks.contact")}</Link></li>
           </ul>
         </div>
@@ -58,18 +58,19 @@ const Footer = memo(() => {
           <h3>{t("support.title")}</h3>
           <ul> 
             <li><a href={`https://wa.me/${phoneNumber1}`} target="_blank" rel="noopener noreferrer">{t("support.helpCenter")}</a></li>
-            <li><Link to="/BookingPolicy">{t("support.booking")}</Link></li>
-            <li><Link to="/Cancellation">{t("support.cancellation")}</Link></li>
-            <li><Link to="/Insurance">{t("support.travelInsurance")}</Link></li>
-            <li><Link to="/Safety">{t("support.safetyGuidelines")}</Link></li>
+            <li><a href="/pdfs/booking-policy.pdf" target="_blank" rel="noopener noreferrer">{t("support.booking")}</a></li>
+            <li><a href="/pdfs/cancellation-policy.pdf" target="_blank" rel="noopener noreferrer">{t("support.cancellation")}</a></li>
+            <li><a href="/pdfs/travel-insurance.pdf" target="_blank" rel="noopener noreferrer">{t("support.travelInsurance")}</a></li>
+            <li><a href="/pdfs/safety-guidelines.pdf" target="_blank" rel="noopener noreferrer">{t("support.safetyGuidelines")}</a></li>
           </ul>
+
         </div>
 
         {/* ---- Newsletter Form (reusable component) ---- */}
         <div className="footer-section section4">
           <h3>{t("newsletter.title")}</h3>
           <p>{t("newsletter.message")}</p>
-
+ 
           {/* Component importé */}
           <NewsletterForm />
 
@@ -85,14 +86,8 @@ const Footer = memo(() => {
       {/* ----- BOTTOM PART ----- */}
       <div className="footer-bottom">
         <p>
-          © {new Date().getFullYear()} Moroccan Trails — All Rights Reserved.
+          © {new Date().getFullYear()} Live Morocco Tour — All Rights Reserved.
         </p>
-
-        <div className="liens-utiles">
-          <a href="">Privacy Policy</a>
-          <a href="">Terms of Services</a>
-          <a href="">Cookie Policy</a>
-        </div>
       </div>
 
     </footer>

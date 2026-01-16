@@ -5,80 +5,207 @@
     padding: 30px 0;
 } 
 .slider_about h1{
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
     font-weight: 600;
 }
 .slider_about h2{
+    font-size: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}  
+.slider_about h3{
     font-size: 20px;
     margin-bottom: 20px;
-    font-family: 'Roboto';
-    letter-spacing: 5px;
-}
-.slider_about h3{
-    font-size: 28px;
-    margin-bottom: 20px;
-    font-family: 'Roboto';
+    font-weight: 100;
+} 
+.ligne{
+    width: 65%;
+    height: 1px;
+    background-color: #1f1f1f;
+    margin: 40px auto;
+    border-radius: 1px;
 }
 .info_about{
     margin-top: 30px;
     padding: 30px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 40px;
+}
+.info_about p, .info_why p{
+    margin-bottom: 20px;
 }
 .text_about{
     flex: 1;
     margin: 0 0 0 80px ;
     text-align: left;
-    font-size: 19px;
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 2px;
 }
 .text_about1{
     flex: 1;
     margin: 0 80px 0 0 ;
     text-align: left;
-    font-size: 19px;
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 2px;
 }
-.info_about h1{
-    font-size: 50px;
+.info_about ul{
+    padding-left: 30px;
+    margin: 20px 0;
+}
+.info_about h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.info_about h1, .info_why h1, .comments_about h1, .newsletter h1{
+    font-size: 26px;
+    text-align: center;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .info_about img{
     width: 100px;
-    height: auto;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8%;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.274);
     margin: 0 80px 0 0;
-    flex: 0.7;
+    flex: 1;
 }
 .info_about .img1{
     margin: 0 0 0 80px;
 }
-.help_about {
-    text-align: center;
-    margin-bottom: 50px;
+.info_why, .comments_about{
+    margin-top: 30px;
+    padding: 30px 100px;
+    align-items: center;
+    letter-spacing: 4px;
 }
-.help_about h1{
-    font-size: 40px;
-    margin: 60px 0;
-    font-weight: bolder;
-}
-.help_about a{
-    background-color: #3366ff;
-    color: white;
-    padding: 10px 20px;
+.argument{
     margin: 40px 0;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 20px;
-    box-shadow:  0 0 10px #3366ff62;
-    transition: all 0.3s ease;
-    margin-bottom: 100px;
 }
-.help_about a:hover{
-  transform: scale(1.2);
+.argument h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+.argument-examples{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+.argument-examples img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.274);
+    margin: 0 80px 0 0;
+}
+.argument-examples p{
+    text-align: left;
+    margin: 20px 0;
+}
+.argument-examples h4{
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0;
 }
 
+/* SLIDER – conteneur global */
+.comments {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: stretch;
+  /* cacher la scrollbar */
+  scrollbar-width: none;
+}
+
+.comments::-webkit-scrollbar {
+  display: none;
+}
+
+/* UNE CARTE */
+.comment {
+  min-width: 300px;       /* largeur des cartes */
+  max-width: 320px;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.12);
+  text-align: left;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.comment:hover {
+  transform: translateY(-5px);
+}
+
+/* MESSAGE */
+.comment .message {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+/* NOM */
+.comment .name {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* PAYS */
+.comment .pays {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* ⭐⭐⭐ ÉTOILES ⭐⭐⭐ */
+.stars {
+  margin: 0px 0 5px;
+  color: #FFC107; /* jaune or */
+  font-size: 18px;
+}
+/* ----- USER INFO ----- */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+
+.newsletter {
+    text-align: center;
+    margin: 10px 0 50px;
+}
+.newsletter button {
+  background: #c97a03;
+}
+.newsletter input:focus {
+  box-shadow: 0 0 5px #c97a0373;
+}
+@media screen and (max-width: 1260px) {
+    .comments{
+        justify-content: flex-start;
+    }
+}
 @media screen and (max-width: 768px) {
     .info_about{
         margin-top: 10px;
@@ -116,6 +243,9 @@
     .help_about a:hover{
         
         font-size: 17px;
+    }
+    .argument-examples{
+        flex-direction: column;
     }
     
 }

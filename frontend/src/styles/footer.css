@@ -3,7 +3,7 @@
   background: #f9f9f9;
   padding: 70px 60px 30px;
   border-top: 15px solid #3366ff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Paprika", sans-serif;
   color: #444;
 
   /* Ombre en haut */
@@ -41,13 +41,13 @@
   font-size: 15px;
   transition: color .25s, padding-left .25s;
 }
-
+ 
 .section2 a:hover, .section3 a:hover {
   color: #3366ff;
   padding-left: 4px;
 }
 .footer-logo {
-  width: 100px;
+  width: 150px;
 }
 
 /* Contact Box */
@@ -59,6 +59,7 @@
   border-radius: 13px;
   border: none;
   font-size: 15px;
+  font-family: "Paprika", sans-serif;
   background: #ece4d8;
   transition: 0.3s;
 }
@@ -74,9 +75,10 @@
   border: none;
   font-weight: bold;
   font-size: 15px;
+  font-family: "Paprika", sans-serif;
   margin-left: 5px;
   cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .newsletter-form button:hover {
   
@@ -85,21 +87,18 @@
   
   /* 📌 Footer Bottom */
   .footer-bottom {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 25px;
     border-top: 1px solid #4e4e4e;
   }
   
   .footer-bottom p {
-    font-size: 14px;
     color: #555;
   }
   
-  
   /* 🌍 Icônes des réseaux sociaux */
-  .social-icons, .payment-icons, .liens-utiles {
+  .social-icons, .payment-icons{
     display: flex;
     gap: 15px;
     margin-top: 15px;

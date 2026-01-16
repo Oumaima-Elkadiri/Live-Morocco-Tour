@@ -1,13 +1,13 @@
 /* Style général */
 .details-page {
     color: #333;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 100px auto;
-    font-size: 15px;
+    font-size: 17px;
     padding: 0 20px; /* Ajoute un padding pour les petits écrans */
     font-family: "Paprika", sans-serif;
 
-  }
+  } 
   
   /* Section Hero */
   .hero-section {
@@ -123,19 +123,22 @@
 }
 .days .day{
     padding: 20px;
-    border-bottom: 0.5px solid grey;
 }
 .days .day h3{
-    font-size: 16px;
+    font-size: 18px;
     color: #023A7D;
     margin: 10px 0;
     font-weight: 700;
 }
 .days .day p{
-    margin: 15px 0 15px 30px;
+    margin: 15px 0;
     line-height: 1.5;
 }
-
+.days .day .ligne{
+  width: 90%;
+  border-bottom: 0.5px solid grey;
+  margin: 0 auto;
+}
 .infos {
     margin: 20px 0;
     text-align: center;
@@ -151,10 +154,10 @@
     text-align: left;
     align-items: flex-start;
     margin-bottom: 40px;
+  font-size: 20px;
 }
 
 .prices h3 {
-  font-size: 20px;
   margin-bottom: 0;
     font-weight: 600;
     min-width: 220px;  /* 🔥 largeur identique pour tous les titres */
@@ -171,9 +174,9 @@
 }
 
 .important-notes{
-    position: relative;
-    padding: 30px 15px;
-    margin-top: 30px;
+  position: relative;
+  padding: 30px 15px;
+  margin-top: 30px;
 }
 .important-notes::before,
 .important-notes::after {
@@ -252,7 +255,7 @@
   text-align: left;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
   transition: transform .2s ease;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .review-box:hover {
@@ -311,7 +314,7 @@
 .facks .faq-item {
   flex: 0 1 calc(50% - 20px);
   list-style: none;
-  font-size: 16px;
+  font-size: 17px;
 }
 .facks h2{
   margin-bottom: 50px;
@@ -419,7 +422,7 @@
 }
 /* FORMULAIRE fixe (ne scroll pas à l’intérieur) */
 .formulaire {
-  font-family: "Merriweather", Sans-serif;
+  font-family: "Paprika", sans-serif;
   position: sticky;
   top: 120px; /* décale selon ton header */
   height: max-content;
@@ -446,6 +449,7 @@
 }
 .formulaire form input,
 .formulaire form textarea {
+  font-family: "Paprika", sans-serif;
   padding: 13px 10px;
   border: 0.5px solid grey;
   border-radius: 8px;
@@ -461,6 +465,7 @@
   box-shadow: none;
 }
 .formulaire form button{
+  font-family: "Paprika", sans-serif;
   background-color: #c97a03;
   color: white;
   border: none;

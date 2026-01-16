@@ -4,24 +4,24 @@
     "slider_h3": "Tours por el Desierto",
     "titre": "CONTÁCTANOS",
     "p1": "Nos encantaría hablar contigo.",
-    "p2": "No dudes en contactarnos usando los datos a continuación.",
+    "p2": "No dudes en contactarnos utilizando los detalles a continuación.",
     "social": "NUESTRAS REDES SOCIALES",
     "touch": "Ponte en Contacto",
     "bookingP": "PROCESO DE RESERVA",
     "info1": [
         "Ponte en contacto con nosotros",
-        "a través de formularios de contacto, correo electrónico, WhatsApp o nuestras redes sociales, y proporciónanos el número de viajeros, tipo de alojamiento (Excelente, Lujo ...), la fecha de tu tour (si está disponible) y tu tour elegido o algunos detalles para planificar un nuevo itinerario para ti."
+        "a través de formularios de contacto, correo electrónico, Whatsapp o nuestras redes sociales, y proporciona el número de viajeros, tipo de alojamiento (Excelente, Lujo...), la fecha de tu tour (si la tienes) y el tour elegido o algunos detalles para planificar un itinerario nuevo para ti."
     ],
     "booking": "RESERVA",
     "info2": [
         "Solicitamos un pequeño depósito",
-        "para confirmar la reserva (preferiblemente a través de nuestra cuenta de PayPal). El resto del pago se debe realizar en efectivo a su conductor/guía al llegar. O mediante PayPal, lo que requiere una comisión de transacción del 5%."
+        "para confirmar la reserva (preferiblemente a través de nuestra cuenta de PayPal). El resto del pago debe hacerse en efectivo a tu conductor/guía al llegar. O mediante PayPal, lo cual requiere una comisión del 5% por transacción."
     ],
-    "paypal": "Si no tienes PayPal, podemos enviar una factura en línea que puedes pagar con tu tarjeta.",
-    "bank": "Una transferencia bancaria es otra opción y puede tardar hasta 12 días en aparecer en nuestro sistema. Podemos confirmar el tour con un comprobante de transacción hasta que recibamos el pago.",
+    "paypal": "Si no tienes PayPal, podemos enviarte una factura online que puedes pagar con tu tarjeta.",
+    "bank": "Una transferencia bancaria / Wire transfer es otra opción, y puede tardar hasta 12 días en aparecer en nuestro sistema; podemos confirmar el tour con un recibo de la transacción hasta recibir el pago.",
     "send": "¡Rellena el formulario a continuación y nos pondremos en contacto contigo lo antes posible!",
     "share": "Compartir",
-    "heroForm": "Envíanos un mensaje",
+    "heroForm": "Envíanos un Mensaje",
     "nom": "Tu Nombre:",
     "email": "Tu Correo Electrónico:",
     "message": "Tu Mensaje (opcional):",

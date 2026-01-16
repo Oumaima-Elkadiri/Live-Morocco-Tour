@@ -1,0 +1,24 @@
+{
+  "avis_title": "旅行者怎么说",
+  "avis_text": "来自真实探险者的真实体验",
+  "comments": [
+    {
+      "name": "Emily Rodriguez",
+      "pays": "美国，加利福尼亚州",
+      "message": "撒哈拉沙漠之旅彻底改变了我的人生！",
+      "image": "profil_1"
+    },
+    {
+      "name": "Liam Smith",
+      "pays": "英国，伦敦",
+      "message": "一次深入沙漠腹地的难忘旅程。",
+      "image": "profil_2"
+    },
+    {
+      "name": "Sofia Martinez",
+      "pays": "西班牙，马德里",
+      "message": "从我们抵达的那一刻起，就像家人一样被对待。",
+      "image": "profil_3"
+    }
+  ]
+}
