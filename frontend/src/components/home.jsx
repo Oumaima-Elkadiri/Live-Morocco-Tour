@@ -175,7 +175,10 @@ useEffect(() => {
 
             {/* Ligne 2 : 2 dernières cards */}
             <div className="row second-row-container">
-              {t("discover:cards_from", { returnObjects: true })
+              {(Array.isArray(t("discover:cards_from", { returnObjects: true }))
+                ? t("discover:cards_from", { returnObjects: true })
+                : []
+              )
                 .slice(4)
                 .map((card, index) => (
                   <div key={index} className="card second-row">
@@ -184,6 +187,7 @@ useEffect(() => {
                   </div>
                 ))}
             </div>
+
           </div>
         </div>
       </Section>
