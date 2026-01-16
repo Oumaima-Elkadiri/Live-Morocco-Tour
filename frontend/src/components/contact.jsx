@@ -18,7 +18,7 @@ const Contact = () => {
 
   // Numéro de téléphone et e-mail
   const phoneNumber1 = "+212623199726";
-  const email = "moroccantrails1@gmail.com";
+  const email = "livemoroccotour01@gmail.com";
  
   // Remonter en haut de la page à chaque changement d'URL
   useEffect(() => {
