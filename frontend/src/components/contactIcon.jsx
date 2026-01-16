@@ -16,7 +16,7 @@ const ContactIcon = memo(() => {
       {/* Social Icons Popup */}
       <div className={`social-popup ${open ? "active" : ""}`}>
         {/* Email */}
-        <a href="mailto:moroccantrails1@gmail.com" target="_blank" rel="noreferrer" className="social-item email">
+        <a href="mailto:livemoroccotour01@gmail.com" target="_blank" rel="noreferrer" className="social-item email">
           <Mail size={22} />
         </a>
 
