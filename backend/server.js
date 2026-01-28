@@ -26,7 +26,20 @@ const PORT = process.env.PORT || 5000;
 const DATA_FILE = path.join(__dirname, "emails.json");
 
 // ================= MIDDLEWARES =================
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        scriptSrc: ["'self'"],
+        styleSrc: ["'self'", "'unsafe-inline'"],
+        imgSrc: ["'self'", "data:"],
+        mediaSrc: ["'self'", "data:"],
+        connectSrc: ["'self'", process.env.FRONTEND_ORIGIN],
+      },
+    },
+  })
+);
 app.use(express.json());
 
 app.use(
@@ -188,17 +201,17 @@ app.post("/api/contact", async (req, res) => {
 });
 
 // ================= ADMIN NEWSLETTER =================
-app.use(
-  "/api/admin/newsletter",
-  adminNewsletterRoutes(transporter)
-);
+app.use("/api/admin/newsletter", adminNewsletterRoutes(transporter));
 
-// ================= ROOT =================
-app.get("/", (req, res) => {
-  res.send("Backend running — Live Morocco Tour API 🚀");
+// ================= SERVIR FRONTEND =================
+const frontendPath = path.join(__dirname, "frontend/dist");
+app.use(express.static(frontendPath));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(frontendPath, "index.html"));
 });
 
 // ================= START =================
 app.listen(PORT, () => {
-  console.log(`🚀 Backend on http://localhost:${PORT}`);
+  console.log(`🚀 Backend + Frontend running on port ${PORT}`);
 });
