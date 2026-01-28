@@ -26,20 +26,7 @@ const PORT = process.env.PORT || 5000;
 const DATA_FILE = path.join(__dirname, "emails.json");
 
 // ================= MIDDLEWARES =================
-app.use(
-  helmet({
-    contentSecurityPolicy: {
-      directives: {
-        defaultSrc: ["'self'"],
-        scriptSrc: ["'self'"],
-        styleSrc: ["'self'", "'unsafe-inline'"],
-        imgSrc: ["'self'", "data:"],
-        mediaSrc: ["'self'", "data:"],
-        connectSrc: ["'self'", process.env.FRONTEND_ORIGIN],
-      },
-    },
-  })
-);
+app.use(helmet());
 app.use(express.json());
 
 app.use(
@@ -60,7 +47,7 @@ app.options(
 
 // ================= RATE LIMIT =================
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
+  windowMs: 15 * 60 * 1000, // 15 minutes
   max: 5,
   message: { message: "Too many requests. Try again later." },
 });
@@ -204,14 +191,23 @@ app.post("/api/contact", async (req, res) => {
 app.use("/api/admin/newsletter", adminNewsletterRoutes(transporter));
 
 // ================= SERVIR FRONTEND =================
-const frontendPath = path.join(__dirname, "frontend/dist");
-app.use(express.static(frontendPath));
+const FRONTEND_BUILD_PATH = path.join(__dirname, "../frontend/dist");
+app.use(express.static(FRONTEND_BUILD_PATH));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(frontendPath, "index.html"));
+  // éviter de servir l'API dans index.html
+  if (req.path.startsWith("/api")) {
+    return res.status(404).json({ message: "API route not found" });
+  }
+  res.sendFile(path.join(FRONTEND_BUILD_PATH, "index.html"));
+});
+
+// ================= ROOT =================
+app.get("/", (req, res) => {
+  res.send("Backend running — Live Morocco Tour API 🚀");
 });
 
 // ================= START =================
 app.listen(PORT, () => {
-  console.log(`🚀 Backend + Frontend running on port ${PORT}`);
+  console.log(`🚀 Backend on http://localhost:${PORT}`);
 });
