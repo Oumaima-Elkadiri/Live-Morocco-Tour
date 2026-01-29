@@ -56,7 +56,9 @@ useEffect(() => {
 
 
   const icons = [MapPinned, Users, ShieldCheck, Star];
-  const reasons = t("why:reasons", { returnObjects: true });
+  const reasons = Array.isArray(t("why:reasons", { returnObjects: true }))
+  ? t("why:reasons", { returnObjects: true })
+  : [];
 
   const comments = t("avis:comments", { returnObjects: true });
   const safeComments = Array.isArray(comments) ? comments : [];
