@@ -26,7 +26,20 @@ const PORT = process.env.PORT || 5000;
 const DATA_FILE = path.join(__dirname, "emails.json");
 
 // ================= MIDDLEWARES =================
-app.use(helmet());
+app.use(helmet({
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        imgSrc: ["'self'", "data:", "https:"],
+        mediaSrc: ["'self'", "data:"],
+        connectSrc: [
+          "'self'",
+          "https://live-morocco-tour.onrender.com",
+          "https://livemoroccotour.com"
+        ],
+      },
+    },
+  }));
 app.use(express.json());
 
 app.use(
