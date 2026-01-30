@@ -24,7 +24,7 @@ const FormDetails = ({ nameTour }) => {
   const sendForm = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:5000/api/tour-enquiry", {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/api/tour-enquiry`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
