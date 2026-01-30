@@ -15,7 +15,7 @@ const AdminNewsletter = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/admin/newsletter/send",
+        `${import.meta.env.VITE_API_URL}/api/admin/newsletter/send`,
         {
           method: "POST",
           headers: {
