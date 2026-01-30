@@ -198,7 +198,7 @@ nav ul li:hover .submenu {
 /* ============= RESPONSIVE ============= */
 @media (max-width: 900px) {
 
-  header {
+ header {
     padding: 15px 20px;
     text-align: center;
   }
@@ -215,6 +215,10 @@ nav ul li:hover .submenu {
     width: 100%;
     padding: 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    /* 🔥 FIX SCROLL MENU */
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
   }
 
   nav ul.open {
@@ -222,7 +226,7 @@ nav ul li:hover .submenu {
   }
 
   header li {
-    padding: 10px 0;
+    padding: 12px 0;
     width: 100%;
   }
   /* enlever la barre en dessous dans mobile */
@@ -242,14 +246,23 @@ nav ul li:hover .submenu {
     border: none;
     display: none;
   }
+  
+  .submenu {
+    padding-left: 15px;
+  }
 
-  .submenu.open,
-  .submenu-right.open {
+  .submenu-right.open-mobile {
     display: block;
+
+    /* 🔥 FIX LISTE LONGUE */
+    max-height: 100vh;
+    max-width: 100px;
+    text-align: center;
+    overflow-y: auto;
+    padding-left: 20px;
   }
 
   .contact-btn {
-    margin: 20px auto;
-    display: block;
+    display: none;
   }
 }
