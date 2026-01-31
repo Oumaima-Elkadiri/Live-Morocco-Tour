@@ -210,7 +210,7 @@ nav ul li:hover .submenu {
   nav ul {
     display: none;
     flex-direction: column;
-    background: white;
+    background: rgba(255, 255, 255, 0.911);
     position: absolute;
     top: 90px;
     left: 0;
@@ -222,7 +222,6 @@ nav ul li:hover .submenu {
     max-height: calc(100vh - 90px);
     overflow-y: auto;
   }
-
   nav ul.open {
     display: flex;
   }
@@ -256,6 +255,12 @@ nav ul li:hover .submenu {
   /* niveau FROM */
   .submenu {
     padding-left: 15px;
+    background-color: #f5f4f4;
+  }
+  .submenu-right {
+    background-color: #f5f4f4;
+    box-shadow: none;
+
   }
 
   /* ✅ affichage UNIQUEMENT au clic */
