@@ -270,182 +270,151 @@
 /* ===========================
    📱 Responsive Design
    =========================== */
-@media screen and (max-width : 1200px) {
-    
-    .img_contact {
-        display: flex;
-        flex-wrap: nowrap;        /* ❗ Scroll horizontal */
-        padding: 10px 20px;
+@media screen and (max-width: 1024px) {
 
-        overflow-x: auto;            /* scroll horizontal */
-        scroll-snap-type: x mandatory; /* snapping automatique */
-        -webkit-overflow-scrolling: touch; /* scroll fluide sur mobile */
-    }
-    /* Masquer la scrollbar (optionnel) */
-    .img_contact::-webkit-scrollbar {
-        display: none;
-    }
+  /* SOCIAL SCROLL */
+  .img_contact {
+    display: flex;
+    gap: 20px;
+    padding: 15px 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
 
-    .social {
-        min-width: 30%;          /* Chaque card plus large -> beau scroll */
-        flex: none;  
-        scroll-snap-align: center;            /* Ne pas réduire */
-    }
+  .img_contact::-webkit-scrollbar {
+    display: none;
+  }
+
+  .social {
+    min-width: 280px;
+    flex: none;
+    scroll-snap-align: center;
+  }
+
+  .social img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 35px;
+  }
 }
-/* Tablet */
 @media screen and (max-width: 900px) {
-    .contactUs {
-        flex-direction: column;
-    }
-        .social img {
-        width: 300px;
-        border-radius: 40px;
-    }
-    .GetInTouch,
-    .sendM {
-        width: 100%;
-        padding: 30px 50px;
-    }
 
-    .GetInTouch h2,
-    .sendM h2 {
-        margin: 0;
-        text-align: center;
-    }
+  /* CONTACT US */
+  .contactUs {
+    flex-direction: column;
+  }
 
-    .GetInTouch a {
-        margin: 0;
-        text-align: center;
-    }
+  .GetInTouch,
+  .sendM {
+    width: 100%;
+    padding: 30px;
+  }
 
-    .GetInTouch ul li {
-        margin-left: 30px;
-    }
-    .sendM{
-        padding: 20px 100px;
-    }
-    .sendM form {
-        margin: 10px 50px;
-    }
+  .GetInTouch h2,
+  .sendM h2 {
+    margin: 20px 0;
+    text-align: center;
+  }
 
-    .sendM button {
-        margin: 20px auto;
-        width: 70%;
-    }
+  .GetInTouch a {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .GetInTouch ul li {
+    margin-left: 20px;
+  }
+
+  .sendM form {
+    margin: 20px 0;
+  }
+
+  .sendM button {
+    width: 80%;
+    margin: 20px auto;
+  }
 }
-
-/* Small Tablet / Mobile */
 @media screen and (max-width: 768px) {
-    .sendM{
-        padding: 20px 50px;
-    }
-    .sendM form {
-        margin: 10px 50px;
-    }
-    .contact_top {
-        font-size: 16px;
-        margin: 30px 0;
-    }
 
-    .contact_top h1 {
-        font-size: 30px;
-    }
+  /* SLIDER */
+  .slider_contact {
+    margin-top: 120px;
+    padding: 20px 10px;
+  }
 
+  .slider_contact h1 {
+    font-size: 26px;
+  }
 
-    .msg_contact {
-        margin: 30px 10px;
-    }
+  .slider_contact h2 {
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
 
-    .msg_contact h3 {
-        font-size: 19px;
-        margin-bottom: 15px;
-    }
+  .slider_contact h3 {
+    font-size: 16px;
+  }
 
-    .msg_contact ul {
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
+  /* TOP TEXT */
+  .contact_top {
+    font-size: 16px;
+    margin: 30px 15px;
+  }
 
-    .msg_contact ul li {
-        margin-left: 30px;
-        max-width: 250px;
-    }
+  .contact_top h1 {
+    font-size: 28px;
+  }
 
-    .footer_contact {
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 0;
-    }
+  /* FORM */
+  .GetInTouch,
+  .sendM {
+    padding: 20px;
+    font-size: 15px;
+  }
 
-    .footer_contact h1 {
-        font-size: 18px;
-    }
+  .sendM input,
+  .sendM textarea {
+    font-size: 14px;
+    padding: 12px 15px;
+  }
 
-    .footer_contact p {
-        font-size: 10px;
-    }
+  .sendM button {
+    width: 90%;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
 
-    .icon {
-        margin-right: 0;
-        width: 40px;
-    }
+  /* SOCIAL */
+  .social_contact h3 {
+    font-size: 20px;
+  }
+
+  .social p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .social_contact .social p svg {
+    font-size: 20px;
+  }
+
+  /* FOOTER */
+  .footer_contact {
+    padding: 20px 10px;
+  }
+
+  .footer_contact h2 {
+    font-size: 18px;
+  }
+
+  .footer_contact input {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .footer_contact button {
+    width: 60%;
+  }
 }
-
-/* Mobile */
-@media screen and (max-width: 600px) {
-    .GetInTouch,
-    .sendM {
-        padding: 20px;
-        font-size: 16px;
-    }
-
-    .GetInTouch h2 {
-        font-size: 24px;
-    }
-
-    .sendM h2 {
-        font-size: 22px;
-    }
-
-    .sendM input,
-    .sendM textarea {
-        font-size: 14px;
-        padding: 12px 15px;
-    }
-
-    .sendM button {
-        width: 90%;
-        font-size: 14px;
-        letter-spacing: 2px;
-    }
-    
-    .social_contact {
-        margin: 15px 0;
-    }
-
-    .social_contact h3 {
-        font-size: 19px;
-        margin-bottom: 10px;
-    }
-
-    .img_contact {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .social img {
-        width: 300px;
-        border-radius: 40px;
-    }
-
-    .social p {
-        font-size: 16px;
-        margin: 10px 0;
-    }
-
-    .social_contact .social p svg {
-        font-size: 20px;
-    }
-}
-
