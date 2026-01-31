@@ -230,7 +230,7 @@ nav ul li:hover .submenu {
   header li {
     padding: 12px 20px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #eee;
   }
 
@@ -262,7 +262,7 @@ nav ul li:hover .submenu {
   .submenu-right.open-mobile {
     display: block;
     padding-left: 30px;
-    padding-right: 20px;
+    padding-right: 30px;
   }
 
   /* items */
@@ -279,7 +279,7 @@ nav ul li:hover .submenu {
     white-space: normal;       /* autorise retour à la ligne */
     word-break: break-word;   /* évite overflow */
     line-height: 1.4;
-    text-align: left;
+    text-align: center;
   }
 
   .contact-btn {
