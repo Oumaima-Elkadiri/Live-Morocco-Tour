@@ -475,58 +475,74 @@
 
 /* ===================== RESPONSIVE ===================== */
 
-/* Pour les tablettes et écrans moyens */
-@media (max-width: 992px) {
-  .details-page {
-    padding: 0 50px;
-    font-size: 14px;
-    margin: 100px 20px;
+/* ================= DESKTOP ================= */
+@media (min-width: 1024px) {
+
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 40px;
   }
 
-  .hero-section h1 {
-    font-size: 1.3rem;
+  .formulaire {
+    position: sticky;
+    top: 120px;
   }
-  .hero-section h3 {
-    font-size: 1.1rem;
-    letter-spacing: 4px;
+
+  .hero-images-section img {
+    width: 500px;
+    height: 480px;
+  }
+
+  .hero-icons {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .prices {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  /* Programme toujours ouvert */
+  .days .day p {
+    display: block;
+  }
+
+  .toggle-icon {
+    display: none;
+  }
+}
+/* ================= TABLETTE ================= */
+@media (max-width: 1023px) {
+
+  .main-content {
+    display: block;
+  }
+  .programme{
+      padding: 10px 0;
+  }
+  .infos {
+      margin: 10px 0 10px 20px;
+      padding-bottom: 0px;
+  }
+  .formulaire {
+    position: relative;
+    top: auto;
+    margin-top: 40px;
+  }
+.reviews {
+  margin-top: 10px;
+  padding: 10px;
+}
+  .hero-images-section img {
+    width: 380px;
+    height: 260px;
   }
 
   .hero-icons {
     flex-direction: column;
     gap: 15px;
-  }
-  .hero-icons p + p {
-    border-left: none;
-    padding-left: 0;
-  }
-
-  .hero-images-section {
-    padding: 20px 10px;
-    gap: 15px;
-  }
-
-  .hero-images-section img {
-    width: 350px;
-  height: 200px;
-  }
-
-  .about h3{
-    font-size: 17px;
-  }
-  .about h2{
-      font-size: 20px;
-  }
-
-  .programme h2, .infos h2, .reviews h2, .facks h2 {
-    font-size: 20px;
-  }
-
-  .programme h3, .infos h3 {
-    font-size: 18px;
-  }
-
-  .days .day h3 {
-    font-size: 15px;
   }
 
   .prices {
@@ -534,44 +550,40 @@
     gap: 25px;
   }
 
-  .reviews-scroll-section {
-    padding: 15px 20px;
-    gap: 15px;
+  /* Programme cliquable */
+  .days .day p {
+    display: none;
   }
 
-  .review-box {
-    min-width: 250px;
-    max-width: 250px;
+  .days .day.open p {
+    display: block;
   }
 
-  .repense-pop {
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 15px 20px;
-  }
-
-  .main-content {
-    grid-template-columns: 1fr;
-  }
-
-  .formulaire {
-    position: relative;
-    top: auto;
+  .days .day h3 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 }
-
-/* Pour les mobiles */
+/* ================= MOBILE ================= */
 @media (max-width: 768px) {
+
+  .details-page {
+    margin: 80px 10px 40px;
+    font-size: 15px;
+  }
+
   .hero-section {
     padding: 20px 10px;
   }
 
   .hero-section h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
+
   .hero-section h3 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     letter-spacing: 2px;
   }
 
@@ -580,116 +592,37 @@
     gap: 10px;
   }
 
-  .hero-images-section {
-    flex-wrap: nowrap;
-    padding: 10px;
-    gap: 10px;
-  }
-
   .hero-images-section img {
-    width: 200px;
+    width: 240px;
+    height: 180px;
   }
 
-  .days .day p {
-    margin: 15px 0 15px 15px;
+  .programme h2,
+  .infos h2,
+  .reviews h2,
+  .facks h2 {
+    font-size: 18px;
   }
 
   .prices h3 {
     min-width: auto;
   }
 
+  .reviews-scroll-section {
+    padding: 10px;
+  }
+
+  .review-box {
+    min-width: 230px;
+    max-width: 230px;
+  }
+
   .facks .faq-item {
     flex: 0 1 100%;
   }
 
-  .repense-pop {
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 15px;
-  }
-
-  .programme h2, .infos h2, .reviews h2, .facks h2 {
-    font-size: 18px;
-  }
-
-  .programme h3, .infos h3 {
-    font-size: 16px;
-  }
-
-  .main-content {
-    display: block;
-  }
-
   .formulaire {
-    position: relative;
-    top: auto;
     margin-top: 30px;
   }
 }
 
-/* Pour les très petits mobiles (<480px) */
-@media (max-width: 480px) {
-  .details-page {
-    font-size: 16px;
-    margin: 80px 10px;
-  }
-
-  .hero-images-section img {
-    width: 150px;
-  }
-
-  .review-box {
-    min-width: 200px;
-    max-width: 200px;
-  }
-
-  .hero-section h1 {
-    font-size: 1rem;
-  }
-
-  .hero-section h3 {
-    font-size: 0.9rem;
-  }
-
-  .programme h2, .infos h2, .reviews h2, .facks h2 {
-    font-size: 16px;
-  }
-
-  .programme h3, .infos h3 {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .days .day p {
-    display: block;
-  }
-  .days .day h3 .toggle-icon {
-    display: none;
-  }
-}
-
-/* Mobile/Tablette → clic pour ouvrir */
-@media (max-width: 1023px) {
-  .days .day h3 {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .days .day h3 .toggle-icon {
-    font-weight: 700;
-    color: #023A7D;
-    min-width: 20px; /* pour aligner correctement */
-    display: inline-block;
-  }
-  .days .day p {
-    display: none;
-  }
-  .days .day.open p {
-    display: block;
-    animation: fadeIn 0.3s ease;
-  }
-}
