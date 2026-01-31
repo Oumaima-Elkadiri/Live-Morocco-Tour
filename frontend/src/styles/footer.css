@@ -130,43 +130,118 @@
     color: #3366ff;
   }
   /* 📱 Responsive */
-@media (max-width: 900px) {
+/* ===========================
+   📱 TABLET (<= 1024px)
+   =========================== */
+@media (max-width: 1024px) {
+
+  .footer {
+    padding: 50px 40px 25px;
+  }
+
   .footer-top {
     grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+
+  .footer-section {
+    text-align: left;
+  }
+
+  .footer-logo {
+    width: 140px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .newsletter-form input {
+    width: 100%;
+  }
+
+  .newsletter-form button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .social-icons,
+  .payment-icons {
+    justify-content: flex-start;
   }
 }
-
+/* ===========================
+   📱 MOBILE (<= 600px)
+   =========================== */
 @media (max-width: 600px) {
+
   .footer {
-    padding: 40px 25px;
+    padding: 40px 20px 20px;
+    text-align: center;
   }
 
+  /* Grid spéciale mobile */
   .footer-top {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
   }
 
-  .footer-middle {
+  /* Section 1 (Logo) sur toute la largeur */
+  .section1 {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  /* Section 2 & 3 sur la même ligne */
+  .section2,
+  .section3 {
+    text-align: left;
+  }
+
+  /* Section 4 (Newsletter) sur toute la largeur */
+  .section4 {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 130px;
+    margin: 0 auto 10px;
+  }
+
+  .footer-section h3 {
+    font-size: 15px;
+  }
+
+  .footer-section a,
+  .footer-section li {
+    font-size: 13px;
+  }
+
+  .social-icons,
+  .payment-icons {
+    justify-content: center;
+  }
+
+  .newsletter-form {
+    display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    align-items: center;
   }
-  .footer-bottom {
-      flex-direction: column;
-      text-align: center;
-      align-items: center; /* Centrer les éléments */
-    }
-  
-    /* Réduction de la taille des icônes pour les petits écrans */
-    .social-icons svg {
-      font-size: 20px; /* Taille réduite des icônes */
-    }
-  
-    /* Réduction de la taille des textes pour plus d'espace */
-    .footer-section h3 {
-      font-size: 16px;
-    }
-  
-    .footer-bottom p {
-      font-size: 12px;
-    }
 
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    padding-top: 15px;
+  }
 }
