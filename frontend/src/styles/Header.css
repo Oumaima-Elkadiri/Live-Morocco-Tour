@@ -198,13 +198,15 @@ nav ul li:hover .submenu {
 /* ============= RESPONSIVE ============= */
 @media (max-width: 900px) {
 
- header {
+  header {
     padding: 15px 20px;
     text-align: center;
   }
+
   header ul {
     gap: 5px;
   }
+
   nav ul {
     display: none;
     flex-direction: column;
@@ -216,7 +218,7 @@ nav ul li:hover .submenu {
     padding: 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 
-    /* 🔥 FIX SCROLL MENU */
+    /* ✅ scroll global jusqu’en bas */
     max-height: calc(100vh - 90px);
     overflow-y: auto;
   }
@@ -226,10 +228,13 @@ nav ul li:hover .submenu {
   }
 
   header li {
-    padding: 12px 0;
+    padding: 12px 20px;
     width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #eee;
   }
-  /* enlever la barre en dessous dans mobile */
+
+  /* enlever effets desktop */
   header li::after {
     display: none;
   }
@@ -238,28 +243,43 @@ nav ul li:hover .submenu {
     display: block;
   }
 
+  /* ===== SUBMENUS MOBILE (CLICK ONLY) ===== */
   .submenu,
   .submenu-right {
     position: static;
     width: 100%;
-    padding: 0;
     border: none;
-    display: none;
+    display: none; /* ❌ aucun hover */
+    padding: 0;
   }
-  
+
+  /* niveau FROM */
   .submenu {
     padding-left: 15px;
   }
 
+  /* ✅ affichage UNIQUEMENT au clic */
   .submenu-right.open-mobile {
     display: block;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
 
-    /* 🔥 FIX LISTE LONGUE */
-    max-height: 100vh;
-    max-width: 100px;
-    text-align: center;
-    overflow-y: auto;
-    padding-left: 20px;
+  /* items */
+  .submenu li,
+  .submenu-right li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f3f3f3;
+  }
+
+  /* ✅ textes longs → retour à la ligne */
+  .submenu-right li a {
+    display: block;
+    padding: 8px 0;
+    white-space: normal;       /* autorise retour à la ligne */
+    word-break: break-word;   /* évite overflow */
+    line-height: 1.4;
+    text-align: left;
   }
 
   .contact-btn {
