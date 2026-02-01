@@ -219,7 +219,7 @@ nav ul li:hover .submenu {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 
     /* ✅ scroll global jusqu’en bas */
-    max-height: calc(100vh - 90px);
+    max-height: calc(100vh - 120px);
     overflow-y: auto;
   }
   nav ul.open {
