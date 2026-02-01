@@ -4,15 +4,32 @@ import { Link, useLocation } from "react-router-dom";
 import "../i18n";
 import "../styles/Header.css";
 import logo from "../assets/images/Logo.png";
+import { useEffect } from "react";
+
+
 
 const Header = memo(() => {
+  const [openMainMenu, setOpenMainMenu] = useState(null);
+
+// valeurs possibles : "tours" | "trips" | null
+
   const { t } = useTranslation(["nav", "tours_lists", "dayTripsList"]);
   const location = useLocation();
 
   const isActive = (path) => location.pathname === path;
 
   const [menuOpen, setMenuOpen] = useState(false);
+  useEffect(() => {
+  if (menuOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+  }
 
+  return () => {
+    document.body.style.overflow = "";
+  };
+}, [menuOpen]);
   // Dropdown states
   const [openDropdown, setOpenDropdown] = useState(null);
   const [openDayDropdown, setOpenDayDropdown] = useState(null);
@@ -69,16 +86,31 @@ const Header = memo(() => {
               TOURS DROPDOWN
           ----------------------- */}
           <li className={isActive("/AllTours") || isActiveTourInTours ? "active" : ""}>
-            <div className="mobile-dropdown">
+            <div
+              className="mobile-dropdown"
+              onClick={() =>
+                setOpenMainMenu(openMainMenu === "tours" ? null : "tours")
+              }
+            >
               <span className="tours">{t("nav:tours")} ▾</span>
             </div>
 
-            <ul className="submenu">
+
+            <ul className={`submenu ${openMainMenu === "tours" ? "open-mobile" : ""}`}>
               {toursList.map((item, index) => (
                 <li key={index}>
                   <div
                     className="mobile-dropdown"
-                    onClick={() => setOpenDropdown(openDropdown === index ? null : index)}
+                    onClick={() => {
+                                      setOpenDayDropdown(null); // ferme DayTrips si ouvert
+
+                                      if (openDropdown === index) {
+                                        setOpenDropdown(null); // 🔥 reclique → ferme
+                                      } else {
+                                        setOpenDropdown(index); // ouvre la nouvelle ville
+                                      }
+                                    }}
+
                   >
                     <span
                       className={
@@ -116,16 +148,30 @@ const Header = memo(() => {
               DAY TRIPS DROPDOWN
           ----------------------- */}
           <li className={isActive("/dayTrips") || isActiveTourInDayTrips ? "active" : ""}>
-            <div className="mobile-dropdown">
+            <div
+              className="mobile-dropdown"
+              onClick={() =>
+                setOpenMainMenu(openMainMenu === "trips" ? null : "trips")
+              }
+            >
               <span className="trips">{t("nav:trips")} ▾</span>
             </div>
 
-            <ul className="submenu">
+
+            <ul className={`submenu ${openMainMenu === "trips" ? "open-mobile" : ""}`}>
               {dayTripsList.map((item, index) => (
                 <li key={index}>
                   <div
                     className="mobile-dropdown"
-                    onClick={() => setOpenDayDropdown(openDayDropdown === index ? null : index)}
+                    onClick={() => {
+                                      setOpenDropdown(null); // ferme Tours si ouvert
+
+                                      if (openDayDropdown === index) {
+                                        setOpenDayDropdown(null); // 🔥 reclique → ferme
+                                      } else {
+                                        setOpenDayDropdown(index);
+                                      }
+                                    }}
                   >
                     <span
                       className={
