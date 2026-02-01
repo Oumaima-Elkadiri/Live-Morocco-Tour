@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   padding: 10px 100px;
   transition: all 0.3s ease-in-out;
-}
+} 
 
 header img {
   height: 90px;
@@ -145,6 +145,7 @@ nav ul li:hover .submenu {
 .submenu li:hover .submenu-right {
   display: block;
 }
+
 .submenu-right li {
   padding: 0;
 }
@@ -196,98 +197,145 @@ nav ul li:hover .submenu {
 }
 
 /* ============= RESPONSIVE ============= */
+/* ===============================
+   📱 MOBILE & TABLETTE (<= 900px)
+   =============================== */
+/* ===============================
+   📱 MOBILE MENU (<= 900px)
+   =============================== */
 @media (max-width: 900px) {
 
+  /* ================= HEADER ================= */
   header {
     padding: 15px 20px;
     text-align: center;
   }
 
-  header ul {
-    gap: 5px;
+  header img {
+    height: 70px;
   }
 
-  nav ul {
-    display: none;
-    flex-direction: column;
-    background: rgba(255, 255, 255, 0.911);
-    position: absolute;
-    top: 90px;
-    left: 0;
-    width: 100%;
-    padding: 0;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
-    /* ✅ scroll global jusqu’en bas */
-    max-height: calc(100vh - 90px);
-    overflow-y: auto;
-  }
-  nav ul.open {
-    display: flex;
-  }
-
-  header li {
-    padding: 12px 20px;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #eee;
-  }
-
-  /* enlever effets desktop */
-  header li::after {
-    display: none;
-  }
-
+  /* ================= BURGER ================= */
   .menu-toggle {
     display: block;
   }
 
-  /* ===== SUBMENUS MOBILE (CLICK ONLY) ===== */
+  /* ================= MENU PRINCIPAL ================= */
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+
+    /* ✅ scroll global */
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+overscroll-behavior: contain;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  header ul {
+    gap: 0;
+  }
+
+  header li {
+    width: 100%;
+    padding: 14px 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+
+  /* ❌ enlever hover desktop */
+  header li::after {
+    display: none;
+  }
+
+  header li:hover a {
+    color: inherit;
+  }
+
+  /* ================= CONTACT ================= */
+  .contact-btn {
+    display: none;
+  }
+
+  /* ================= SUBMENUS (CLICK ONLY) ================= */
+
   .submenu,
   .submenu-right {
     position: static;
     width: 100%;
     border: none;
-    display: none; /* ❌ aucun hover */
+    display: none; /* ❌ jamais en hover */
     padding: 0;
-  }
-
-  /* niveau FROM */
-  .submenu {
-    padding-left: 15px;
-    background-color: #f5f4f4;
-  }
-  .submenu-right {
-    background-color: #f5f4f4;
+    margin: 0;
     box-shadow: none;
+  }
 
+  /* -------- niveau villes -------- */
+  .submenu {
+    background: #f5f4f4;
+    padding-left: 15px;
+  }
+
+  /* -------- niveau tours -------- */
+  .submenu-right {
+    background: #f5f4f4;
+
+    /* 🔥 IMPORTANT */
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    white-space: normal;
   }
 
   /* ✅ affichage UNIQUEMENT au clic */
   .submenu-right.open-mobile {
     display: block;
-    padding-left: 30px;
-    padding-right: 30px;
+    height: auto;
+    padding: 10px 30px;
   }
 
-  /* items */
+  /* ================= ITEMS ================= */
   .submenu li,
   .submenu-right li {
     padding: 10px 0;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid #eaeaea;
   }
 
-  /* ✅ textes longs → retour à la ligne */
+  /* textes longs → retour à la ligne */
   .submenu-right li a {
     display: block;
     padding: 8px 0;
-    white-space: normal;       /* autorise retour à la ligne */
-    word-break: break-word;   /* évite overflow */
-    line-height: 1.4;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.5;
     text-align: center;
   }
 
-  .contact-btn {
-    display: none;
+  /* ================= ACTIVE STATES ================= */
+  .active-sub,
+  .active-sub-link {
+    color: #c97a03 !important;
+    font-weight: bold;
+  }
+  /* désactiver hover desktop */
+  nav ul li:hover .submenu,
+  .submenu li:hover .submenu-right {
+    display: none !important;
+  }
+
+  /* affichage par CLICK uniquement */
+  .submenu.open-mobile {
+    display: block;
   }
 }
